@@ -31,9 +31,9 @@ export async function canCreateProduct(userId: string | null) {
 export async function canShowDiscountBanner(userId: string | null) {
   if (userId == null) return false
   const tier = await getUserSubscriptionTier(userId)
-  const productCount = await getProductViewCount(
+  const productViews = await getProductViewCount(
     userId,
     startOfMonth(new Date())
   )
-  return productCount < tier.maxNumberOfProducts
+  return productViews < tier.maxNumberOfVisits
 }
