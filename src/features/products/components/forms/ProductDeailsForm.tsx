@@ -15,8 +15,11 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
-import { productDetailsSchema } from "@/schemas/products"
-import { createProduct, updateProduct } from "@/server/actions/products"
+import { productDetailsSchema } from "@/features/products/schemas/products"
+import {
+  createProduct,
+  updateProduct,
+} from "@/features/products/server/actions/products"
 import { useToast } from "@/hooks/use-toast"
 import { RequiredLabelIcon } from "@/components/RequiredLabelIcon"
 

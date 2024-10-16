@@ -10,7 +10,7 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog"
 import { useToast } from "@/hooks/use-toast"
-import { deleteProduct } from "@/server/actions/products"
+import { deleteProduct } from "@/features/products/server/actions/products"
 import { useTransition } from "react"
 
 export function DeleteProductAlertDialogContent({ id }: { id: string }) {

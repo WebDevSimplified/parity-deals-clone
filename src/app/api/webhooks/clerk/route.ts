@@ -5,8 +5,8 @@ import { env } from "@/data/env/server"
 import {
   createUserSubscription,
   getUserSubscription,
-} from "@/server/db/subscription"
-import { deleteUser } from "@/server/db/users"
+} from "@/features/subscriptions/server/db/subscription"
+import { deleteUser } from "@/features/users/server/db/users"
 import { Stripe } from "stripe"
 
 const stripe = new Stripe(env.STRIPE_SECRET_KEY)

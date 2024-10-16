@@ -1,5 +1,8 @@
 import { revalidateTag, unstable_cache } from "next/cache"
 import { cache } from "react"
+import { formatCompactNumber } from "./formatters"
+
+formatCompactNumber(2090)
 
 export type ValidTags =
   | ReturnType<typeof getGlobalTag>
@@ -30,6 +33,7 @@ export function clearFullCache() {
   revalidateTag("*")
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function dbCache<T extends (...args: any[]) => Promise<any>>(
   cb: Parameters<typeof unstable_cache<T>>[0],
   { tags }: { tags: ValidTags[] }

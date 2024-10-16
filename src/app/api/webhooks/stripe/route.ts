@@ -1,7 +1,7 @@
 import { env } from "@/data/env/server"
 import { getTierByPriceId, subscriptionTiers } from "@/data/subscriptionTiers"
 import { UserSubscriptionTable } from "@/drizzle/schema"
-import { updateUserSubscription } from "@/server/db/subscription"
+import { updateUserSubscription } from "@/features/subscriptions/server/db/subscription"
 import { eq } from "drizzle-orm"
 import { NextRequest } from "next/server"
 import Stripe from "stripe"

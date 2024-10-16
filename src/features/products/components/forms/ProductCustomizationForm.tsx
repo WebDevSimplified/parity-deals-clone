@@ -17,11 +17,11 @@ import { Input } from "@/components/ui/input"
 import { Switch } from "@/components/ui/switch"
 import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/hooks/use-toast"
-import { productCustomizationSchema } from "@/schemas/products"
-import { updateProductCustomization } from "@/server/actions/products"
+import { productCustomizationSchema } from "@/features/products/schemas/products"
+import { updateProductCustomization } from "@/features/products/server/actions/products"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { custom, z } from "zod"
+import { z } from "zod"
 
 export function ProductCustomizationForm({
   customization,

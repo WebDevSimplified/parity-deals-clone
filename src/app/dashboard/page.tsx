@@ -1,18 +1,18 @@
-import { getProducts } from "@/server/db/products"
 import { auth } from "@clerk/nextjs/server"
-import { NoProducts } from "./_components/NoProducts"
 import Link from "next/link"
 import { ArrowRightIcon, PlusIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ProductGrid } from "./_components/ProductGrid"
 import { HasPermission } from "@/components/HasPermission"
-import { canAccessAnalytics } from "@/server/permissions"
+import { canAccessAnalytics } from "@/lib/permissions"
 import {
   CHART_INTERVALS,
   getViewsByDayChartData,
-} from "@/server/db/productViews"
+} from "@/features/analytics/server/db/productViews"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ViewsByDayChart } from "./_components/charts/ViewsByDayChart"
+import { ViewsByDayChart } from "@/features/analytics/components/charts/ViewsByDayChart"
+import { NoProducts } from "@/features/products/components/NoProducts"
+import { getProducts } from "@/features/products/server/db/products"
+import { ProductGrid } from "@/features/products/components/ProductGrid"
 
 export default async function DashboardPage() {
   const { userId, redirectToSignIn } = auth()
