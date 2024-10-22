@@ -1,0 +1,56 @@
+{
+  // Alternative for eslint-plugin-boundaries
+
+  "$schema": "node_modules/eslint-plugin-project-structure/independentModules.schema.json",
+  "modules": [
+    {
+      "name": "App folder",
+      "pattern": "src/app/**",
+      "allowImportsFrom": [
+        "src/app/globals.css",
+        "{sharedImports}",
+        "src/features/**"
+      ]
+    },
+
+    {
+      "name": "Features",
+      "pattern": "src/features/**",
+      "allowImportsFrom": [
+        //A given feature can only import files from its own family, it will not be able to import files from another feature.
+        "{family_3}/**",
+
+        "{sharedImports}"
+      ]
+    },
+
+    {
+      "name": "Permissions file",
+      "pattern": "src/lib/permissions.ts",
+      "allowImportsFrom": ["src/features/**/db/**"]
+    },
+
+    {
+      "name": "Shared",
+      "pattern": [
+        "src/components/**",
+        "src/data/**",
+        "src/drizzle/**",
+        "src/hooks/**",
+        "src/lib/**",
+        "src/server/**"
+      ],
+      "allowImportsFrom": ["{sharedImports}"]
+    }
+  ],
+  "reusableImportPatterns": {
+    "sharedImports": [
+      "src/components/**",
+      "src/data/**",
+      "src/drizzle/**",
+      "src/hooks/**",
+      "src/lib/**",
+      "src/server/**"
+    ]
+  }
+}

@@ -1,69 +1,34 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
-  "plugins": ["boundaries"],
-  "settings": {
-    "boundaries/include": ["src/**/*"],
-    "boundaries/elements": [
-      {
-        "mode": "full",
-        "type": "shared",
-        "pattern": [
-          "src/components/**/*",
-          "src/data/**/*",
-          "src/drizzle/**/*",
-          "src/hooks/**/*",
-          "src/lib/**/*",
-          "src/server/**/*"
-        ]
+  "overrides": [
+    /**
+     *  Only for the project-structure/folder-structure rule,
+     *  which must use the projectStructureParser to check all file extensions not supported by ESLint.
+     *  If you don't care about validating other file extensions, you can remove this section.
+     */
+    {
+      // You can expand the list with the file extensions you use.
+      "files": ["*.json", "*.sql"],
+      "excludedFiles": ["projectStructure.cache.json"],
+      "parser": "eslint-plugin-project-structure/parser",
+      "plugins": ["project-structure"],
+      "settings": {
+        "project-structure/folder-structure-config-path": "folderStructure.jsonc"
       },
-      {
-        "mode": "full",
-        "type": "feature",
-        "capture": ["featureName"],
-        "pattern": ["src/features/*/**/*"]
+      "rules": { "project-structure/folder-structure": "error" }
+    },
+
+    {
+      "files": ["*.ts", "*.tsx", ".js", ".jsx"],
+      "extends": ["next/core-web-vitals", "next/typescript", "next"],
+      "plugins": ["eslint-plugin-project-structure"],
+      "settings": {
+        "project-structure/folder-structure-config-path": "folderStructure.jsonc",
+        "project-structure/independent-modules-config-path": "independentModules.jsonc"
       },
-      {
-        "mode": "full",
-        "type": "app",
-        "capture": ["_", "fileName"],
-        "pattern": ["src/app/**/*"]
-      },
-      {
-        "mode": "full",
-        "type": "neverImport",
-        "pattern": ["src/*", "src/tasks/**/*"]
+      "rules": {
+        "project-structure/folder-structure": "error",
+        "project-structure/independent-modules": "error"
       }
-    ]
-  },
-  "rules": {
-    "boundaries/no-unknown": ["error"],
-    "boundaries/no-unknown-files": ["error"],
-    "boundaries/element-types": [
-      "error",
-      {
-        "default": "disallow",
-        "rules": [
-          {
-            "from": ["shared"],
-            "allow": ["shared"]
-          },
-          {
-            "from": ["feature"],
-            "allow": [
-              "shared",
-              ["feature", { "featureName": "${from.featureName}" }]
-            ]
-          },
-          {
-            "from": ["app", "neverImport"],
-            "allow": ["shared", "feature"]
-          },
-          {
-            "from": ["app"],
-            "allow": [["app", { "fileName": "*.css" }]]
-          }
-        ]
-      }
-    ]
-  }
+    }
+  ]
 }
