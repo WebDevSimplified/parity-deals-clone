@@ -16,22 +16,20 @@
     {
       "name": "Features",
       "pattern": "src/features/**",
-      "allowImportsFrom": [
-        //A given feature can only import files from its own family, it will not be able to import files from another feature.
-        "{family_3}/**",
-
-        "{sharedImports}"
-      ]
+      "errorMessage": "🔥 A feature may only import items from shared folders and its own family. Importing items from another feature is prohibited. 🔥",
+      "allowImportsFrom": ["{family_3}/**", "{sharedImports}"]
     },
 
     {
       "name": "Permissions file",
+      "errorMessage": "The Permission file may only import items from `src/features/**/db/**`",
       "pattern": "src/lib/permissions.ts",
       "allowImportsFrom": ["src/features/**/db/**"]
     },
 
     {
       "name": "Shared",
+      "errorMessage": "🔥 Shared folders are not allowed to import items from the `features` and `app` folders. 🔥",
       "pattern": [
         "src/components/**",
         "src/data/**",
@@ -47,6 +45,7 @@
     // Ignore files in `src/tasks/*` and `src/*`.
     {
       "name": "Unknown files",
+      "errorMessage": "🔥 This file is not specified as an independent module in `independentModules.jsonc`. 🔥",
       "pattern": [["src/**", "!src/tasks/*", "!src/*"]],
       "allowImportsFrom": [],
       "allowExternalImports": false
