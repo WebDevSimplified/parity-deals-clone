@@ -22,7 +22,7 @@
 
     {
       "name": "Permissions file",
-      "errorMessage": "The Permission file may only import items from `src/features/**/db/**`",
+      "errorMessage": "🔥 The Permission file may only import items from `src/features/**/db/**` 🔥",
       "pattern": "src/lib/permissions.ts",
       "allowImportsFrom": ["src/features/**/db/**"]
     },
