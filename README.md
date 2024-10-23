@@ -6,8 +6,8 @@ The project has two ESLint configurations with different plugins that allow you 
 
 Plugins:
 
-- [eslint-plugin-project-structure](#https://github.com/Igorkowalski94/eslint-plugin-project-structure/wiki/Plugin-homepage#root).
-- [eslint-plugin-boundaries](#https://github.com/javierbrea/eslint-plugin-boundaries).
+- [eslint-plugin-project-structure](https://github.com/Igorkowalski94/eslint-plugin-project-structure/wiki/Plugin-homepage#root).
+- [eslint-plugin-boundaries](https://github.com/javierbrea/eslint-plugin-boundaries).
 
 > [!WARNING]  
 > `eslint-plugin-boundaries` does not support ESLint 9.
@@ -15,7 +15,7 @@ Plugins:
 If you want to compare the configurations of both plugins:
 
 - The configuration for `eslint-plugin-boundaries` is located in `.eslintrc.json`.
-- The configuration for `eslint-plugin-project-structure` is located in `independentModules.jsonc` (The plugin allows you to move the configuration to a separate file that suggests syntax and checks its correctness. You can also move the entire configuration to `.eslintrc.json`.)
+- The configuration for `eslint-plugin-project-structure` is located in `independentModules.jsonc`. The plugin allows you to move the configuration to a separate file that suggests syntax and checks its correctness. You can also move the entire configuration to `.eslintrc.json`.
 
 If you want to check import validation using `eslint-plugin-project-structure`:
 
