@@ -1,6 +1,4 @@
 {
-  // Alternative for eslint-plugin-boundaries
-
   "$schema": "node_modules/eslint-plugin-project-structure/independentModules.schema.json",
   "modules": [
     {
@@ -24,7 +22,7 @@
       "name": "Permissions file",
       "pattern": "src/lib/permissions.ts",
       "allowImportsFrom": ["src/features/**/db/**"],
-      "errorMessage": "🔥 The Permission file may only import items from `src/features/**/db/**` 🔥"
+      "errorMessage": "🔥 The permission file may only import items from `src/features/**/db/**` 🔥"
     },
 
     {
