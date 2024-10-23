@@ -1,34 +1,10 @@
 {
-  "overrides": [
-    /**
-     *  Only for the project-structure/folder-structure rule,
-     *  which must use the projectStructureParser to check all file extensions not supported by ESLint.
-     *  If you don't care about validating other file extensions, you can remove this section.
-     */
-    {
-      // You can expand the list with the file extensions you use.
-      "files": ["*.json", "*.sql"],
-      "excludedFiles": ["projectStructure.cache.json"],
-      "parser": "eslint-plugin-project-structure/parser",
-      "plugins": ["project-structure"],
-      "settings": {
-        "project-structure/folder-structure-config-path": "folderStructure.jsonc"
-      },
-      "rules": { "project-structure/folder-structure": "error" }
-    },
-
-    {
-      "files": ["*.ts", "*.tsx", ".js", ".jsx"],
-      "extends": ["next/core-web-vitals", "next/typescript", "next"],
-      "plugins": ["eslint-plugin-project-structure"],
-      "settings": {
-        "project-structure/folder-structure-config-path": "folderStructure.jsonc",
-        "project-structure/independent-modules-config-path": "independentModules.jsonc"
-      },
-      "rules": {
-        "project-structure/folder-structure": "error",
-        "project-structure/independent-modules": "error"
-      }
-    }
-  ]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "plugins": ["eslint-plugin-project-structure"],
+  "settings": {
+    "project-structure/independent-modules-config-path": "independentModules.jsonc"
+  },
+  "rules": {
+    "project-structure/independent-modules": "error"
+  }
 }

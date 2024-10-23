@@ -41,6 +41,15 @@
         "src/server/**"
       ],
       "allowImportsFrom": ["{sharedImports}"]
+    },
+
+    // All files not specified in the rules are not allowed to import anything.
+    // Ignore files in `src/tasks/*` and `src/*`.
+    {
+      "name": "Unknown files",
+      "pattern": [["src/**", "!src/tasks/*", "!src/*"]],
+      "allowImportsFrom": [],
+      "allowExternalImports": false
     }
   ],
   "reusableImportPatterns": {
