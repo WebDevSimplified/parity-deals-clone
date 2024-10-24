@@ -1,6 +1,6 @@
 # Feature folder system
 
-[This Folder Structure Makes Me 100% More Productive](https://www.youtube.com/watch?v=xyxrB2Aa7KE)
+[Video explanation of this folder structure](https://www.youtube.com/watch?v=xyxrB2Aa7KE)
 
 The project has two ESLint configurations with different plugins that allow you to check the correctness of the imports. You can choose one of the configurations depending on your preferences.
 
