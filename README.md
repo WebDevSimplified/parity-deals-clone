@@ -10,7 +10,7 @@ Plugins:
 - [eslint-plugin-boundaries](https://github.com/javierbrea/eslint-plugin-boundaries).
 
 > [!WARNING]  
-> `eslint-plugin-boundaries` does not support ESLint 9.
+> `eslint-plugin-boundaries` versions prior to version 5.0.0 do not support ESLint 9 
 
 If you want to compare the configurations of both plugins:
 
