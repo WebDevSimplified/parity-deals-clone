@@ -433,5 +433,10 @@
     "mtime": 1782281551.0037272,
     "ast_hash": "195a67ff9ba93de2501bf63b33f732d4",
     "semantic_hash": "195a67ff9ba93de2501bf63b33f732d4"
+  },
+  "docs/FEATURE-SLICED-DESIGN.md": {
+    "mtime": 1782143189.8056803,
+    "ast_hash": "5126d65403d89f0a8cd1410b48b87db1",
+    "semantic_hash": ""
   }
 }

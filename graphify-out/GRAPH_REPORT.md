@@ -1,16 +1,16 @@
 # Graph Report - parity-deals-clone  (2026-06-24)
 
 ## Corpus Check
-- 85 files · ~19,894 words
+- 86 files · ~20,563 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 107 nodes · 34 edges · 80 communities (4 shown, 76 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
+- 114 nodes · 40 edges · 80 communities (5 shown, 75 thin omitted)
+- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b85169bd`
+- Built from commit: `68a9205d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -100,13 +100,13 @@
 1. `Parity Deals Clone` - 7 edges
 2. `Runbook` - 7 edges
 3. `Contributing Guide` - 6 edges
-4. `allowBuilds` - 4 edges
-5. `ESLint Import Validation` - 4 edges
-6. `Architecture` - 3 edges
-7. `Environment Variables Configuration` - 3 edges
-8. `Clerk Webhook Integration` - 3 edges
-9. `Stripe Webhook Integration` - 3 edges
-10. `Local Development Setup` - 2 edges
+4. `🏗️ Feature Sliced Design (`src/features/`)` - 4 edges
+5. `allowBuilds` - 4 edges
+6. `ESLint Import Validation` - 4 edges
+7. `Feature Sliced Design (FSD) Architecture Guidelines` - 3 edges
+8. `Architecture` - 3 edges
+9. `Environment Variables Configuration` - 3 edges
+10. `Clerk Webhook Integration` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Contributing Guide` --references--> `ESLint Import Validation`  [EXTRACTED]
@@ -121,7 +121,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (80 total, 76 thin omitted)
+## Communities (80 total, 75 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.29
@@ -132,24 +132,28 @@ Cohesion: 0.20
 Nodes (9): Architecture, Commands, Feature directory pattern (`src/features/*/`), graphify, Import boundaries (enforced by ESLint), Key quirks, Local setup, Parity Deals Clone (+1 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.38
-Nodes (7): Environment Variables Configuration, Clerk Webhook Integration, Health Checks & Monitoring, Troubleshooting & Rollback Procedures, Runbook, Stripe Webhook Integration, Vercel Deployment
+Cohesion: 0.28
+Nodes (9): Environment Variables Configuration, Local Development Setup, Clerk Webhook Integration, Database Migration Procedure, Health Checks & Monitoring, Troubleshooting & Rollback Procedures, Runbook, Stripe Webhook Integration (+1 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.40
 Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
+### Community 4 - "Community 4"
+Cohesion: 0.29
+Nodes (6): 📂 Directory Structure Overview, Feature Internal Structure, Feature Sliced Design (FSD) Architecture Guidelines, 🏗️ Feature Sliced Design (`src/features/`), 🛑 Import Rules, Isolation Principle
+
 ## Knowledge Gaps
-- **91 isolated node(s):** `Stack`, `Commands`, `Import boundaries (enforced by ESLint)`, `Feature directory pattern (`src/features/*/`)`, `Key quirks` (+86 more)
+- **95 isolated node(s):** `📂 Directory Structure Overview`, `Isolation Principle`, `Feature Internal Structure`, `🛑 Import Rules`, `Stack` (+90 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Runbook` connect `Community 2` to `Community 0`, `Community 4`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **Why does `Contributing Guide` connect `Community 0` to `Community 2`, `Community 4`?**
-  _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **What connects `Stack`, `Commands`, `Import boundaries (enforced by ESLint)` to the rest of the system?**
-  _93 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Runbook` connect `Community 2` to `Community 0`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `Contributing Guide` connect `Community 0` to `Community 2`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **What connects `📂 Directory Structure Overview`, `Isolation Principle`, `Feature Internal Structure` to the rest of the system?**
+  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
