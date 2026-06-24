@@ -4,6 +4,106 @@
   "graph": {},
   "nodes": [
     {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 1,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "Parity Deals Clone",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_parity_deals_clone",
+      "community": 1,
+      "norm_label": "parity deals clone"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "agents_stack",
+      "community": 1,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "agents_commands",
+      "community": 1,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "agents_architecture",
+      "community": 1,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Import boundaries (enforced by ESLint)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "agents_import_boundaries_enforced_by_eslint",
+      "community": 1,
+      "norm_label": "import boundaries (enforced by eslint)"
+    },
+    {
+      "label": "Feature directory pattern (`src/features/*/`)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "agents_feature_directory_pattern_src_features",
+      "community": 1,
+      "norm_label": "feature directory pattern (`src/features/*/`)"
+    },
+    {
+      "label": "Key quirks",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "agents_key_quirks",
+      "community": 1,
+      "norm_label": "key quirks"
+    },
+    {
+      "label": "Local setup",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "agents_local_setup",
+      "community": 1,
+      "norm_label": "local setup"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "agents_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
       "label": "AuthLayout",
       "file_type": "code",
       "source_file": "src/app/(auth)/layout.tsx",
@@ -754,97 +854,6 @@
       "id": "lib_permissions_canshowdiscountbanner"
     },
     {
-      "label": "Graphify Knowledge Graph Integration",
-      "file_type": "concept",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify knowledge graph integration",
-      "id": "agents_graphify"
-    },
-    {
-      "label": "graphify query",
-      "file_type": "code",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify query",
-      "id": "agents_graphify_query"
-    },
-    {
-      "label": "graphify path",
-      "file_type": "code",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify path",
-      "id": "agents_graphify_path"
-    },
-    {
-      "label": "graphify explain",
-      "file_type": "code",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify explain",
-      "id": "agents_graphify_explain"
-    },
-    {
-      "label": "graphify update",
-      "file_type": "code",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify update",
-      "id": "agents_graphify_update"
-    },
-    {
-      "label": "GRAPH_REPORT.md",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graph_report.md",
-      "id": "agents_graph_report"
-    },
-    {
-      "label": "graphify-out/wiki/index.md",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "graphify-out/wiki/index.md",
-      "id": "agents_graphify_wiki"
-    },
-    {
       "label": "pnpm-workspace.yaml",
       "file_type": "document",
       "source_file": "pnpm-workspace.yaml",
@@ -1137,64 +1146,94 @@
   ],
   "links": [
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graph_report"
+      "source": "agents",
+      "target": "agents_parity_deals_clone",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L24",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graphify_explain"
+      "source": "agents_parity_deals_clone",
+      "target": "agents_architecture",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graphify_path"
+      "source": "agents_parity_deals_clone",
+      "target": "agents_commands",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L60",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graphify_query"
+      "source": "agents_parity_deals_clone",
+      "target": "agents_graphify",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L42",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graphify_update"
+      "source": "agents_parity_deals_clone",
+      "target": "agents_key_quirks",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "AGENTS.md",
-      "source_location": null,
+      "source_location": "L52",
       "weight": 1.0,
-      "source": "agents_graphify",
-      "target": "agents_graphify_wiki"
+      "source": "agents_parity_deals_clone",
+      "target": "agents_local_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "agents_parity_deals_clone",
+      "target": "agents_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "agents_architecture",
+      "target": "agents_feature_directory_pattern_src_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "agents_architecture",
+      "target": "agents_import_boundaries_enforced_by_eslint",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1448,5 +1487,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "da81777b357b831b24abc87c326cb35e31298cd5"
+  "built_at_commit": "b85169bd31ed0e59a45e5fe4999c9d9024359676"
 }

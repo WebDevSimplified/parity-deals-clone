@@ -1,107 +1,112 @@
-# Graph Report - .  (2026-06-24)
+# Graph Report - parity-deals-clone  (2026-06-24)
 
 ## Corpus Check
-- 0 files · ~19,562 words
+- 85 files · ~19,894 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 104 nodes · 31 edges · 80 communities (4 shown, 76 thin omitted)
-- Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
+- 107 nodes · 34 edges · 80 communities (4 shown, 76 thin omitted)
+- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
+## Graph Freshness
+- Built from commit: `b85169bd`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Code Standards & Project Structure|Code Standards & Project Structure]]
-- [[_COMMUNITY_Graphify Integration|Graphify Integration]]
-- [[_COMMUNITY_Operations, Deployment & Webhooks|Operations, Deployment & Webhooks]]
-- [[_COMMUNITY_PNPM Workspace Configuration|PNPM Workspace Configuration]]
-- [[_COMMUNITY_Local Setup & Database Migrations|Local Setup & Database Migrations]]
-- [[_COMMUNITY_Product Domain (createproduct)|Product Domain (createproduct)]]
-- [[_COMMUNITY_Product Domain (deleteproduct)|Product Domain (deleteproduct)]]
-- [[_COMMUNITY_Product Domain (updatecountrydiscounts)|Product Domain (updatecountrydiscounts)]]
-- [[_COMMUNITY_Product Domain (updateproduct)|Product Domain (updateproduct)]]
-- [[_COMMUNITY_Product Domain (updateproductcustomization)|Product Domain (updateproductcustomization)]]
-- [[_COMMUNITY_Stripe Billing (createcancelsession)|Stripe Billing (createcancelsession)]]
-- [[_COMMUNITY_Stripe Billing (createcheckoutsession)|Stripe Billing (createcheckoutsession)]]
-- [[_COMMUNITY_Stripe Billing (createcustomerportalsession)|Stripe Billing (createcustomerportalsession)]]
-- [[_COMMUNITY_Layout Rootlayout|Layout Rootlayout]]
-- [[_COMMUNITY_Layout Authlayout|Layout Authlayout]]
-- [[_COMMUNITY_Route Get|Route Get]]
-- [[_COMMUNITY_Viewsbycountrychart Viewsbycountrychart|Viewsbycountrychart Viewsbycountrychart]]
-- [[_COMMUNITY_Route Post|Route Post]]
-- [[_COMMUNITY_App Component (banner)|App Component (banner)]]
-- [[_COMMUNITY_App Component (brandlogo)|App Component (brandlogo)]]
-- [[_COMMUNITY_App Component (dashboardnavbar)|App Component (dashboardnavbar)]]
-- [[_COMMUNITY_App Component (haspermission)|App Component (haspermission)]]
-- [[_COMMUNITY_App Component (marketingnavbar)|App Component (marketingnavbar)]]
-- [[_COMMUNITY_App Component (nopermissioncard)|App Component (nopermissioncard)]]
-- [[_COMMUNITY_Product Domain (noproducts)|Product Domain (noproducts)]]
-- [[_COMMUNITY_App Component (pagewithbackbutton)|App Component (pagewithbackbutton)]]
-- [[_COMMUNITY_App Component (requiredlabelicon)|App Component (requiredlabelicon)]]
-- [[_COMMUNITY_App Component (timezonedropdownmenuitem)|App Component (timezonedropdownmenuitem)]]
-- [[_COMMUNITY_Layout Dashboardlayout|Layout Dashboardlayout]]
-- [[_COMMUNITY_Page Dashboardpage|Page Dashboardpage]]
-- [[_COMMUNITY_Subscription Domain (gettierbypriceid)|Subscription Domain (gettierbypriceid)]]
-- [[_COMMUNITY_Subscription Domain (paidtiernames)|Subscription Domain (paidtiernames)]]
-- [[_COMMUNITY_Subscription Domain (tiernames)|Subscription Domain (tiernames)]]
-- [[_COMMUNITY_Product Domain (createproduct)|Product Domain (createproduct)]]
-- [[_COMMUNITY_Product Domain (deleteproduct)|Product Domain (deleteproduct)]]
-- [[_COMMUNITY_Product Domain (getproduct)|Product Domain (getproduct)]]
-- [[_COMMUNITY_Product Domain (getproductcount)|Product Domain (getproductcount)]]
-- [[_COMMUNITY_Product Domain (getproductcountrygroups)|Product Domain (getproductcountrygroups)]]
-- [[_COMMUNITY_Product Domain (getproductcustomization)|Product Domain (getproductcustomization)]]
-- [[_COMMUNITY_Product Domain (getproductforbanner)|Product Domain (getproductforbanner)]]
-- [[_COMMUNITY_Product Domain (getproducts)|Product Domain (getproducts)]]
-- [[_COMMUNITY_Product Domain (updatecountrydiscounts)|Product Domain (updatecountrydiscounts)]]
-- [[_COMMUNITY_Product Domain (updateproduct)|Product Domain (updateproduct)]]
-- [[_COMMUNITY_Product Domain (updateproductcustomization)|Product Domain (updateproductcustomization)]]
-- [[_COMMUNITY_Productviews Createproductview|Productviews Createproductview]]
-- [[_COMMUNITY_Productviews Getproductviewcount|Productviews Getproductviewcount]]
-- [[_COMMUNITY_Productviews Getviewsbycountrychartdata|Productviews Getviewsbycountrychartdata]]
-- [[_COMMUNITY_Productviews Getviewsbydaychartdata|Productviews Getviewsbydaychartdata]]
-- [[_COMMUNITY_Productviews Getviewsbypppchartdata|Productviews Getviewsbypppchartdata]]
-- [[_COMMUNITY_Subscription Domain (createusersubscription)|Subscription Domain (createusersubscription)]]
-- [[_COMMUNITY_Subscription Domain (getusersubscription)|Subscription Domain (getusersubscription)]]
-- [[_COMMUNITY_Subscription Domain (getusersubscriptiontier)|Subscription Domain (getusersubscriptiontier)]]
-- [[_COMMUNITY_Subscription Domain (updateusersubscription)|Subscription Domain (updateusersubscription)]]
-- [[_COMMUNITY_Users Deleteuser|Users Deleteuser]]
-- [[_COMMUNITY_Page Editproductpage|Page Editproductpage]]
-- [[_COMMUNITY_Clerk Clerkicon|Clerk Clerkicon]]
-- [[_COMMUNITY_Neon Neonicon|Neon Neonicon]]
-- [[_COMMUNITY_Cache Operations (clearfullcache)|Cache Operations (clearfullcache)]]
-- [[_COMMUNITY_Cache Operations (dbcache)|Cache Operations (dbcache)]]
-- [[_COMMUNITY_Cache Operations (getglobaltag)|Cache Operations (getglobaltag)]]
-- [[_COMMUNITY_Cache Operations (getidtag)|Cache Operations (getidtag)]]
-- [[_COMMUNITY_Cache Operations (getusertag)|Cache Operations (getusertag)]]
-- [[_COMMUNITY_Cache Operations (revalidatedbcache)|Cache Operations (revalidatedbcache)]]
-- [[_COMMUNITY_Cache Operations (validtags)|Cache Operations (validtags)]]
-- [[_COMMUNITY_Formatters Formatcompactnumber|Formatters Formatcompactnumber]]
-- [[_COMMUNITY_Permissions Checks (canaccessanalytics)|Permissions Checks (canaccessanalytics)]]
-- [[_COMMUNITY_Permissions Checks (cancreateproduct)|Permissions Checks (cancreateproduct)]]
-- [[_COMMUNITY_Permissions Checks (cancustomizebanner)|Permissions Checks (cancustomizebanner)]]
-- [[_COMMUNITY_Permissions Checks (canremovebranding)|Permissions Checks (canremovebranding)]]
-- [[_COMMUNITY_Permissions Checks (canshowdiscountbanner)|Permissions Checks (canshowdiscountbanner)]]
-- [[_COMMUNITY_Layout Marketinglayout|Layout Marketinglayout]]
-- [[_COMMUNITY_Page Newproductpage|Page Newproductpage]]
-- [[_COMMUNITY_Product Domain (products)|Product Domain (products)]]
-- [[_COMMUNITY_Page Signinpage|Page Signinpage]]
-- [[_COMMUNITY_Page Signuppage|Page Signuppage]]
-- [[_COMMUNITY_Stripe Billing (post)|Stripe Billing (post)]]
-- [[_COMMUNITY_UI Component (buttonprops)|UI Component (buttonprops)]]
-- [[_COMMUNITY_UI Component (chartconfig)|UI Component (chartconfig)]]
-- [[_COMMUNITY_UI Component (inputprops)|UI Component (inputprops)]]
-- [[_COMMUNITY_UI Component (textareaprops)|UI Component (textareaprops)]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
+- [[_COMMUNITY_Community 21|Community 21]]
+- [[_COMMUNITY_Community 22|Community 22]]
+- [[_COMMUNITY_Community 23|Community 23]]
+- [[_COMMUNITY_Community 24|Community 24]]
+- [[_COMMUNITY_Community 25|Community 25]]
+- [[_COMMUNITY_Community 26|Community 26]]
+- [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
+- [[_COMMUNITY_Community 42|Community 42]]
+- [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
+- [[_COMMUNITY_Community 47|Community 47]]
+- [[_COMMUNITY_Community 48|Community 48]]
+- [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 51|Community 51]]
+- [[_COMMUNITY_Community 52|Community 52]]
+- [[_COMMUNITY_Community 53|Community 53]]
+- [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
+- [[_COMMUNITY_Community 58|Community 58]]
+- [[_COMMUNITY_Community 59|Community 59]]
+- [[_COMMUNITY_Community 60|Community 60]]
+- [[_COMMUNITY_Community 61|Community 61]]
+- [[_COMMUNITY_Community 62|Community 62]]
+- [[_COMMUNITY_Community 63|Community 63]]
+- [[_COMMUNITY_Community 64|Community 64]]
+- [[_COMMUNITY_Community 65|Community 65]]
+- [[_COMMUNITY_Community 66|Community 66]]
+- [[_COMMUNITY_Community 67|Community 67]]
+- [[_COMMUNITY_Community 68|Community 68]]
+- [[_COMMUNITY_Community 69|Community 69]]
+- [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 71|Community 71]]
+- [[_COMMUNITY_Community 72|Community 72]]
+- [[_COMMUNITY_Community 73|Community 73]]
+- [[_COMMUNITY_Community 74|Community 74]]
+- [[_COMMUNITY_Community 75|Community 75]]
+- [[_COMMUNITY_Community 76|Community 76]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Runbook` - 7 edges
-2. `Graphify Knowledge Graph Integration` - 6 edges
+1. `Parity Deals Clone` - 7 edges
+2. `Runbook` - 7 edges
 3. `Contributing Guide` - 6 edges
 4. `allowBuilds` - 4 edges
 5. `ESLint Import Validation` - 4 edges
-6. `Environment Variables Configuration` - 3 edges
-7. `Clerk Webhook Integration` - 3 edges
-8. `Stripe Webhook Integration` - 3 edges
-9. `Local Development Setup` - 2 edges
-10. `Database Migration Procedure` - 2 edges
+6. `Architecture` - 3 edges
+7. `Environment Variables Configuration` - 3 edges
+8. `Clerk Webhook Integration` - 3 edges
+9. `Stripe Webhook Integration` - 3 edges
+10. `Local Development Setup` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Contributing Guide` --references--> `ESLint Import Validation`  [EXTRACTED]
@@ -118,33 +123,33 @@
 
 ## Communities (80 total, 76 thin omitted)
 
-### Community 0 - "Code Standards & Project Structure"
+### Community 0 - "Community 0"
 Cohesion: 0.29
 Nodes (7): Available Commands, Contributing Guide, PR Submission Checklist, ESLint Import Validation, eslint-plugin-boundaries, eslint-plugin-project-structure, Feature Folder System
 
-### Community 1 - "Graphify Integration"
-Cohesion: 0.29
-Nodes (7): GRAPH_REPORT.md, Graphify Knowledge Graph Integration, graphify explain, graphify path, graphify query, graphify update, graphify-out/wiki/index.md
+### Community 1 - "Community 1"
+Cohesion: 0.20
+Nodes (9): Architecture, Commands, Feature directory pattern (`src/features/*/`), graphify, Import boundaries (enforced by ESLint), Key quirks, Local setup, Parity Deals Clone (+1 more)
 
-### Community 2 - "Operations, Deployment & Webhooks"
+### Community 2 - "Community 2"
 Cohesion: 0.38
 Nodes (7): Environment Variables Configuration, Clerk Webhook Integration, Health Checks & Monitoring, Troubleshooting & Rollback Procedures, Runbook, Stripe Webhook Integration, Vercel Deployment
 
-### Community 3 - "PNPM Workspace Configuration"
+### Community 3 - "Community 3"
 Cohesion: 0.40
 Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
 ## Knowledge Gaps
-- **90 isolated node(s):** `AuthLayout`, `SignInPage`, `SignUpPage`, `MarketingLayout`, `GET` (+85 more)
+- **91 isolated node(s):** `Stack`, `Commands`, `Import boundaries (enforced by ESLint)`, `Feature directory pattern (`src/features/*/`)`, `Key quirks` (+86 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Runbook` connect `Operations, Deployment & Webhooks` to `Code Standards & Project Structure`, `Local Setup & Database Migrations`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `Contributing Guide` connect `Code Standards & Project Structure` to `Operations, Deployment & Webhooks`, `Local Setup & Database Migrations`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **What connects `AuthLayout`, `SignInPage`, `SignUpPage` to the rest of the system?**
-  _92 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Runbook` connect `Community 2` to `Community 0`, `Community 4`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `Contributing Guide` connect `Community 0` to `Community 2`, `Community 4`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **What connects `Stack`, `Commands`, `Import boundaries (enforced by ESLint)` to the rest of the system?**
+  _93 weakly-connected nodes found - possible documentation gaps or missing edges._
