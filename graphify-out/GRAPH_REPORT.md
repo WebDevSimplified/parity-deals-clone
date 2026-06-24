@@ -1,7 +1,8 @@
 # Graph Report - .  (2026-06-24)
 
 ## Corpus Check
-- Corpus is ~19,562 words - fits in a single context window. You may not need a graph.
+- 0 files · ~19,562 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 104 nodes · 31 edges · 80 communities (4 shown, 76 thin omitted)
@@ -114,11 +115,6 @@
 
 ## Import Cycles
 - None detected.
-
-## Hyperedges (group relationships)
-- **Graphify CLI Commands** — agents_graphify_query, agents_graphify_path, agents_graphify_explain, agents_graphify_update [EXTRACTED 1.00]
-- **Webhook Integration and Event Handlers** — docs_runbook_clerk_webhooks, docs_runbook_stripe_webhooks, docs_contributing_env_variables [INFERRED 0.85]
-- **Import Rules and Code Quality Linting** — readme_eslint_import_validation, readme_eslint_plugin_boundaries, readme_eslint_plugin_project_structure, docs_contributing_pr_checklist [INFERRED 0.85]
 
 ## Communities (80 total, 76 thin omitted)
 

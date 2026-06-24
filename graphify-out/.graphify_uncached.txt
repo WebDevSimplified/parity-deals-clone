@@ -1,3 +1,0 @@
-C:\projects\parity-deals-clone\README.md
-C:\projects\parity-deals-clone\docs\CONTRIBUTING.md
-C:\projects\parity-deals-clone\docs\RUNBOOK.md

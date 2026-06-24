@@ -265,7 +265,7 @@ LEGEND.forEach(c => {
 </script>
 <script>
 // Render hyperedges as shaded regions
-const hyperedges = [{"id": "agents_graphify_cli_commands", "label": "Graphify CLI Commands", "nodes": ["agents_graphify_query", "agents_graphify_path", "agents_graphify_explain", "agents_graphify_update"], "relation": "form", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"}, {"id": "webhook_integrations", "label": "Webhook Integration and Event Handlers", "nodes": ["docs_runbook_clerk_webhooks", "docs_runbook_stripe_webhooks", "docs_contributing_env_variables"], "relation": "participate_in", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md"}, {"id": "import_linting_system", "label": "Import Rules and Code Quality Linting", "nodes": ["readme_eslint_import_validation", "readme_eslint_plugin_boundaries", "readme_eslint_plugin_project_structure", "docs_contributing_pr_checklist"], "relation": "participate_in", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "C:\\projects\\parity-deals-clone\\README.md"}];
+const hyperedges = [];
 // afterDrawing passes ctx already transformed to network coordinate space.
 // Draw node positions raw — no manual pan/zoom/DPR math needed.
 network.on('afterDrawing', function(ctx) {

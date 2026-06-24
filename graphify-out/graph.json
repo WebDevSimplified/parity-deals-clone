@@ -1,51 +1,7 @@
 {
   "directed": false,
   "multigraph": false,
-  "graph": {
-    "hyperedges": [
-      {
-        "id": "agents_graphify_cli_commands",
-        "label": "Graphify CLI Commands",
-        "nodes": [
-          "agents_graphify_query",
-          "agents_graphify_path",
-          "agents_graphify_explain",
-          "agents_graphify_update"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"
-      },
-      {
-        "id": "webhook_integrations",
-        "label": "Webhook Integration and Event Handlers",
-        "nodes": [
-          "docs_runbook_clerk_webhooks",
-          "docs_runbook_stripe_webhooks",
-          "docs_contributing_env_variables"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md"
-      },
-      {
-        "id": "import_linting_system",
-        "label": "Import Rules and Code Quality Linting",
-        "nodes": [
-          "readme_eslint_import_validation",
-          "readme_eslint_plugin_boundaries",
-          "readme_eslint_plugin_project_structure",
-          "docs_contributing_pr_checklist"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "C:\\projects\\parity-deals-clone\\README.md"
-      }
-    ]
-  },
+  "graph": {},
   "nodes": [
     {
       "label": "AuthLayout",
@@ -53,9 +9,9 @@
       "source_file": "src/app/(auth)/layout.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "auth_layout_authlayout",
       "community": 14,
-      "norm_label": "authlayout"
+      "norm_label": "authlayout",
+      "id": "auth_layout_authlayout"
     },
     {
       "label": "SignInPage",
@@ -63,9 +19,9 @@
       "source_file": "src/app/(auth)/sign-in/[[...sign-in]]/page.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "sign_in_page_signinpage",
       "community": 73,
-      "norm_label": "signinpage"
+      "norm_label": "signinpage",
+      "id": "sign_in_page_signinpage"
     },
     {
       "label": "SignUpPage",
@@ -73,9 +29,9 @@
       "source_file": "src/app/(auth)/sign-up/[[...sign-up]]/page.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "sign_up_page_signuppage",
       "community": 74,
-      "norm_label": "signuppage"
+      "norm_label": "signuppage",
+      "id": "sign_up_page_signuppage"
     },
     {
       "label": "MarketingLayout",
@@ -83,9 +39,9 @@
       "source_file": "src/app/(marketing)/layout.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "marketing_layout_marketinglayout",
       "community": 70,
-      "norm_label": "marketinglayout"
+      "norm_label": "marketinglayout",
+      "id": "marketing_layout_marketinglayout"
     },
     {
       "label": "GET",
@@ -93,9 +49,9 @@
       "source_file": "src/app/api/products/[productId]/banner/route.ts",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "banner_route_get",
       "community": 15,
-      "norm_label": "get"
+      "norm_label": "get",
+      "id": "banner_route_get"
     },
     {
       "label": "POST",
@@ -103,9 +59,9 @@
       "source_file": "src/app/api/webhooks/clerk/route.ts",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "clerk_route_post",
       "community": 17,
-      "norm_label": "post"
+      "norm_label": "post",
+      "id": "clerk_route_post"
     },
     {
       "label": "POST",
@@ -113,9 +69,9 @@
       "source_file": "src/app/api/webhooks/stripe/route.ts",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "stripe_route_post",
       "community": 75,
-      "norm_label": "post"
+      "norm_label": "post",
+      "id": "stripe_route_post"
     },
     {
       "label": "DashboardLayout",
@@ -123,9 +79,9 @@
       "source_file": "src/app/dashboard/layout.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "dashboard_layout_dashboardlayout",
       "community": 28,
-      "norm_label": "dashboardlayout"
+      "norm_label": "dashboardlayout",
+      "id": "dashboard_layout_dashboardlayout"
     },
     {
       "label": "DashboardPage",
@@ -133,9 +89,9 @@
       "source_file": "src/app/dashboard/page.tsx",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "dashboard_page_dashboardpage",
       "community": 29,
-      "norm_label": "dashboardpage"
+      "norm_label": "dashboardpage",
+      "id": "dashboard_page_dashboardpage"
     },
     {
       "label": "EditProductPage",
@@ -143,9 +99,9 @@
       "source_file": "src/app/dashboard/products/[productId]/edit/page.tsx",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "edit_page_editproductpage",
       "community": 54,
-      "norm_label": "editproductpage"
+      "norm_label": "editproductpage",
+      "id": "edit_page_editproductpage"
     },
     {
       "label": "NewProductPage",
@@ -153,9 +109,9 @@
       "source_file": "src/app/dashboard/products/new/page.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "new_page_newproductpage",
       "community": 71,
-      "norm_label": "newproductpage"
+      "norm_label": "newproductpage",
+      "id": "new_page_newproductpage"
     },
     {
       "label": "Products",
@@ -163,9 +119,9 @@
       "source_file": "src/app/dashboard/products/page.tsx",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "products_page_products",
       "community": 72,
-      "norm_label": "products"
+      "norm_label": "products",
+      "id": "products_page_products"
     },
     {
       "label": "RootLayout",
@@ -173,9 +129,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "app_layout_rootlayout",
       "community": 13,
-      "norm_label": "rootlayout"
+      "norm_label": "rootlayout",
+      "id": "app_layout_rootlayout"
     },
     {
       "label": "Banner",
@@ -183,9 +139,9 @@
       "source_file": "src/components/Banner.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_banner_banner",
       "community": 18,
-      "norm_label": "banner"
+      "norm_label": "banner",
+      "id": "components_banner_banner"
     },
     {
       "label": "BrandLogo",
@@ -193,9 +149,9 @@
       "source_file": "src/components/BrandLogo.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "components_brandlogo_brandlogo",
       "community": 19,
-      "norm_label": "brandlogo"
+      "norm_label": "brandlogo",
+      "id": "components_brandlogo_brandlogo"
     },
     {
       "label": "DashboardNavBar",
@@ -203,9 +159,9 @@
       "source_file": "src/components/DashboardNavBar.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_dashboardnavbar_dashboardnavbar",
       "community": 20,
-      "norm_label": "dashboardnavbar"
+      "norm_label": "dashboardnavbar",
+      "id": "components_dashboardnavbar_dashboardnavbar"
     },
     {
       "label": "HasPermission",
@@ -213,9 +169,9 @@
       "source_file": "src/components/HasPermission.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_haspermission_haspermission",
       "community": 21,
-      "norm_label": "haspermission"
+      "norm_label": "haspermission",
+      "id": "components_haspermission_haspermission"
     },
     {
       "label": "MarketingNavBar",
@@ -223,9 +179,9 @@
       "source_file": "src/components/MarketingNavBar.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_marketingnavbar_marketingnavbar",
       "community": 22,
-      "norm_label": "marketingnavbar"
+      "norm_label": "marketingnavbar",
+      "id": "components_marketingnavbar_marketingnavbar"
     },
     {
       "label": "NoPermissionCard",
@@ -233,9 +189,9 @@
       "source_file": "src/components/NoPermissionCard.tsx",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "components_nopermissioncard_nopermissioncard",
       "community": 23,
-      "norm_label": "nopermissioncard"
+      "norm_label": "nopermissioncard",
+      "id": "components_nopermissioncard_nopermissioncard"
     },
     {
       "label": "PageWithBackButton",
@@ -243,9 +199,9 @@
       "source_file": "src/components/PageWithBackButton.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "components_pagewithbackbutton_pagewithbackbutton",
       "community": 25,
-      "norm_label": "pagewithbackbutton"
+      "norm_label": "pagewithbackbutton",
+      "id": "components_pagewithbackbutton_pagewithbackbutton"
     },
     {
       "label": "RequiredLabelIcon",
@@ -253,9 +209,9 @@
       "source_file": "src/components/RequiredLabelIcon.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_requiredlabelicon_requiredlabelicon",
       "community": 26,
-      "norm_label": "requiredlabelicon"
+      "norm_label": "requiredlabelicon",
+      "id": "components_requiredlabelicon_requiredlabelicon"
     },
     {
       "label": "ClerkIcon",
@@ -263,9 +219,9 @@
       "source_file": "src/components/icons/Clerk.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "icons_clerk_clerkicon",
       "community": 55,
-      "norm_label": "clerkicon"
+      "norm_label": "clerkicon",
+      "id": "icons_clerk_clerkicon"
     },
     {
       "label": "NeonIcon",
@@ -273,9 +229,9 @@
       "source_file": "src/components/icons/Neon.tsx",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "icons_neon_neonicon",
       "community": 56,
-      "norm_label": "neonicon"
+      "norm_label": "neonicon",
+      "id": "icons_neon_neonicon"
     },
     {
       "label": "ButtonProps",
@@ -283,9 +239,9 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "ui_button_buttonprops",
       "community": 76,
-      "norm_label": "buttonprops"
+      "norm_label": "buttonprops",
+      "id": "ui_button_buttonprops"
     },
     {
       "label": "ChartConfig",
@@ -293,9 +249,9 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "ui_chart_chartconfig",
       "community": 77,
-      "norm_label": "chartconfig"
+      "norm_label": "chartconfig",
+      "id": "ui_chart_chartconfig"
     },
     {
       "label": "InputProps",
@@ -303,9 +259,9 @@
       "source_file": "src/components/ui/input.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "ui_input_inputprops",
       "community": 78,
-      "norm_label": "inputprops"
+      "norm_label": "inputprops",
+      "id": "ui_input_inputprops"
     },
     {
       "label": "TextareaProps",
@@ -313,9 +269,9 @@
       "source_file": "src/components/ui/textarea.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "ui_textarea_textareaprops",
       "community": 79,
-      "norm_label": "textareaprops"
+      "norm_label": "textareaprops",
+      "id": "ui_textarea_textareaprops"
     },
     {
       "label": "TierNames",
@@ -323,9 +279,9 @@
       "source_file": "src/data/subscriptionTiers.ts",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "data_subscriptiontiers_tiernames",
       "community": 32,
-      "norm_label": "tiernames"
+      "norm_label": "tiernames",
+      "id": "data_subscriptiontiers_tiernames"
     },
     {
       "label": "PaidTierNames",
@@ -333,9 +289,9 @@
       "source_file": "src/data/subscriptionTiers.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "data_subscriptiontiers_paidtiernames",
       "community": 31,
-      "norm_label": "paidtiernames"
+      "norm_label": "paidtiernames",
+      "id": "data_subscriptiontiers_paidtiernames"
     },
     {
       "label": "getTierByPriceId",
@@ -343,9 +299,9 @@
       "source_file": "src/data/subscriptionTiers.ts",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "data_subscriptiontiers_gettierbypriceid",
       "community": 30,
-      "norm_label": "gettierbypriceid"
+      "norm_label": "gettierbypriceid",
+      "id": "data_subscriptiontiers_gettierbypriceid"
     },
     {
       "label": "TimezoneDropdownMenuItem",
@@ -353,9 +309,9 @@
       "source_file": "src/features/analytics/components/TimezoneDropdownMenuItem.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "components_timezonedropdownmenuitem_timezonedropdownmenuitem",
       "community": 27,
-      "norm_label": "timezonedropdownmenuitem"
+      "norm_label": "timezonedropdownmenuitem",
+      "id": "components_timezonedropdownmenuitem_timezonedropdownmenuitem"
     },
     {
       "label": "ViewsByCountryChart",
@@ -363,9 +319,9 @@
       "source_file": "src/features/analytics/components/charts/ViewsByCountryChart.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "charts_viewsbycountrychart_viewsbycountrychart",
       "community": 16,
-      "norm_label": "viewsbycountrychart"
+      "norm_label": "viewsbycountrychart",
+      "id": "charts_viewsbycountrychart_viewsbycountrychart"
     },
     {
       "label": "getProductViewCount",
@@ -373,9 +329,9 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "db_productviews_getproductviewcount",
       "community": 45,
-      "norm_label": "getproductviewcount"
+      "norm_label": "getproductviewcount",
+      "id": "db_productviews_getproductviewcount"
     },
     {
       "label": "getViewsByCountryChartData",
@@ -383,9 +339,9 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "db_productviews_getviewsbycountrychartdata",
       "community": 46,
-      "norm_label": "getviewsbycountrychartdata"
+      "norm_label": "getviewsbycountrychartdata",
+      "id": "db_productviews_getviewsbycountrychartdata"
     },
     {
       "label": "getViewsByPPPChartData",
@@ -393,9 +349,9 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "db_productviews_getviewsbypppchartdata",
       "community": 48,
-      "norm_label": "getviewsbypppchartdata"
+      "norm_label": "getviewsbypppchartdata",
+      "id": "db_productviews_getviewsbypppchartdata"
     },
     {
       "label": "getViewsByDayChartData",
@@ -403,9 +359,9 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L87",
       "_origin": "ast",
-      "id": "db_productviews_getviewsbydaychartdata",
       "community": 47,
-      "norm_label": "getviewsbydaychartdata"
+      "norm_label": "getviewsbydaychartdata",
+      "id": "db_productviews_getviewsbydaychartdata"
     },
     {
       "label": "createProductView",
@@ -413,9 +369,9 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L115",
       "_origin": "ast",
-      "id": "db_productviews_createproductview",
       "community": 44,
-      "norm_label": "createproductview"
+      "norm_label": "createproductview",
+      "id": "db_productviews_createproductview"
     },
     {
       "label": "NoProducts",
@@ -423,9 +379,9 @@
       "source_file": "src/features/products/components/NoProducts.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "components_noproducts_noproducts",
       "community": 24,
-      "norm_label": "noproducts"
+      "norm_label": "noproducts",
+      "id": "components_noproducts_noproducts"
     },
     {
       "label": "createProduct",
@@ -433,9 +389,9 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "actions_products_createproduct",
       "community": 5,
-      "norm_label": "createproduct"
+      "norm_label": "createproduct",
+      "id": "actions_products_createproduct"
     },
     {
       "label": "updateProduct",
@@ -443,9 +399,9 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "actions_products_updateproduct",
       "community": 8,
-      "norm_label": "updateproduct"
+      "norm_label": "updateproduct",
+      "id": "actions_products_updateproduct"
     },
     {
       "label": "deleteProduct",
@@ -453,9 +409,9 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "actions_products_deleteproduct",
       "community": 6,
-      "norm_label": "deleteproduct"
+      "norm_label": "deleteproduct",
+      "id": "actions_products_deleteproduct"
     },
     {
       "label": "updateCountryDiscounts",
@@ -463,9 +419,9 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "actions_products_updatecountrydiscounts",
       "community": 7,
-      "norm_label": "updatecountrydiscounts"
+      "norm_label": "updatecountrydiscounts",
+      "id": "actions_products_updatecountrydiscounts"
     },
     {
       "label": "updateProductCustomization",
@@ -473,9 +429,9 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L117",
       "_origin": "ast",
-      "id": "actions_products_updateproductcustomization",
       "community": 9,
-      "norm_label": "updateproductcustomization"
+      "norm_label": "updateproductcustomization",
+      "id": "actions_products_updateproductcustomization"
     },
     {
       "label": "getProductCountryGroups",
@@ -483,9 +439,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "db_products_getproductcountrygroups",
       "community": 37,
-      "norm_label": "getproductcountrygroups"
+      "norm_label": "getproductcountrygroups",
+      "id": "db_products_getproductcountrygroups"
     },
     {
       "label": "getProductCustomization",
@@ -493,9 +449,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "db_products_getproductcustomization",
       "community": 38,
-      "norm_label": "getproductcustomization"
+      "norm_label": "getproductcustomization",
+      "id": "db_products_getproductcustomization"
     },
     {
       "label": "getProducts",
@@ -503,9 +459,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "db_products_getproducts",
       "community": 40,
-      "norm_label": "getproducts"
+      "norm_label": "getproducts",
+      "id": "db_products_getproducts"
     },
     {
       "label": "getProduct",
@@ -513,9 +469,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "db_products_getproduct",
       "community": 35,
-      "norm_label": "getproduct"
+      "norm_label": "getproduct",
+      "id": "db_products_getproduct"
     },
     {
       "label": "getProductCount",
@@ -523,9 +479,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L70",
       "_origin": "ast",
-      "id": "db_products_getproductcount",
       "community": 36,
-      "norm_label": "getproductcount"
+      "norm_label": "getproductcount",
+      "id": "db_products_getproductcount"
     },
     {
       "label": "getProductForBanner",
@@ -533,9 +489,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L78",
       "_origin": "ast",
-      "id": "db_products_getproductforbanner",
       "community": 39,
-      "norm_label": "getproductforbanner"
+      "norm_label": "getproductforbanner",
+      "id": "db_products_getproductforbanner"
     },
     {
       "label": "createProduct",
@@ -543,9 +499,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L102",
       "_origin": "ast",
-      "id": "db_products_createproduct",
       "community": 33,
-      "norm_label": "createproduct"
+      "norm_label": "createproduct",
+      "id": "db_products_createproduct"
     },
     {
       "label": "updateProduct",
@@ -553,9 +509,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L130",
       "_origin": "ast",
-      "id": "db_products_updateproduct",
       "community": 42,
-      "norm_label": "updateproduct"
+      "norm_label": "updateproduct",
+      "id": "db_products_updateproduct"
     },
     {
       "label": "deleteProduct",
@@ -563,9 +519,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L150",
       "_origin": "ast",
-      "id": "db_products_deleteproduct",
       "community": 34,
-      "norm_label": "deleteproduct"
+      "norm_label": "deleteproduct",
+      "id": "db_products_deleteproduct"
     },
     {
       "label": "updateCountryDiscounts",
@@ -573,9 +529,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L172",
       "_origin": "ast",
-      "id": "db_products_updatecountrydiscounts",
       "community": 41,
-      "norm_label": "updatecountrydiscounts"
+      "norm_label": "updatecountrydiscounts",
+      "id": "db_products_updatecountrydiscounts"
     },
     {
       "label": "updateProductCustomization",
@@ -583,9 +539,9 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L228",
       "_origin": "ast",
-      "id": "db_products_updateproductcustomization",
       "community": 43,
-      "norm_label": "updateproductcustomization"
+      "norm_label": "updateproductcustomization",
+      "id": "db_products_updateproductcustomization"
     },
     {
       "label": "createCancelSession",
@@ -593,9 +549,9 @@
       "source_file": "src/features/subscriptions/server/actions/stripe.ts",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "actions_stripe_createcancelsession",
       "community": 10,
-      "norm_label": "createcancelsession"
+      "norm_label": "createcancelsession",
+      "id": "actions_stripe_createcancelsession"
     },
     {
       "label": "createCustomerPortalSession",
@@ -603,9 +559,9 @@
       "source_file": "src/features/subscriptions/server/actions/stripe.ts",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "actions_stripe_createcustomerportalsession",
       "community": 12,
-      "norm_label": "createcustomerportalsession"
+      "norm_label": "createcustomerportalsession",
+      "id": "actions_stripe_createcustomerportalsession"
     },
     {
       "label": "createCheckoutSession",
@@ -613,9 +569,9 @@
       "source_file": "src/features/subscriptions/server/actions/stripe.ts",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "actions_stripe_createcheckoutsession",
       "community": 11,
-      "norm_label": "createcheckoutsession"
+      "norm_label": "createcheckoutsession",
+      "id": "actions_stripe_createcheckoutsession"
     },
     {
       "label": "createUserSubscription",
@@ -623,9 +579,9 @@
       "source_file": "src/features/subscriptions/server/db/subscription.ts",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "db_subscription_createusersubscription",
       "community": 49,
-      "norm_label": "createusersubscription"
+      "norm_label": "createusersubscription",
+      "id": "db_subscription_createusersubscription"
     },
     {
       "label": "getUserSubscription",
@@ -633,9 +589,9 @@
       "source_file": "src/features/subscriptions/server/db/subscription.ts",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "db_subscription_getusersubscription",
       "community": 50,
-      "norm_label": "getusersubscription"
+      "norm_label": "getusersubscription",
+      "id": "db_subscription_getusersubscription"
     },
     {
       "label": "updateUserSubscription",
@@ -643,9 +599,9 @@
       "source_file": "src/features/subscriptions/server/db/subscription.ts",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "db_subscription_updateusersubscription",
       "community": 52,
-      "norm_label": "updateusersubscription"
+      "norm_label": "updateusersubscription",
+      "id": "db_subscription_updateusersubscription"
     },
     {
       "label": "getUserSubscriptionTier",
@@ -653,9 +609,9 @@
       "source_file": "src/features/subscriptions/server/db/subscription.ts",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "db_subscription_getusersubscriptiontier",
       "community": 51,
-      "norm_label": "getusersubscriptiontier"
+      "norm_label": "getusersubscriptiontier",
+      "id": "db_subscription_getusersubscriptiontier"
     },
     {
       "label": "deleteUser",
@@ -663,9 +619,9 @@
       "source_file": "src/features/users/server/db/users.ts",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "db_users_deleteuser",
       "community": 53,
-      "norm_label": "deleteuser"
+      "norm_label": "deleteuser",
+      "id": "db_users_deleteuser"
     },
     {
       "label": "ValidTags",
@@ -673,9 +629,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "lib_cache_validtags",
       "community": 63,
-      "norm_label": "validtags"
+      "norm_label": "validtags",
+      "id": "lib_cache_validtags"
     },
     {
       "label": "getGlobalTag",
@@ -683,9 +639,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "lib_cache_getglobaltag",
       "community": 59,
-      "norm_label": "getglobaltag"
+      "norm_label": "getglobaltag",
+      "id": "lib_cache_getglobaltag"
     },
     {
       "label": "getUserTag",
@@ -693,9 +649,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "lib_cache_getusertag",
       "community": 61,
-      "norm_label": "getusertag"
+      "norm_label": "getusertag",
+      "id": "lib_cache_getusertag"
     },
     {
       "label": "getIdTag",
@@ -703,9 +659,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "lib_cache_getidtag",
       "community": 60,
-      "norm_label": "getidtag"
+      "norm_label": "getidtag",
+      "id": "lib_cache_getidtag"
     },
     {
       "label": "clearFullCache",
@@ -713,9 +669,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "lib_cache_clearfullcache",
       "community": 57,
-      "norm_label": "clearfullcache"
+      "norm_label": "clearfullcache",
+      "id": "lib_cache_clearfullcache"
     },
     {
       "label": "dbCache",
@@ -723,9 +679,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "lib_cache_dbcache",
       "community": 58,
-      "norm_label": "dbcache"
+      "norm_label": "dbcache",
+      "id": "lib_cache_dbcache"
     },
     {
       "label": "revalidateDbCache",
@@ -733,9 +689,9 @@
       "source_file": "src/lib/cache.ts",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "lib_cache_revalidatedbcache",
       "community": 62,
-      "norm_label": "revalidatedbcache"
+      "norm_label": "revalidatedbcache",
+      "id": "lib_cache_revalidatedbcache"
     },
     {
       "label": "formatCompactNumber",
@@ -743,9 +699,9 @@
       "source_file": "src/lib/formatters.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "lib_formatters_formatcompactnumber",
       "community": 64,
-      "norm_label": "formatcompactnumber"
+      "norm_label": "formatcompactnumber",
+      "id": "lib_formatters_formatcompactnumber"
     },
     {
       "label": "canRemoveBranding",
@@ -753,9 +709,9 @@
       "source_file": "src/lib/permissions.ts",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "lib_permissions_canremovebranding",
       "community": 68,
-      "norm_label": "canremovebranding"
+      "norm_label": "canremovebranding",
+      "id": "lib_permissions_canremovebranding"
     },
     {
       "label": "canCustomizeBanner",
@@ -763,9 +719,9 @@
       "source_file": "src/lib/permissions.ts",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "lib_permissions_cancustomizebanner",
       "community": 67,
-      "norm_label": "cancustomizebanner"
+      "norm_label": "cancustomizebanner",
+      "id": "lib_permissions_cancustomizebanner"
     },
     {
       "label": "canAccessAnalytics",
@@ -773,9 +729,9 @@
       "source_file": "src/lib/permissions.ts",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "lib_permissions_canaccessanalytics",
       "community": 65,
-      "norm_label": "canaccessanalytics"
+      "norm_label": "canaccessanalytics",
+      "id": "lib_permissions_canaccessanalytics"
     },
     {
       "label": "canCreateProduct",
@@ -783,9 +739,9 @@
       "source_file": "src/lib/permissions.ts",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "lib_permissions_cancreateproduct",
       "community": 66,
-      "norm_label": "cancreateproduct"
+      "norm_label": "cancreateproduct",
+      "id": "lib_permissions_cancreateproduct"
     },
     {
       "label": "canShowDiscountBanner",
@@ -793,9 +749,9 @@
       "source_file": "src/lib/permissions.ts",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "lib_permissions_canshowdiscountbanner",
       "community": 69,
-      "norm_label": "canshowdiscountbanner"
+      "norm_label": "canshowdiscountbanner",
+      "id": "lib_permissions_canshowdiscountbanner"
     },
     {
       "label": "Graphify Knowledge Graph Integration",
@@ -806,9 +762,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify",
       "community": 1,
-      "norm_label": "graphify knowledge graph integration"
+      "norm_label": "graphify knowledge graph integration",
+      "id": "agents_graphify"
     },
     {
       "label": "graphify query",
@@ -819,9 +775,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_query",
       "community": 1,
-      "norm_label": "graphify query"
+      "norm_label": "graphify query",
+      "id": "agents_graphify_query"
     },
     {
       "label": "graphify path",
@@ -832,9 +788,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_path",
       "community": 1,
-      "norm_label": "graphify path"
+      "norm_label": "graphify path",
+      "id": "agents_graphify_path"
     },
     {
       "label": "graphify explain",
@@ -845,9 +801,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_explain",
       "community": 1,
-      "norm_label": "graphify explain"
+      "norm_label": "graphify explain",
+      "id": "agents_graphify_explain"
     },
     {
       "label": "graphify update",
@@ -858,9 +814,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_update",
       "community": 1,
-      "norm_label": "graphify update"
+      "norm_label": "graphify update",
+      "id": "agents_graphify_update"
     },
     {
       "label": "GRAPH_REPORT.md",
@@ -871,9 +827,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graph_report",
       "community": 1,
-      "norm_label": "graph_report.md"
+      "norm_label": "graph_report.md",
+      "id": "agents_graph_report"
     },
     {
       "label": "graphify-out/wiki/index.md",
@@ -884,9 +840,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agents_graphify_wiki",
       "community": 1,
-      "norm_label": "graphify-out/wiki/index.md"
+      "norm_label": "graphify-out/wiki/index.md",
+      "id": "agents_graphify_wiki"
     },
     {
       "label": "pnpm-workspace.yaml",
@@ -897,9 +853,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnpm_workspace_pnpm_workspace",
       "community": 3,
-      "norm_label": "pnpm-workspace.yaml"
+      "norm_label": "pnpm-workspace.yaml",
+      "id": "pnpm_workspace_pnpm_workspace"
     },
     {
       "label": "allowBuilds",
@@ -910,9 +866,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnpm_workspace_allowbuilds",
       "community": 3,
-      "norm_label": "allowbuilds"
+      "norm_label": "allowbuilds",
+      "id": "pnpm_workspace_allowbuilds"
     },
     {
       "label": "@clerk/shared",
@@ -923,9 +879,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnpm_workspace_clerk_shared",
       "community": 3,
-      "norm_label": "@clerk/shared"
+      "norm_label": "@clerk/shared",
+      "id": "pnpm_workspace_clerk_shared"
     },
     {
       "label": "esbuild",
@@ -936,9 +892,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnpm_workspace_esbuild",
       "community": 3,
-      "norm_label": "esbuild"
+      "norm_label": "esbuild",
+      "id": "pnpm_workspace_esbuild"
     },
     {
       "label": "unrs-resolver",
@@ -949,9 +905,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pnpm_workspace_unrs_resolver",
       "community": 3,
-      "norm_label": "unrs-resolver"
+      "norm_label": "unrs-resolver",
+      "id": "pnpm_workspace_unrs_resolver"
     },
     {
       "label": "README.md",
@@ -962,9 +918,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_readme",
       "community": 0,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "readme_readme"
     },
     {
       "label": "Feature Folder System",
@@ -976,9 +932,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_feature_folder_system",
       "community": 0,
-      "norm_label": "feature folder system"
+      "norm_label": "feature folder system",
+      "id": "readme_feature_folder_system"
     },
     {
       "label": "ESLint Import Validation",
@@ -990,9 +946,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_eslint_import_validation",
       "community": 0,
-      "norm_label": "eslint import validation"
+      "norm_label": "eslint import validation",
+      "id": "readme_eslint_import_validation"
     },
     {
       "label": "eslint-plugin-boundaries",
@@ -1003,9 +959,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_eslint_plugin_boundaries",
       "community": 0,
-      "norm_label": "eslint-plugin-boundaries"
+      "norm_label": "eslint-plugin-boundaries",
+      "id": "readme_eslint_plugin_boundaries"
     },
     {
       "label": "eslint-plugin-project-structure",
@@ -1016,9 +972,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_eslint_plugin_project_structure",
       "community": 0,
-      "norm_label": "eslint-plugin-project-structure"
+      "norm_label": "eslint-plugin-project-structure",
+      "id": "readme_eslint_plugin_project_structure"
     },
     {
       "label": "Contributing Guide",
@@ -1029,9 +985,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_contributing_guide",
       "community": 0,
-      "norm_label": "contributing guide"
+      "norm_label": "contributing guide",
+      "id": "docs_contributing_guide"
     },
     {
       "label": "Local Development Setup",
@@ -1042,9 +998,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_contributing_local_setup",
       "community": 4,
-      "norm_label": "local development setup"
+      "norm_label": "local development setup",
+      "id": "docs_contributing_local_setup"
     },
     {
       "label": "Environment Variables Configuration",
@@ -1055,9 +1011,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_contributing_env_variables",
       "community": 2,
-      "norm_label": "environment variables configuration"
+      "norm_label": "environment variables configuration",
+      "id": "docs_contributing_env_variables"
     },
     {
       "label": "Available Commands",
@@ -1068,9 +1024,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_contributing_available_commands",
       "community": 0,
-      "norm_label": "available commands"
+      "norm_label": "available commands",
+      "id": "docs_contributing_available_commands"
     },
     {
       "label": "PR Submission Checklist",
@@ -1082,9 +1038,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_contributing_pr_checklist",
       "community": 0,
-      "norm_label": "pr submission checklist"
+      "norm_label": "pr submission checklist",
+      "id": "docs_contributing_pr_checklist"
     },
     {
       "label": "Runbook",
@@ -1095,9 +1051,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_runbook",
       "community": 2,
-      "norm_label": "runbook"
+      "norm_label": "runbook",
+      "id": "docs_runbook_runbook"
     },
     {
       "label": "Vercel Deployment",
@@ -1108,9 +1064,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_vercel_deployment",
       "community": 2,
-      "norm_label": "vercel deployment"
+      "norm_label": "vercel deployment",
+      "id": "docs_runbook_vercel_deployment"
     },
     {
       "label": "Database Migration Procedure",
@@ -1122,9 +1078,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_db_migration",
       "community": 4,
-      "norm_label": "database migration procedure"
+      "norm_label": "database migration procedure",
+      "id": "docs_runbook_db_migration"
     },
     {
       "label": "Clerk Webhook Integration",
@@ -1135,9 +1091,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_clerk_webhooks",
       "community": 2,
-      "norm_label": "clerk webhook integration"
+      "norm_label": "clerk webhook integration",
+      "id": "docs_runbook_clerk_webhooks"
     },
     {
       "label": "Stripe Webhook Integration",
@@ -1148,9 +1104,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_stripe_webhooks",
       "community": 2,
-      "norm_label": "stripe webhook integration"
+      "norm_label": "stripe webhook integration",
+      "id": "docs_runbook_stripe_webhooks"
     },
     {
       "label": "Health Checks & Monitoring",
@@ -1161,9 +1117,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_monitoring",
       "community": 2,
-      "norm_label": "health checks & monitoring"
+      "norm_label": "health checks & monitoring",
+      "id": "docs_runbook_monitoring"
     },
     {
       "label": "Troubleshooting & Rollback Procedures",
@@ -1174,9 +1130,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_runbook_rollback_procedures",
       "community": 2,
-      "norm_label": "troubleshooting & rollback procedures"
+      "norm_label": "troubleshooting & rollback procedures",
+      "id": "docs_runbook_rollback_procedures"
     }
   ],
   "links": [
@@ -1491,48 +1447,6 @@
       "target": "docs_runbook_stripe_webhooks"
     }
   ],
-  "hyperedges": [
-    {
-      "id": "agents_graphify_cli_commands",
-      "label": "Graphify CLI Commands",
-      "nodes": [
-        "agents_graphify_query",
-        "agents_graphify_path",
-        "agents_graphify_explain",
-        "agents_graphify_update"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"
-    },
-    {
-      "id": "webhook_integrations",
-      "label": "Webhook Integration and Event Handlers",
-      "nodes": [
-        "docs_runbook_clerk_webhooks",
-        "docs_runbook_stripe_webhooks",
-        "docs_contributing_env_variables"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md"
-    },
-    {
-      "id": "import_linting_system",
-      "label": "Import Rules and Code Quality Linting",
-      "nodes": [
-        "readme_eslint_import_validation",
-        "readme_eslint_plugin_boundaries",
-        "readme_eslint_plugin_project_structure",
-        "docs_contributing_pr_checklist"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "C:\\projects\\parity-deals-clone\\README.md"
-    }
-  ],
-  "built_at_commit": "8f3f4f90352448afeb59100a569eb8412b5f0ed0"
+  "hyperedges": [],
+  "built_at_commit": "da81777b357b831b24abc87c326cb35e31298cd5"
 }
