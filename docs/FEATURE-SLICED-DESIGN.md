@@ -88,6 +88,12 @@ Strict dependency rules are enforced via ESLint to prevent cross-feature imports
 4. **Shared Imports Restrictions**: Shared folders are not allowed to import items from features or app folders.
    - **Bridge Exception**: `src/lib/permissions.ts` (shared) is allowed to import from features' `db` folders (`src/features/*/server/db/*`) to evaluate access control across multiple domains (e.g. checking subscription tiers and product count).
 
+> [!NOTE]
+> **Keeping Linters in Sync:** Any import boundary exception (like `permissions.ts`) must be explicitly declared in **both** linting configurations:
+> 1. `.eslintrc.json` (under `boundaries/element-types` rules)
+> 2. `independentModules.jsonc` (project-structure rules)
+> This ensures that regardless of which configuration is active, the workspace builds successfully.
+
 **Examples:**
 
 ```tsx
@@ -149,3 +155,80 @@ Environment variables are validated at runtime using `@t3-oss/env-nextjs` and ar
 - **Client Variables** (`src/data/env/client.ts`): Accessible in Client Components (prefixed with `NEXT_PUBLIC_`).
 
 Do not read `process.env` directly; import `env` from `@/data/env/server` or `@/data/env/client` instead.
+
+### Build-Time Bypass
+To prevent production compilation or CI/CD pipelines from failing due to missing environment variables, configure a validation bypass in `src/data/env/server.ts`:
+
+```typescript
+import { createEnv } from "@t3-oss/env-nextjs"
+import { z } from "zod"
+
+export const env = createEnv({
+  emptyStringAsUndefined: true,
+  skipValidation: !!process.env.SKIP_ENV_VALIDATION, // ⚡ Bypasses validation checks during build compilation
+  server: {
+    DATABASE_URL: z.string().url(),
+    // ... other env schemas ...
+  },
+  experimental__runtimeEnv: process.env,
+})
+```
+
+---
+
+## 📝 React Form Action Type-Safety
+
+When using Server Actions as the action target of standard HTML forms, React expects the function signature to return `void` or `Promise<void>`. Returning objects (e.g. `{ error: boolean }`) will cause TypeScript compilation failures during build time.
+
+### Good Practice: Returning `void`
+```typescript
+// src/features/subscriptions/server/actions/stripe.ts
+export async function createCustomerPortalSession() {
+  const { userId } = auth()
+  if (userId == null) return // returns void, matching React form action signature
+  
+  // ... session creation ...
+}
+```
+
+### Handling Action State & Feedback
+If you need to return status or validation errors back to the client, use React's `useActionState` hook instead of binding the action directly to `<form action={...}>`:
+
+```tsx
+// src/components/MyForm.tsx
+import { useActionState } from "react"
+import { myAction } from "@/features/my-feature/server/actions"
+
+export function MyForm() {
+  const [state, formAction, isPending] = useActionState(myAction, { error: null })
+
+  return (
+    <form action={formAction}>
+      {state.error && <p className="text-red-500">{state.error}</p>}
+      <button disabled={isPending}>Submit</button>
+    </form>
+  )
+}
+```
+
+---
+
+## 🚪 Controlled Feature Communication (Public APIs)
+
+To keep features decoupled, they must never import directly from another feature's internal folders. If Feature A **must** communicate with Feature B, Feature B should expose a controlled entry point via an `index.ts` file in its root.
+
+```text
+src/features/subscriptions/
+├── components/
+├── server/
+└── index.ts        # 🚪 Public API: Only exports safe queries/helpers for other features
+```
+
+### Example Usage:
+```typescript
+// ✅ ALLOWED: Importing from the public feature index API
+import { getUserSubscriptionTier } from "@/features/subscriptions"
+
+// ❌ FORBIDDEN: Importing from the feature's internal folders
+import { getUserSubscriptionTier } from "@/features/subscriptions/server/db/subscription"
+```
