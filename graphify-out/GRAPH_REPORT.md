@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 512 nodes · 949 edges · 32 communities (25 shown, 7 thin omitted)
+- 512 nodes · 954 edges · 32 communities (25 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b6a4f970`
+- Built from commit: `1682529a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,14 +57,14 @@
 10. `Card` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `⚡ DB Caching Pattern` --rationale_for--> `dbCache()`  [EXTRACTED]
-  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
-- `⚡ DB Caching Pattern` --rationale_for--> `revalidateDbCache()`  [EXTRACTED]
-  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
 - `dbCache Caching Pattern` --references--> `dbCache()`  [EXTRACTED]
   AGENTS.md → src/lib/cache.ts
+- `⚡ DB Caching Pattern` --rationale_for--> `dbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
 - `dbCache Caching Pattern` --references--> `revalidateDbCache()`  [EXTRACTED]
   AGENTS.md → src/lib/cache.ts
+- `⚡ DB Caching Pattern` --rationale_for--> `revalidateDbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
 - `ViewsByDayCard()` --calls--> `getViewsByDayChartData()`  [EXTRACTED]
   src/app/dashboard/analytics/page.tsx → src/features/analytics/server/db/productViews.ts
 
@@ -74,12 +74,12 @@
 ## Communities (32 total, 7 thin omitted)
 
 ### Community 0 - "Analytics & Charts"
-Cohesion: 0.07
-Nodes (39): ProductDropdown(), ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), HasPermission(), NoPermissionCard(), NoProducts(), PageWithBackButton() (+31 more)
+Cohesion: 0.10
+Nodes (25): HasPermission(), NoPermissionCard(), NoProducts(), PageWithBackButton(), ProductGrid(), AnalyticsChart(), subscriptionTiersInOrder, CountryTab() (+17 more)
 
 ### Community 1 - "Database & Authentication Webhooks"
 Cohesion: 0.07
-Nodes (52): dbCache Caching Pattern, POST(), stripe, createProduct(), deleteProduct(), getProduct(), getProductCount(), getProductCountryGroups() (+44 more)
+Nodes (47): dbCache Caching Pattern, createProduct(), deleteProduct(), getProduct(), getProductCount(), getProductCountryGroups(), getProductCountryGroupsInternal(), getProductCustomization() (+39 more)
 
 ### Community 2 - "Product Customization & Discounts"
 Cohesion: 0.11
@@ -107,7 +107,7 @@ Nodes (13): updateProductCustomization(), GET(), getCountryCode(), getJavaScript
 
 ### Community 8 - "Stripe Subscriptions & Upgrades"
 Cohesion: 0.15
-Nodes (19): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, getTierByPriceId(), PaidTierNames (+11 more)
+Nodes (22): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, POST(), stripe (+14 more)
 
 ### Community 9 - "TypeScript Configuration"
 Cohesion: 0.10
@@ -154,11 +154,11 @@ Cohesion: 0.14
 Nodes (13): Build-Time Bypass, Caching a Database Query (`src/features/*/server/db/*`), ⚡ DB Caching Pattern, 📂 Directory Structure Overview, 🔒 Environment Variable Validation, 🏗️ Feature-First Mini-Applications, Feature Sliced Design (FSD) Architecture Guidelines, Good Practice: Returning `void` (+5 more)
 
 ### Community 30 - "FSD Form Action Type Safety"
-Cohesion: 0.14
-Nodes (14): ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), compactNumberFormatter, formatCompactNumber(), PricingCard(), PricingCard(), ChartConfig (+6 more)
+Cohesion: 0.07
+Nodes (30): ProductDropdown(), ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), TimezoneDropdownMenuItem() (+22 more)
 
 ## Knowledge Gaps
-- **199 isolated node(s):** `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications`, `📈 The Rule of Promotion`, `🛑 Import Boundary Rules`, `Good Practice: Returning `void`` (+194 more)
+- **199 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+194 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -167,14 +167,14 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `⚡ DB Caching Pattern` connect `FSD Architecture & Promotion Rules` to `Database & Authentication Webhooks`?**
   _High betweenness centrality (0.031) - this node is a cross-community bridge._
-- **Why does `Button` connect `Analytics & Charts` to `Stripe Subscriptions & Upgrades`, `Product Customization & Discounts`, `Product Integration Modal Dialog`?**
+- **Why does `Button` connect `Analytics & Charts` to `Product Customization & Discounts`, `Product Integration Modal Dialog`, `FSD Form Action Type Safety`?**
   _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **What connects `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications`, `📈 The Rule of Promotion` to the rest of the system?**
+- **What connects `extends`, `plugins`, `project-structure/independent-modules-config-path` to the rest of the system?**
   _202 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Analytics & Charts` be split into smaller, more focused modules?**
-  _Cohesion score 0.07211538461538461 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10040816326530612 - nodes in this community are weakly interconnected._
 - **Should `Database & Authentication Webhooks` be split into smaller, more focused modules?**
-  _Cohesion score 0.06639839034205232 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07168458781362007 - nodes in this community are weakly interconnected._
 - **Should `Product Customization & Discounts` be split into smaller, more focused modules?**
   _Cohesion score 0.11153846153846154 - nodes in this community are weakly interconnected._
 - **Should `Contributing Documentation & Setup` be split into smaller, more focused modules?**

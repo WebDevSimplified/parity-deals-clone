@@ -4,6 +4,146 @@
   "graph": {},
   "nodes": [
     {
+      "label": "FEATURE-SLICED-DESIGN.md",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design",
+      "community": 19,
+      "norm_label": "feature-sliced-design.md"
+    },
+    {
+      "label": "Feature Sliced Design (FSD) Architecture Guidelines",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "community": 19,
+      "norm_label": "feature sliced design (fsd) architecture guidelines"
+    },
+    {
+      "label": "\ud83d\udcc2 Directory Structure Overview",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_directory_structure_overview",
+      "community": 19,
+      "norm_label": "\ud83d\udcc2 directory structure overview"
+    },
+    {
+      "label": "\ud83c\udfd7\ufe0f Feature-First Mini-Applications",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_feature_first_mini_applications",
+      "community": 19,
+      "norm_label": "\ud83c\udfd7\ufe0f feature-first mini-applications"
+    },
+    {
+      "label": "\ud83d\udcc8 The Rule of Promotion",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_the_rule_of_promotion",
+      "community": 19,
+      "norm_label": "\ud83d\udcc8 the rule of promotion"
+    },
+    {
+      "label": "\ud83d\uded1 Import Boundary Rules",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_import_boundary_rules",
+      "community": 19,
+      "norm_label": "\ud83d\uded1 import boundary rules"
+    },
+    {
+      "label": "\ud83d\udcdd React Form Action Type-Safety",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_react_form_action_type_safety",
+      "community": 19,
+      "norm_label": "\ud83d\udcdd react form action type-safety"
+    },
+    {
+      "label": "Good Practice: Returning `void`",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_good_practice_returning_void",
+      "community": 19,
+      "norm_label": "good practice: returning `void`"
+    },
+    {
+      "label": "Handling Action State & Feedback",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_handling_action_state_feedback",
+      "community": 19,
+      "norm_label": "handling action state & feedback"
+    },
+    {
+      "label": "\u26a1 DB Caching Pattern",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L158",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_db_caching_pattern",
+      "community": 19,
+      "norm_label": "\u26a1 db caching pattern"
+    },
+    {
+      "label": "Caching a Database Query (`src/features/*/server/db/*`)",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_caching_a_database_query_src_features_server_db",
+      "community": 19,
+      "norm_label": "caching a database query (`src/features/*/server/db/*`)"
+    },
+    {
+      "label": "Revalidating Caches in Server Actions (`src/features/*/server/actions/*`)",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L180",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_revalidating_caches_in_server_actions_src_features_server_actions",
+      "community": 19,
+      "norm_label": "revalidating caches in server actions (`src/features/*/server/actions/*`)"
+    },
+    {
+      "label": "\ud83d\udd12 Environment Variable Validation",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L196",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_environment_variable_validation",
+      "community": 19,
+      "norm_label": "\ud83d\udd12 environment variable validation"
+    },
+    {
+      "label": "Build-Time Bypass",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L205",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_build_time_bypass",
+      "community": 19,
+      "norm_label": "build-time bypass"
+    },
+    {
       "label": ".eslintrc.alt.json",
       "file_type": "code",
       "source_file": ".eslintrc.alt.json",
@@ -1109,7 +1249,7 @@
       "source_file": "src/app/(marketing)/page.tsx",
       "source_location": "L160",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "pricingcard()",
       "id": "marketing_page_pricingcard"
     },
@@ -1379,7 +1519,7 @@
       "source_file": "src/app/dashboard/products/[productId]/edit/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "page.tsx",
       "id": "edit_page"
     },
@@ -1389,7 +1529,7 @@
       "source_file": "src/app/dashboard/products/[productId]/edit/page.tsx",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "editproductpage()",
       "id": "edit_page_editproductpage"
     },
@@ -1399,7 +1539,7 @@
       "source_file": "src/app/dashboard/products/[productId]/edit/page.tsx",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "detailstab()",
       "id": "edit_page_detailstab"
     },
@@ -1409,7 +1549,7 @@
       "source_file": "src/app/dashboard/products/[productId]/edit/page.tsx",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "countrytab()",
       "id": "edit_page_countrytab"
     },
@@ -1449,7 +1589,7 @@
       "source_file": "src/app/dashboard/products/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "page.tsx",
       "id": "products_page"
     },
@@ -1469,7 +1609,7 @@
       "source_file": "src/app/dashboard/subscription/page.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 8,
       "norm_label": "page.tsx",
       "id": "subscription_page"
     },
@@ -1479,7 +1619,7 @@
       "source_file": "src/app/dashboard/subscription/page.tsx",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 7,
+      "community": 1,
       "norm_label": "subscriptionpage()",
       "id": "subscription_page_subscriptionpage"
     },
@@ -1489,7 +1629,7 @@
       "source_file": "src/app/dashboard/subscription/page.tsx",
       "source_location": "L106",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "pricingcard()",
       "id": "subscription_page_pricingcard"
     },
@@ -1499,7 +1639,7 @@
       "source_file": "src/app/dashboard/subscription/page.tsx",
       "source_location": "L160",
       "_origin": "ast",
-      "community": 0,
+      "community": 8,
       "norm_label": "feature()",
       "id": "subscription_page_feature"
     },
@@ -1679,7 +1819,7 @@
       "source_file": "src/components/PageWithBackButton.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "pagewithbackbutton.tsx",
       "id": "components_pagewithbackbutton"
     },
@@ -1689,7 +1829,7 @@
       "source_file": "src/components/PageWithBackButton.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "pagewithbackbutton()",
       "id": "components_pagewithbackbutton_pagewithbackbutton"
     },
@@ -1849,7 +1989,7 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "button.tsx",
       "id": "ui_button"
     },
@@ -1869,7 +2009,7 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "buttonprops",
       "id": "ui_button_buttonprops"
     },
@@ -1879,7 +2019,7 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "button",
       "id": "ui_button_button"
     },
@@ -1959,7 +2099,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chart.tsx",
       "id": "ui_chart"
     },
@@ -1969,7 +2109,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "themes",
       "id": "ui_chart_themes"
     },
@@ -1979,7 +2119,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartconfig",
       "id": "ui_chart_chartconfig"
     },
@@ -1989,7 +2129,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartcontextprops",
       "id": "ui_chart_chartcontextprops"
     },
@@ -1999,7 +2139,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartcontext",
       "id": "ui_chart_chartcontext"
     },
@@ -2009,7 +2149,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "usechart()",
       "id": "ui_chart_usechart"
     },
@@ -2019,7 +2159,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartcontainer",
       "id": "ui_chart_chartcontainer"
     },
@@ -2029,7 +2169,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartstyle()",
       "id": "ui_chart_chartstyle"
     },
@@ -2039,7 +2179,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "charttooltipcontent",
       "id": "ui_chart_charttooltipcontent"
     },
@@ -2049,7 +2189,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L260",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "chartlegendcontent",
       "id": "ui_chart_chartlegendcontent"
     },
@@ -2059,7 +2199,7 @@
       "source_file": "src/components/ui/chart.tsx",
       "source_location": "L319",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "getpayloadconfigfrompayload()",
       "id": "ui_chart_getpayloadconfigfrompayload"
     },
@@ -2419,7 +2559,7 @@
       "source_file": "src/components/ui/progress.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 8,
       "norm_label": "progress.tsx",
       "id": "ui_progress"
     },
@@ -2429,7 +2569,7 @@
       "source_file": "src/components/ui/progress.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 8,
       "norm_label": "progress",
       "id": "ui_progress_progress"
     },
@@ -2459,7 +2599,7 @@
       "source_file": "src/components/ui/tabs.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "tabs.tsx",
       "id": "ui_tabs"
     },
@@ -2469,7 +2609,7 @@
       "source_file": "src/components/ui/tabs.tsx",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "tabslist",
       "id": "ui_tabs_tabslist"
     },
@@ -2479,7 +2619,7 @@
       "source_file": "src/components/ui/tabs.tsx",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "tabstrigger",
       "id": "ui_tabs_tabstrigger"
     },
@@ -2489,7 +2629,7 @@
       "source_file": "src/components/ui/tabs.tsx",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "tabscontent",
       "id": "ui_tabs_tabscontent"
     },
@@ -2689,7 +2829,7 @@
       "source_file": "src/data/subscriptionTiers.ts",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 0,
+      "community": 8,
       "norm_label": "subscriptiontiersinorder",
       "id": "data_subscriptiontiers_subscriptiontiersinorder"
     },
@@ -2899,7 +3039,7 @@
       "source_file": "src/drizzle/schema.ts",
       "source_location": "L177",
       "_origin": "ast",
-      "community": 1,
+      "community": 8,
       "norm_label": "usersubscriptiontable",
       "id": "drizzle_schema_usersubscriptiontable"
     },
@@ -2929,7 +3069,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByCountryChart.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbycountrychart.tsx",
       "id": "charts_viewsbycountrychart"
     },
@@ -2939,7 +3079,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByCountryChart.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbycountrychart()",
       "id": "charts_viewsbycountrychart_viewsbycountrychart"
     },
@@ -2949,7 +3089,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByDayChart.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbydaychart.tsx",
       "id": "charts_viewsbydaychart"
     },
@@ -2959,7 +3099,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByDayChart.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbydaychart()",
       "id": "charts_viewsbydaychart_viewsbydaychart"
     },
@@ -2969,7 +3109,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByPPPChart.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbypppchart.tsx",
       "id": "charts_viewsbypppchart"
     },
@@ -2979,7 +3119,7 @@
       "source_file": "src/features/analytics/components/charts/ViewsByPPPChart.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "viewsbypppchart()",
       "id": "charts_viewsbypppchart_viewsbypppchart"
     },
@@ -2999,7 +3139,7 @@
       "source_file": "src/features/analytics/server/db/productViews.ts",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 7,
+      "community": 1,
       "norm_label": "getproductviewcount()",
       "id": "db_productviews_getproductviewcount"
     },
@@ -3199,7 +3339,7 @@
       "source_file": "src/features/products/components/NoProducts.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "noproducts.tsx",
       "id": "components_noproducts"
     },
@@ -3209,7 +3349,7 @@
       "source_file": "src/features/products/components/NoProducts.tsx",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "noproducts()",
       "id": "components_noproducts_noproducts"
     },
@@ -3299,7 +3439,7 @@
       "source_file": "src/features/products/components/forms/ProductDeailsForm.tsx",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 2,
+      "community": 0,
       "norm_label": "productdetailsform()",
       "id": "forms_productdeailsform_productdetailsform"
     },
@@ -3399,7 +3539,7 @@
       "source_file": "src/features/products/server/actions/products.ts",
       "source_location": "L117",
       "_origin": "ast",
-      "community": 2,
+      "community": 7,
       "norm_label": "updateproductcustomization()",
       "id": "actions_products_updateproductcustomization"
     },
@@ -3459,7 +3599,7 @@
       "source_file": "src/features/products/server/db/products.ts",
       "source_location": "L70",
       "_origin": "ast",
-      "community": 7,
+      "community": 1,
       "norm_label": "getproductcount()",
       "id": "db_products_getproductcount"
     },
@@ -3909,7 +4049,7 @@
       "source_file": "src/lib/formatters.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "formatters.ts",
       "id": "lib_formatters"
     },
@@ -3919,7 +4059,7 @@
       "source_file": "src/lib/formatters.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "compactnumberformatter",
       "id": "lib_formatters_compactnumberformatter"
     },
@@ -3929,7 +4069,7 @@
       "source_file": "src/lib/formatters.ts",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 30,
       "norm_label": "formatcompactnumber()",
       "id": "lib_formatters_formatcompactnumber"
     },
@@ -5054,132 +5194,159 @@
       "community": 8,
       "norm_label": "getsubscriptionupgradesession()",
       "id": "actions_stripe_getsubscriptionupgradesession"
-    },
-    {
-      "label": "Feature Sliced Design Architecture",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Decouples feature domains into self-contained mini-applications to reduce complexity, prevent early optimization, and limit horizontal dependency chains across business capabilities.",
-      "community": 19,
-      "norm_label": "feature sliced design architecture",
-      "id": "docs_feature_sliced_design_fsd_architecture"
-    },
-    {
-      "label": "Rule of Promotion",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Avoids global pollution and premature abstraction by keeping all code locally-scoped in features first, and only promoting to shared/global directories when a secondary feature explicitly demands it.",
-      "community": 19,
-      "norm_label": "rule of promotion",
-      "id": "docs_feature_sliced_design_rule_of_promotion"
-    },
-    {
-      "label": "FSD Import Boundary Rules",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Enforces strict limits on imports (features cannot import from features, shared cannot import from features) using ESLint boundaries to maintain clear feature isolation and prevent codebase circular dependencies.",
-      "community": 19,
-      "norm_label": "fsd import boundary rules",
-      "id": "docs_feature_sliced_design_import_boundary_rules"
-    },
-    {
-      "label": "React Form Action Type Safety Pattern",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Standardizes form action return signatures to void to satisfy React expectations and avoid TypeScript compiler errors, advocating for useActionState when action feedback/state needs propagation.",
-      "community": 30,
-      "norm_label": "react form action type safety pattern",
-      "id": "docs_feature_sliced_design_form_action_type_safety"
-    },
-    {
-      "label": "Database Caching & Revalidation Pattern",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Encapsulates unstable_cache using dbCache to speed up database reads in feature folders, paired with manual cache revalidation using revalidateDbCache within mutating Server Actions.",
-      "community": 1,
-      "norm_label": "database caching & revalidation pattern",
-      "id": "docs_feature_sliced_design_db_caching_pattern"
-    },
-    {
-      "label": "Runtime Env Validation Pattern",
-      "file_type": "rationale",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Ensures type safety and strict schema validation for environment variables at runtime with @t3-oss/env-nextjs, while providing a SKIP_ENV_VALIDATION bypass to prevent build pipeline failures.",
-      "community": 8,
-      "norm_label": "runtime env validation pattern",
-      "id": "docs_feature_sliced_design_env_variable_validation"
-    },
-    {
-      "label": "src/lib/permissions.ts",
-      "file_type": "code",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 19,
-      "norm_label": "src/lib/permissions.ts",
-      "id": "lib_permissions_permissions"
-    },
-    {
-      "label": "env (Server)",
-      "file_type": "code",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 8,
-      "norm_label": "env (server)",
-      "id": "env_server_env"
-    },
-    {
-      "label": "env (Client)",
-      "file_type": "code",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 8,
-      "norm_label": "env (client)",
-      "id": "env_client_env"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design",
+      "target": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_db_caching_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_directory_structure_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_environment_variable_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_feature_first_mini_applications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_import_boundary_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_react_form_action_type_safety",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_the_rule_of_promotion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_react_form_action_type_safety",
+      "target": "docs_feature_sliced_design_good_practice_returning_void",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_react_form_action_type_safety",
+      "target": "docs_feature_sliced_design_handling_action_state_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_db_caching_pattern",
+      "target": "docs_feature_sliced_design_caching_a_database_query_src_features_server_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_db_caching_pattern",
+      "target": "docs_feature_sliced_design_revalidating_caches_in_server_actions_src_features_server_actions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_db_caching_pattern",
+      "target": "lib_cache_dbcache"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_db_caching_pattern",
+      "target": "lib_cache_revalidatedbcache"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "docs_feature_sliced_design_environment_variable_validation",
+      "target": "docs_feature_sliced_design_build_time_bypass",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -14001,16 +14168,6 @@
       "target": "lib_cache_dbcache"
     },
     {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_db_caching_pattern",
-      "target": "lib_cache_dbcache"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -14018,16 +14175,6 @@
       "source_location": null,
       "weight": 1.0,
       "source": "agents_db_caching",
-      "target": "lib_cache_revalidatedbcache"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_db_caching_pattern",
       "target": "lib_cache_revalidatedbcache"
     },
     {
@@ -15031,28 +15178,6 @@
       "target": "actions_stripe_stripe"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/subscriptions/server/actions/stripe.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "actions_stripe",
-      "target": "env_client_env"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/subscriptions/server/actions/stripe.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "actions_stripe",
-      "target": "env_server_env"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -15073,78 +15198,8 @@
       "confidence_score": 1.0,
       "source": "actions_stripe_createcheckoutsession",
       "target": "actions_stripe_getsubscriptionupgradesession"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_fsd_architecture",
-      "target": "docs_feature_sliced_design_import_boundary_rules"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_fsd_architecture",
-      "target": "docs_feature_sliced_design_rule_of_promotion"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_rule_of_promotion",
-      "target": "docs_feature_sliced_design_import_boundary_rules"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_import_boundary_rules",
-      "target": "lib_permissions_permissions"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_env_variable_validation",
-      "target": "env_client_env"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_env_variable_validation",
-      "target": "env_server_env"
-    },
-    {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "env_server_env",
-      "target": "env_client_env"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e82ea2583343e5e56b7c764af907432bf9dc93c5"
+  "built_at_commit": "b6a4f970593d0c3b5329a1266f0e2baf13abc17c"
 }
