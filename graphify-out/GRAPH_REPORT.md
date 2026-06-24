@@ -1,159 +1,172 @@
 # Graph Report - parity-deals-clone  (2026-06-24)
 
 ## Corpus Check
-- 86 files · ~20,563 words
+- 86 files · ~20,746 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 114 nodes · 40 edges · 80 communities (5 shown, 75 thin omitted)
-- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
+- 515 nodes · 966 edges · 27 communities (23 shown, 4 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `68a9205d`
+- Built from commit: `424234ff`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Community 0|Community 0]]
-- [[_COMMUNITY_Community 1|Community 1]]
-- [[_COMMUNITY_Community 2|Community 2]]
-- [[_COMMUNITY_Community 3|Community 3]]
-- [[_COMMUNITY_Community 4|Community 4]]
-- [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 9|Community 9]]
-- [[_COMMUNITY_Community 10|Community 10]]
-- [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
-- [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 15|Community 15]]
-- [[_COMMUNITY_Community 16|Community 16]]
-- [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
-- [[_COMMUNITY_Community 19|Community 19]]
-- [[_COMMUNITY_Community 20|Community 20]]
-- [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
-- [[_COMMUNITY_Community 23|Community 23]]
-- [[_COMMUNITY_Community 24|Community 24]]
-- [[_COMMUNITY_Community 25|Community 25]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
-- [[_COMMUNITY_Community 32|Community 32]]
-- [[_COMMUNITY_Community 33|Community 33]]
-- [[_COMMUNITY_Community 34|Community 34]]
-- [[_COMMUNITY_Community 35|Community 35]]
-- [[_COMMUNITY_Community 36|Community 36]]
-- [[_COMMUNITY_Community 37|Community 37]]
-- [[_COMMUNITY_Community 38|Community 38]]
-- [[_COMMUNITY_Community 39|Community 39]]
-- [[_COMMUNITY_Community 40|Community 40]]
-- [[_COMMUNITY_Community 41|Community 41]]
-- [[_COMMUNITY_Community 42|Community 42]]
-- [[_COMMUNITY_Community 43|Community 43]]
-- [[_COMMUNITY_Community 44|Community 44]]
-- [[_COMMUNITY_Community 45|Community 45]]
-- [[_COMMUNITY_Community 46|Community 46]]
-- [[_COMMUNITY_Community 47|Community 47]]
-- [[_COMMUNITY_Community 48|Community 48]]
-- [[_COMMUNITY_Community 49|Community 49]]
-- [[_COMMUNITY_Community 50|Community 50]]
-- [[_COMMUNITY_Community 51|Community 51]]
-- [[_COMMUNITY_Community 52|Community 52]]
-- [[_COMMUNITY_Community 53|Community 53]]
-- [[_COMMUNITY_Community 54|Community 54]]
-- [[_COMMUNITY_Community 55|Community 55]]
-- [[_COMMUNITY_Community 56|Community 56]]
-- [[_COMMUNITY_Community 57|Community 57]]
-- [[_COMMUNITY_Community 58|Community 58]]
-- [[_COMMUNITY_Community 59|Community 59]]
-- [[_COMMUNITY_Community 60|Community 60]]
-- [[_COMMUNITY_Community 61|Community 61]]
-- [[_COMMUNITY_Community 62|Community 62]]
-- [[_COMMUNITY_Community 63|Community 63]]
-- [[_COMMUNITY_Community 64|Community 64]]
-- [[_COMMUNITY_Community 65|Community 65]]
-- [[_COMMUNITY_Community 66|Community 66]]
-- [[_COMMUNITY_Community 67|Community 67]]
-- [[_COMMUNITY_Community 68|Community 68]]
-- [[_COMMUNITY_Community 69|Community 69]]
-- [[_COMMUNITY_Community 70|Community 70]]
-- [[_COMMUNITY_Community 71|Community 71]]
-- [[_COMMUNITY_Community 72|Community 72]]
-- [[_COMMUNITY_Community 73|Community 73]]
-- [[_COMMUNITY_Community 74|Community 74]]
-- [[_COMMUNITY_Community 75|Community 75]]
-- [[_COMMUNITY_Community 76|Community 76]]
-- [[_COMMUNITY_Community 77|Community 77]]
-- [[_COMMUNITY_Community 78|Community 78]]
-- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Development Operations & Contribution Setup|Development Operations & Contribution Setup]]
+- [[_COMMUNITY_Feature Sliced Design (FSD) Rules & Boundaries|Feature Sliced Design (FSD) Rules & Boundaries]]
+- [[_COMMUNITY_Production Operations & Webhooks|Production Operations & Webhooks]]
+- [[_COMMUNITY_Core Integrations & Tech Stack|Core Integrations & Tech Stack]]
+- [[_COMMUNITY_Build Tooling & Workspaces|Build Tooling & Workspaces]]
+- [[_COMMUNITY_Database Query Caching (dbCache)|Database Query Caching (dbCache)]]
+- [[_COMMUNITY_Environment Variables Validation|Environment Variables Validation]]
+- [[_COMMUNITY_createProduct|createProduct]]
+- [[_COMMUNITY_deleteProduct|deleteProduct]]
+- [[_COMMUNITY_updateCountryDiscounts|updateCountryDiscounts]]
+- [[_COMMUNITY_updateProduct|updateProduct]]
+- [[_COMMUNITY_updateProductCustomization|updateProductCustomization]]
+- [[_COMMUNITY_createCancelSession|createCancelSession]]
+- [[_COMMUNITY_createCheckoutSession|createCheckoutSession]]
+- [[_COMMUNITY_createCustomerPortalSession|createCustomerPortalSession]]
+- [[_COMMUNITY_RootLayout|RootLayout]]
+- [[_COMMUNITY_GET|GET]]
+- [[_COMMUNITY_ViewsByCountryChart|ViewsByCountryChart]]
+- [[_COMMUNITY_POST|POST]]
+- [[_COMMUNITY_Banner|Banner]]
+- [[_COMMUNITY_BrandLogo|BrandLogo]]
+- [[_COMMUNITY_HasPermission|HasPermission]]
+- [[_COMMUNITY_getTierByPriceId|getTierByPriceId]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Parity Deals Clone` - 7 edges
-2. `Runbook` - 7 edges
-3. `Contributing Guide` - 6 edges
-4. `🏗️ Feature Sliced Design (`src/features/`)` - 4 edges
-5. `allowBuilds` - 4 edges
-6. `ESLint Import Validation` - 4 edges
-7. `Feature Sliced Design (FSD) Architecture Guidelines` - 3 edges
-8. `Architecture` - 3 edges
-9. `Environment Variables Configuration` - 3 edges
-10. `Clerk Webhook Integration` - 3 edges
+1. `revalidateDbCache()` - 18 edges
+2. `dbCache()` - 17 edges
+3. `compilerOptions` - 16 edges
+4. `Button` - 14 edges
+5. `getUserTag()` - 12 edges
+6. `useToast()` - 11 edges
+7. `getIdTag()` - 11 edges
+8. `Runbook` - 11 edges
+9. `scripts` - 10 edges
+10. `Card` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Contributing Guide` --references--> `ESLint Import Validation`  [EXTRACTED]
-  docs/CONTRIBUTING.md → README.md
-- `Local Development Setup` --conceptually_related_to--> `Database Migration Procedure`  [INFERRED]
-  docs/CONTRIBUTING.md → docs/RUNBOOK.md
-- `Environment Variables Configuration` --conceptually_related_to--> `Clerk Webhook Integration`  [INFERRED]
-  docs/CONTRIBUTING.md → docs/RUNBOOK.md
-- `Environment Variables Configuration` --conceptually_related_to--> `Stripe Webhook Integration`  [INFERRED]
-  docs/CONTRIBUTING.md → docs/RUNBOOK.md
+- `dbCache Caching Pattern` --semantically_similar_to--> `⚡ DB Caching Pattern`  [INFERRED] [semantically similar]
+  AGENTS.md → docs/FEATURE-SLICED-DESIGN.md
+- `Feature Directory Pattern` --semantically_similar_to--> `Feature Sliced Design (FSD)`  [INFERRED] [semantically similar]
+  AGENTS.md → docs/FEATURE-SLICED-DESIGN.md
+- `⚡ DB Caching Pattern` --references--> `dbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
+- `⚡ DB Caching Pattern` --references--> `revalidateDbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
+- `ESLint Import Boundaries` --semantically_similar_to--> `🛑 Import Boundary Rules`  [INFERRED] [semantically similar]
+  AGENTS.md → docs/FEATURE-SLICED-DESIGN.md
 
 ## Import Cycles
 - None detected.
 
-## Communities (80 total, 75 thin omitted)
+## Hyperedges (group relationships)
+- **FSD Architectural Boundaries & Exceptions** — docs_feature_sliced_design_fsd, docs_feature_sliced_design_isolation_principle, docs_feature_sliced_design_import_boundary_rules, docs_feature_sliced_design_bridge_exception [EXTRACTED 1.00]
+- **Runtime Validation & DB Caching** — docs_feature_sliced_design_db_caching_pattern, docs_feature_sliced_design_env_validation, lib_cache_dbcache, env_server_variables [INFERRED 0.85]
 
-### Community 0 - "Community 0"
-Cohesion: 0.29
-Nodes (7): Available Commands, Contributing Guide, PR Submission Checklist, ESLint Import Validation, eslint-plugin-boundaries, eslint-plugin-project-structure, Feature Folder System
+## Communities (27 total, 4 thin omitted)
 
-### Community 1 - "Community 1"
-Cohesion: 0.20
-Nodes (9): Architecture, Commands, Feature directory pattern (`src/features/*/`), graphify, Import boundaries (enforced by ESLint), Key quirks, Local setup, Parity Deals Clone (+1 more)
+### Community 0 - "Development Operations & Contribution Setup"
+Cohesion: 0.06
+Nodes (37): Available Commands, Clerk Authentication, Code Quality and Import Rules, Contributing Guide, Database, Environment Variables Configuration, Environment Variables, General Configuration & Local Testing (+29 more)
 
-### Community 2 - "Community 2"
-Cohesion: 0.28
-Nodes (9): Environment Variables Configuration, Local Development Setup, Clerk Webhook Integration, Database Migration Procedure, Health Checks & Monitoring, Troubleshooting & Rollback Procedures, Runbook, Stripe Webhook Integration (+1 more)
+### Community 1 - "Feature Sliced Design (FSD) Rules & Boundaries"
+Cohesion: 0.09
+Nodes (24): Clerk Authentication System, Env Validation Strategy, Feature Directory Pattern, ESLint Import Boundaries, Neon Serverless & Drizzle ORM Integration, Next.js Framework Integration, Parity Deals Clone Project Overview, Stripe Payments Integration (+16 more)
 
-### Community 3 - "Community 3"
+### Community 2 - "Production Operations & Webhooks"
+Cohesion: 0.04
+Nodes (46): dependencies, class-variance-authority, @clerk/nextjs, clsx, date-fns, @date-fns/tz, drizzle-orm, @hookform/resolvers (+38 more)
+
+### Community 3 - "Core Integrations & Tech Stack"
+Cohesion: 0.10
+Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
+
+### Community 4 - "Build Tooling & Workspaces"
 Cohesion: 0.40
 Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
-### Community 4 - "Community 4"
+### Community 5 - "Database Query Caching (dbCache)"
+Cohesion: 0.06
+Nodes (63): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, dbCache Caching Pattern, GET() (+55 more)
+
+### Community 6 - "Environment Variables Validation"
+Cohesion: 0.12
+Nodes (16): aliases, components, hooks, lib, ui, utils, rsc, $schema (+8 more)
+
+### Community 7 - "createProduct"
+Cohesion: 0.10
+Nodes (31): createProduct(), updateCountryDiscounts(), updateProduct(), updateProductCustomization(), Banner(), DeleteProductAlertDialogContent(), RequiredLabelIcon(), CountryDiscountsForm() (+23 more)
+
+### Community 8 - "deleteProduct"
+Cohesion: 0.27
+Nodes (10): deleteProduct(), AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter(), AlertDialogHeader(), AlertDialogOverlay (+2 more)
+
+### Community 9 - "updateCountryDiscounts"
+Cohesion: 0.14
+Nodes (14): devDependencies, drizzle-kit, eslint, eslint-config-next, eslint-plugin-boundaries, eslint-plugin-import, eslint-plugin-project-structure, postcss (+6 more)
+
+### Community 10 - "updateProduct"
+Cohesion: 0.26
+Nodes (9): AddToSiteProductModalContent(), CopyState, getChildren(), getCopyIcon(), DialogContent, DialogDescription, DialogHeader(), DialogOverlay (+1 more)
+
+### Community 11 - "updateProductCustomization"
+Cohesion: 0.20
+Nodes (9): Architecture, Commands, Feature directory pattern (`src/features/*/`), graphify, Import boundaries (enforced by ESLint), Key quirks, Local setup, Parity Deals Clone (+1 more)
+
+### Community 12 - "createCancelSession"
+Cohesion: 0.20
+Nodes (9): extends, plugins, rules, boundaries/element-types, boundaries/no-unknown, boundaries/no-unknown-files, settings, boundaries/elements (+1 more)
+
+### Community 13 - "createCheckoutSession"
 Cohesion: 0.29
-Nodes (6): 📂 Directory Structure Overview, Feature Internal Structure, Feature Sliced Design (FSD) Architecture Guidelines, 🏗️ Feature Sliced Design (`src/features/`), 🛑 Import Rules, Isolation Principle
+Nodes (6): extends, plugins, rules, project-structure/independent-modules, settings, project-structure/independent-modules-config-path
+
+### Community 15 - "RootLayout"
+Cohesion: 0.09
+Nodes (26): geistMono, geistSans, metadata, Action, ActionType, actionTypes, addToRemoveQueue(), dispatch() (+18 more)
+
+### Community 18 - "ViewsByCountryChart"
+Cohesion: 0.09
+Nodes (22): ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), TimezoneDropdownMenuItem(), ChartConfig (+14 more)
+
+### Community 21 - "BrandLogo"
+Cohesion: 0.29
+Nodes (3): BrandLogo(), DashboardNavBar(), MarketingNavBar()
+
+### Community 23 - "HasPermission"
+Cohesion: 0.10
+Nodes (27): ProductDropdown(), HasPermission(), NoPermissionCard(), NoProducts(), PageWithBackButton(), ProductGrid(), AnalyticsChart(), DashboardPage() (+19 more)
+
+### Community 32 - "getTierByPriceId"
+Cohesion: 0.11
+Nodes (22): getTierByPriceId(), updateUserSubscription(), countryGroupDiscountRelations, CountryGroupDiscountTable, countryGroupRelations, CountryGroupTable, countryRelations, CountryTable (+14 more)
 
 ## Knowledge Gaps
-- **95 isolated node(s):** `📂 Directory Structure Overview`, `Isolation Principle`, `Feature Internal Structure`, `🛑 Import Rules`, `Stack` (+90 more)
+- **196 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+191 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **75 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Runbook` connect `Community 2` to `Community 0`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **Why does `Contributing Guide` connect `Community 0` to `Community 2`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `📂 Directory Structure Overview`, `Isolation Principle`, `Feature Internal Structure` to the rest of the system?**
-  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `⚡ DB Caching Pattern` connect `Feature Sliced Design (FSD) Rules & Boundaries` to `Database Query Caching (dbCache)`?**
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+- **Why does `dbCache()` connect `Database Query Caching (dbCache)` to `Feature Sliced Design (FSD) Rules & Boundaries`, `HasPermission`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `revalidateDbCache()` connect `Database Query Caching (dbCache)` to `getTierByPriceId`, `Feature Sliced Design (FSD) Rules & Boundaries`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **What connects `extends`, `plugins`, `project-structure/independent-modules-config-path` to the rest of the system?**
+  _198 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Development Operations & Contribution Setup` be split into smaller, more focused modules?**
+  _Cohesion score 0.05897435897435897 - nodes in this community are weakly interconnected._
+- **Should `Feature Sliced Design (FSD) Rules & Boundaries` be split into smaller, more focused modules?**
+  _Cohesion score 0.09333333333333334 - nodes in this community are weakly interconnected._
+- **Should `Production Operations & Webhooks` be split into smaller, more focused modules?**
+  _Cohesion score 0.0425531914893617 - nodes in this community are weakly interconnected._

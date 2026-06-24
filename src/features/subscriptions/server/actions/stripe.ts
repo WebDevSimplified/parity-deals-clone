@@ -12,17 +12,17 @@ const stripe = new Stripe(serverEnv.STRIPE_SECRET_KEY)
 
 export async function createCancelSession() {
   const user = await currentUser()
-  if (user == null) return { error: true }
+  if (user == null) return
 
   const subscription = await getUserSubscription(user.id)
 
-  if (subscription == null) return { error: true }
+  if (subscription == null) return
 
   if (
     subscription.stripeCustomerId == null ||
     subscription.stripeSubscriptionId == null
   ) {
-    return new Response(null, { status: 500 })
+    return
   }
 
   const portalSession = await stripe.billingPortal.sessions.create({
@@ -42,12 +42,12 @@ export async function createCancelSession() {
 export async function createCustomerPortalSession() {
   const { userId } = auth()
 
-  if (userId == null) return { error: true }
+  if (userId == null) return
 
   const subscription = await getUserSubscription(userId)
 
   if (subscription?.stripeCustomerId == null) {
-    return { error: true }
+    return
   }
 
   const portalSession = await stripe.billingPortal.sessions.create({
@@ -60,15 +60,15 @@ export async function createCustomerPortalSession() {
 
 export async function createCheckoutSession(tier: PaidTierNames) {
   const user = await currentUser()
-  if (user == null) return { error: true }
+  if (user == null) return
 
   const subscription = await getUserSubscription(user.id)
 
-  if (subscription == null) return { error: true }
+  if (subscription == null) return
 
   if (subscription.stripeCustomerId == null) {
     const url = await getCheckoutSession(tier, user)
-    if (url == null) return { error: true }
+    if (url == null) return
     redirect(url)
   } else {
     const url = await getSubscriptionUpgradeSession(tier, subscription)
