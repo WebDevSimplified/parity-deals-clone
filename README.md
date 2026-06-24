@@ -21,3 +21,12 @@ If you want to check import validation using `eslint-plugin-project-structure`:
 
 1. Remove `.eslintrc.json`.
 2. Rename `.eslintrc.alt.json` to `.eslintrc.json`.
+
+---
+
+## Documentation
+
+For setup, operations, and development guidance, refer to:
+- [Contributing Guide](docs/CONTRIBUTING.md) — local setup, commands, environment variables, and coding style rules.
+- [Runbook](docs/RUNBOOK.md) — deployment guides, webhook configuration, monitoring, and troubleshooting steps.
+
