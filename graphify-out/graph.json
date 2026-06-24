@@ -1241,7 +1241,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "stripe_route",
-      "community": 8,
+      "community": 32,
       "norm_label": "route.ts"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "stripe_route_stripe",
-      "community": 8,
+      "community": 32,
       "norm_label": "stripe"
     },
     {
@@ -1261,7 +1261,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "stripe_route_post",
-      "community": 8,
+      "community": 32,
       "norm_label": "post()"
     },
     {
@@ -1271,7 +1271,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "stripe_route_handlecreate",
-      "community": 8,
+      "community": 32,
       "norm_label": "handlecreate()"
     },
     {
@@ -1281,7 +1281,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "stripe_route_handleupdate",
-      "community": 8,
+      "community": 32,
       "norm_label": "handleupdate()"
     },
     {
@@ -1291,7 +1291,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "stripe_route_handledelete",
-      "community": 8,
+      "community": 32,
       "norm_label": "handledelete()"
     },
     {
@@ -1331,7 +1331,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "analytics_page_viewsbydaycard",
-      "community": 32,
+      "community": 23,
       "norm_label": "viewsbydaycard()"
     },
     {
@@ -1341,7 +1341,7 @@
       "source_location": "L189",
       "_origin": "ast",
       "id": "analytics_page_viewsbypppcard",
-      "community": 32,
+      "community": 5,
       "norm_label": "viewsbypppcard()"
     },
     {
@@ -1351,7 +1351,7 @@
       "source_location": "L206",
       "_origin": "ast",
       "id": "analytics_page_viewsbycountrycard",
-      "community": 32,
+      "community": 5,
       "norm_label": "viewsbycountrycard()"
     },
     {
@@ -1401,7 +1401,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "dashboard_page_analyticschart",
-      "community": 32,
+      "community": 23,
       "norm_label": "analyticschart()"
     },
     {
@@ -1411,7 +1411,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "edit_page",
-      "community": 7,
+      "community": 5,
       "norm_label": "page.tsx"
     },
     {
@@ -1421,7 +1421,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "edit_page_editproductpage",
-      "community": 32,
+      "community": 5,
       "norm_label": "editproductpage()"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "edit_page_detailstab",
-      "community": 7,
+      "community": 5,
       "norm_label": "detailstab()"
     },
     {
@@ -1441,7 +1441,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "edit_page_countrytab",
-      "community": 32,
+      "community": 5,
       "norm_label": "countrytab()"
     },
     {
@@ -1451,7 +1451,7 @@
       "source_location": "L113",
       "_origin": "ast",
       "id": "edit_page_customizationstab",
-      "community": 7,
+      "community": 5,
       "norm_label": "customizationstab()"
     },
     {
@@ -1711,7 +1711,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_pagewithbackbutton",
-      "community": 23,
+      "community": 5,
       "norm_label": "pagewithbackbutton.tsx"
     },
     {
@@ -1721,7 +1721,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "components_pagewithbackbutton_pagewithbackbutton",
-      "community": 23,
+      "community": 5,
       "norm_label": "pagewithbackbutton()"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_alert_dialog",
-      "community": 15,
+      "community": 8,
       "norm_label": "alert-dialog.tsx"
     },
     {
@@ -1801,7 +1801,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogoverlay",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogoverlay"
     },
     {
@@ -1811,7 +1811,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogcontent",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogcontent"
     },
     {
@@ -1821,7 +1821,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogheader",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogheader()"
     },
     {
@@ -1831,7 +1831,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogfooter",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogfooter()"
     },
     {
@@ -1841,7 +1841,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogtitle",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogtitle"
     },
     {
@@ -1851,7 +1851,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogdescription",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogdescription"
     },
     {
@@ -1861,7 +1861,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogaction",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogaction"
     },
     {
@@ -1871,7 +1871,7 @@
       "source_location": "L113",
       "_origin": "ast",
       "id": "ui_alert_dialog_alertdialogcancel",
-      "community": 15,
+      "community": 8,
       "norm_label": "alertdialogcancel"
     },
     {
@@ -1891,7 +1891,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "ui_button_buttonvariants",
-      "community": 15,
+      "community": 8,
       "norm_label": "buttonvariants"
     },
     {
@@ -2491,7 +2491,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "ui_tabs",
-      "community": 7,
+      "community": 5,
       "norm_label": "tabs.tsx"
     },
     {
@@ -2501,7 +2501,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "ui_tabs_tabslist",
-      "community": 7,
+      "community": 5,
       "norm_label": "tabslist"
     },
     {
@@ -2511,7 +2511,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "ui_tabs_tabstrigger",
-      "community": 7,
+      "community": 5,
       "norm_label": "tabstrigger"
     },
     {
@@ -2521,7 +2521,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "ui_tabs_tabscontent",
-      "community": 7,
+      "community": 5,
       "norm_label": "tabscontent"
     },
     {
@@ -2681,7 +2681,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "data_subscriptiontiers",
-      "community": 8,
+      "community": 32,
       "norm_label": "subscriptiontiers.ts"
     },
     {
@@ -2691,7 +2691,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "data_subscriptiontiers_tiernames",
-      "community": 8,
+      "community": 32,
       "norm_label": "tiernames"
     },
     {
@@ -2701,7 +2701,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "data_subscriptiontiers_paidtiernames",
-      "community": 8,
+      "community": 32,
       "norm_label": "paidtiernames"
     },
     {
@@ -2711,7 +2711,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "data_subscriptiontiers_subscriptiontiers",
-      "community": 8,
+      "community": 32,
       "norm_label": "subscriptiontiers"
     },
     {
@@ -2731,7 +2731,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "data_subscriptiontiers_gettierbypriceid",
-      "community": 8,
+      "community": 32,
       "norm_label": "gettierbypriceid()"
     },
     {
@@ -3041,7 +3041,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "db_productviews_getviewsbycountrychartdata",
-      "community": 32,
+      "community": 5,
       "norm_label": "getviewsbycountrychartdata()"
     },
     {
@@ -3051,7 +3051,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "db_productviews_getviewsbypppchartdata",
-      "community": 32,
+      "community": 5,
       "norm_label": "getviewsbypppchartdata()"
     },
     {
@@ -3061,7 +3061,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "db_productviews_getviewsbydaychartdata",
-      "community": 32,
+      "community": 23,
       "norm_label": "getviewsbydaychartdata()"
     },
     {
@@ -3211,7 +3211,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "components_deleteproductalertdialogcontent",
-      "community": 15,
+      "community": 8,
       "norm_label": "deleteproductalertdialogcontent.tsx"
     },
     {
@@ -3411,7 +3411,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "actions_products_deleteproduct",
-      "community": 15,
+      "community": 8,
       "norm_label": "deleteproduct()"
     },
     {
@@ -3441,7 +3441,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "db_products",
-      "community": 32,
+      "community": 5,
       "norm_label": "products.ts"
     },
     {
@@ -3451,7 +3451,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "db_products_getproductcountrygroups",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductcountrygroups()"
     },
     {
@@ -3461,7 +3461,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "db_products_getproductcustomization",
-      "community": 7,
+      "community": 5,
       "norm_label": "getproductcustomization()"
     },
     {
@@ -3481,7 +3481,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "db_products_getproduct",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproduct()"
     },
     {
@@ -3511,7 +3511,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "db_products_createproduct",
-      "community": 32,
+      "community": 5,
       "norm_label": "createproduct()"
     },
     {
@@ -3521,7 +3521,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "db_products_updateproduct",
-      "community": 32,
+      "community": 5,
       "norm_label": "updateproduct()"
     },
     {
@@ -3531,7 +3531,7 @@
       "source_location": "L150",
       "_origin": "ast",
       "id": "db_products_deleteproduct",
-      "community": 32,
+      "community": 5,
       "norm_label": "deleteproduct()"
     },
     {
@@ -3541,7 +3541,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "db_products_updatecountrydiscounts",
-      "community": 32,
+      "community": 5,
       "norm_label": "updatecountrydiscounts()"
     },
     {
@@ -3551,7 +3551,7 @@
       "source_location": "L228",
       "_origin": "ast",
       "id": "db_products_updateproductcustomization",
-      "community": 32,
+      "community": 5,
       "norm_label": "updateproductcustomization()"
     },
     {
@@ -3561,7 +3561,7 @@
       "source_location": "L247",
       "_origin": "ast",
       "id": "db_products_getproductcountrygroupsinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductcountrygroupsinternal()"
     },
     {
@@ -3571,7 +3571,7 @@
       "source_location": "L287",
       "_origin": "ast",
       "id": "db_products_getproductcustomizationinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductcustomizationinternal()"
     },
     {
@@ -3581,7 +3581,7 @@
       "source_location": "L305",
       "_origin": "ast",
       "id": "db_products_getproductsinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductsinternal()"
     },
     {
@@ -3591,7 +3591,7 @@
       "source_location": "L313",
       "_origin": "ast",
       "id": "db_products_getproductinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductinternal()"
     },
     {
@@ -3601,7 +3601,7 @@
       "source_location": "L320",
       "_origin": "ast",
       "id": "db_products_getproductcountinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductcountinternal()"
     },
     {
@@ -3611,7 +3611,7 @@
       "source_location": "L329",
       "_origin": "ast",
       "id": "db_products_getproductforbannerinternal",
-      "community": 32,
+      "community": 5,
       "norm_label": "getproductforbannerinternal()"
     },
     {
@@ -3621,7 +3621,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "actions_stripe",
-      "community": 8,
+      "community": 32,
       "norm_label": "stripe.ts"
     },
     {
@@ -3631,7 +3631,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "actions_stripe_stripe",
-      "community": 8,
+      "community": 32,
       "norm_label": "stripe"
     },
     {
@@ -3641,7 +3641,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "actions_stripe_createcancelsession",
-      "community": 8,
+      "community": 32,
       "norm_label": "createcancelsession()"
     },
     {
@@ -3651,7 +3651,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "actions_stripe_createcustomerportalsession",
-      "community": 8,
+      "community": 32,
       "norm_label": "createcustomerportalsession()"
     },
     {
@@ -3661,7 +3661,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "actions_stripe_createcheckoutsession",
-      "community": 8,
+      "community": 32,
       "norm_label": "createcheckoutsession()"
     },
     {
@@ -3671,7 +3671,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "actions_stripe_getcheckoutsession",
-      "community": 8,
+      "community": 32,
       "norm_label": "getcheckoutsession()"
     },
     {
@@ -3681,7 +3681,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "actions_stripe_getsubscriptionupgradesession",
-      "community": 8,
+      "community": 32,
       "norm_label": "getsubscriptionupgradesession()"
     },
     {
@@ -3711,7 +3711,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "db_subscription_getusersubscription",
-      "community": 8,
+      "community": 32,
       "norm_label": "getusersubscription()"
     },
     {
@@ -3721,7 +3721,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "db_subscription_updateusersubscription",
-      "community": 8,
+      "community": 32,
       "norm_label": "updateusersubscription()"
     },
     {
@@ -3921,7 +3921,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "lib_cache",
-      "community": 32,
+      "community": 5,
       "norm_label": "cache.ts"
     },
     {
@@ -3931,7 +3931,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "lib_cache_validtags",
-      "community": 32,
+      "community": 5,
       "norm_label": "validtags"
     },
     {
@@ -3941,7 +3941,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "lib_cache_cache_tags",
-      "community": 32,
+      "community": 5,
       "norm_label": "cache_tags"
     },
     {
@@ -3951,7 +3951,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "lib_cache_getglobaltag",
-      "community": 32,
+      "community": 5,
       "norm_label": "getglobaltag()"
     },
     {
@@ -3961,7 +3961,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "lib_cache_getusertag",
-      "community": 32,
+      "community": 5,
       "norm_label": "getusertag()"
     },
     {
@@ -3971,7 +3971,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "lib_cache_getidtag",
-      "community": 32,
+      "community": 5,
       "norm_label": "getidtag()"
     },
     {
@@ -3981,7 +3981,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "lib_cache_clearfullcache",
-      "community": 32,
+      "community": 5,
       "norm_label": "clearfullcache()"
     },
     {
@@ -3991,7 +3991,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "lib_cache_dbcache",
-      "community": 32,
+      "community": 5,
       "norm_label": "dbcache()"
     },
     {
@@ -4001,7 +4001,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "lib_cache_revalidatedbcache",
-      "community": 32,
+      "community": 5,
       "norm_label": "revalidatedbcache()"
     },
     {
@@ -4658,107 +4658,47 @@
       "label": "\ud83d\udcc2 Directory Structure Overview",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L5",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_directory_structure_overview",
       "community": 1,
       "norm_label": "\ud83d\udcc2 directory structure overview"
     },
     {
-      "label": "\ud83c\udfd7\ufe0f Feature Sliced Design (`src/features/`)",
+      "label": "\ud83c\udfd7\ufe0f Feature-First Mini-Applications",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L55",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "docs_feature_sliced_design_feature_sliced_design_src_features",
+      "id": "docs_feature_sliced_design_feature_first_mini_applications",
       "community": 1,
-      "norm_label": "\ud83c\udfd7\ufe0f feature sliced design (`src/features/`)"
+      "norm_label": "\ud83c\udfd7\ufe0f feature-first mini-applications"
     },
     {
-      "label": "Isolation Principle",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_isolation_principle",
-      "community": 1,
-      "norm_label": "isolation principle"
-    },
-    {
-      "label": "Feature Internal Structure",
+      "label": "\ud83d\udcc8 The Rule of Promotion",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
       "source_location": "L66",
       "_origin": "ast",
-      "id": "docs_feature_sliced_design_feature_internal_structure",
+      "id": "docs_feature_sliced_design_the_rule_of_promotion",
       "community": 1,
-      "norm_label": "feature internal structure"
+      "norm_label": "\ud83d\udcc8 the rule of promotion"
     },
     {
       "label": "\ud83d\uded1 Import Boundary Rules",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L81",
+      "source_location": "L76",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_import_boundary_rules",
       "community": 1,
       "norm_label": "\ud83d\uded1 import boundary rules"
     },
     {
-      "label": "\u26a1 DB Caching Pattern",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L116",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_db_caching_pattern",
-      "community": 32,
-      "norm_label": "\u26a1 db caching pattern"
-    },
-    {
-      "label": "Caching a Database Query (`src/features/*/server/db/*`)",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L120",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_caching_a_database_query_src_features_server_db",
-      "community": 32,
-      "norm_label": "caching a database query (`src/features/*/server/db/*`)"
-    },
-    {
-      "label": "Revalidating Caches in Server Actions (`src/features/*/server/actions/*`)",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L137",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_revalidating_caches_in_server_actions_src_features_server_actions",
-      "community": 32,
-      "norm_label": "revalidating caches in server actions (`src/features/*/server/actions/*`)"
-    },
-    {
-      "label": "\ud83d\udd12 Environment Variable Validation",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L151",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_environment_variable_validation",
-      "community": 1,
-      "norm_label": "\ud83d\udd12 environment variable validation"
-    },
-    {
-      "label": "Build-Time Bypass",
-      "file_type": "document",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L159",
-      "_origin": "ast",
-      "id": "docs_feature_sliced_design_build_time_bypass",
-      "community": 1,
-      "norm_label": "build-time bypass"
-    },
-    {
       "label": "\ud83d\udcdd React Form Action Type-Safety",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L179",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_react_form_action_type_safety",
       "community": 1,
@@ -4768,7 +4708,7 @@
       "label": "Good Practice: Returning `void`",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L183",
+      "source_location": "L98",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_good_practice_returning_void",
       "community": 1,
@@ -4778,7 +4718,7 @@
       "label": "Handling Action State & Feedback",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L194",
+      "source_location": "L109",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_handling_action_state_feedback",
       "community": 1,
@@ -4788,7 +4728,7 @@
       "label": "\ud83d\udeaa Controlled Feature Communication (Public APIs)",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L216",
+      "source_location": "L131",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_controlled_feature_communication_public_apis",
       "community": 1,
@@ -4798,11 +4738,61 @@
       "label": "Example Usage:",
       "file_type": "document",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L227",
+      "source_location": "L142",
       "_origin": "ast",
       "id": "docs_feature_sliced_design_example_usage",
       "community": 1,
       "norm_label": "example usage:"
+    },
+    {
+      "label": "\u26a1 DB Caching Pattern",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_db_caching_pattern",
+      "community": 5,
+      "norm_label": "\u26a1 db caching pattern"
+    },
+    {
+      "label": "Caching a Database Query (`src/features/*/server/db/*`)",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L157",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_caching_a_database_query_src_features_server_db",
+      "community": 5,
+      "norm_label": "caching a database query (`src/features/*/server/db/*`)"
+    },
+    {
+      "label": "Revalidating Caches in Server Actions (`src/features/*/server/actions/*`)",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_revalidating_caches_in_server_actions_src_features_server_actions",
+      "community": 5,
+      "norm_label": "revalidating caches in server actions (`src/features/*/server/actions/*`)"
+    },
+    {
+      "label": "\ud83d\udd12 Environment Variable Validation",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L188",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_environment_variable_validation",
+      "community": 1,
+      "norm_label": "\ud83d\udd12 environment variable validation"
+    },
+    {
+      "label": "Build-Time Bypass",
+      "file_type": "document",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L196",
+      "_origin": "ast",
+      "id": "docs_feature_sliced_design_build_time_bypass",
+      "community": 1,
+      "norm_label": "build-time bypass"
     },
     {
       "label": "RUNBOOK.md",
@@ -5238,7 +5228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 5,
       "norm_label": "dbcache caching pattern",
       "id": "agents_db_caching"
     },
@@ -14881,9 +14871,9 @@
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
-      "target": "docs_feature_sliced_design_controlled_feature_communication_public_apis",
-      "confidence_score": 1.0
+      "target": "docs_feature_sliced_design_controlled_feature_communication_public_apis"
     },
     {
       "relation": "contains",
@@ -14919,11 +14909,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L55",
+      "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
-      "target": "docs_feature_sliced_design_feature_sliced_design_src_features"
+      "target": "docs_feature_sliced_design_feature_first_mini_applications",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -14941,9 +14931,9 @@
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
-      "target": "docs_feature_sliced_design_react_form_action_type_safety",
-      "confidence_score": 1.0
+      "target": "docs_feature_sliced_design_react_form_action_type_safety"
     },
     {
       "relation": "contains",
@@ -14951,19 +14941,9 @@
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
       "source_location": "L66",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_feature_sliced_design_feature_sliced_design_src_features",
-      "target": "docs_feature_sliced_design_feature_internal_structure"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_feature_sliced_design_feature_sliced_design_src_features",
-      "target": "docs_feature_sliced_design_isolation_principle"
+      "source": "docs_feature_sliced_design_feature_sliced_design_fsd_architecture_guidelines",
+      "target": "docs_feature_sliced_design_the_rule_of_promotion",
+      "confidence_score": 1.0
     },
     {
       "relation": "semantically_similar_to",
@@ -14974,6 +14954,36 @@
       "weight": 1.0,
       "source": "agents_import_boundaries",
       "target": "docs_feature_sliced_design_import_boundary_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_feature_sliced_design_react_form_action_type_safety",
+      "target": "docs_feature_sliced_design_good_practice_returning_void"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_feature_sliced_design_react_form_action_type_safety",
+      "target": "docs_feature_sliced_design_handling_action_state_feedback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_feature_sliced_design_controlled_feature_communication_public_apis",
+      "target": "docs_feature_sliced_design_example_usage"
     },
     {
       "relation": "semantically_similar_to",
@@ -15011,39 +15021,9 @@
       "source_file": "docs/FEATURE-SLICED-DESIGN.md",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_feature_sliced_design_environment_variable_validation",
-      "target": "docs_feature_sliced_design_build_time_bypass",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L183",
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_react_form_action_type_safety",
-      "target": "docs_feature_sliced_design_good_practice_returning_void",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L194",
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_react_form_action_type_safety",
-      "target": "docs_feature_sliced_design_handling_action_state_feedback",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/FEATURE-SLICED-DESIGN.md",
-      "source_location": "L227",
-      "weight": 1.0,
-      "source": "docs_feature_sliced_design_controlled_feature_communication_public_apis",
-      "target": "docs_feature_sliced_design_example_usage",
-      "confidence_score": 1.0
+      "target": "docs_feature_sliced_design_build_time_bypass"
     },
     {
       "relation": "contains",
@@ -15396,5 +15376,5 @@
       "source_file": "docs/FEATURE-SLICED-DESIGN.md"
     }
   ],
-  "built_at_commit": "2462bbe8379446d2ce3e95efe5b7316c8da226ff"
+  "built_at_commit": "dc9a8855d8a365501c5bf0b6bcc8f36e111b4da9"
 }
