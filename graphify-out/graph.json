@@ -4,21 +4,6 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "readme_eslint_system",
-        "label": "ESLint import validation plugins and configs",
-        "nodes": [
-          "readme_eslint_configuration",
-          "readme_eslint_plugin_project_structure",
-          "readme_eslint_plugin_boundaries",
-          "readme_eslintrc_json",
-          "readme_independentmodules_jsonc"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "C:\\projects\\parity-deals-clone\\README.md"
-      },
-      {
         "id": "agents_graphify_cli_commands",
         "label": "Graphify CLI Commands",
         "nodes": [
@@ -31,6 +16,33 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"
+      },
+      {
+        "id": "webhook_integrations",
+        "label": "Webhook Integration and Event Handlers",
+        "nodes": [
+          "docs_runbook_clerk_webhooks",
+          "docs_runbook_stripe_webhooks",
+          "docs_contributing_env_variables"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md"
+      },
+      {
+        "id": "import_linting_system",
+        "label": "Import Rules and Code Quality Linting",
+        "nodes": [
+          "readme_eslint_import_validation",
+          "readme_eslint_plugin_boundaries",
+          "readme_eslint_plugin_project_structure",
+          "docs_contributing_pr_checklist"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "C:\\projects\\parity-deals-clone\\README.md"
       }
     ]
   },
@@ -42,7 +54,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "auth_layout_authlayout",
-      "community": 12,
+      "community": 14,
       "norm_label": "authlayout"
     },
     {
@@ -52,7 +64,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "sign_in_page_signinpage",
-      "community": 74,
+      "community": 73,
       "norm_label": "signinpage"
     },
     {
@@ -62,7 +74,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "sign_up_page_signuppage",
-      "community": 75,
+      "community": 74,
       "norm_label": "signuppage"
     },
     {
@@ -72,7 +84,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "marketing_layout_marketinglayout",
-      "community": 71,
+      "community": 70,
       "norm_label": "marketinglayout"
     },
     {
@@ -82,7 +94,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "banner_route_get",
-      "community": 13,
+      "community": 15,
       "norm_label": "get"
     },
     {
@@ -92,7 +104,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "clerk_route_post",
-      "community": 15,
+      "community": 17,
       "norm_label": "post"
     },
     {
@@ -102,7 +114,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "stripe_route_post",
-      "community": 76,
+      "community": 75,
       "norm_label": "post"
     },
     {
@@ -112,7 +124,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "dashboard_layout_dashboardlayout",
-      "community": 26,
+      "community": 28,
       "norm_label": "dashboardlayout"
     },
     {
@@ -122,7 +134,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "dashboard_page_dashboardpage",
-      "community": 27,
+      "community": 29,
       "norm_label": "dashboardpage"
     },
     {
@@ -132,7 +144,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "edit_page_editproductpage",
-      "community": 52,
+      "community": 54,
       "norm_label": "editproductpage"
     },
     {
@@ -142,7 +154,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "new_page_newproductpage",
-      "community": 72,
+      "community": 71,
       "norm_label": "newproductpage"
     },
     {
@@ -152,7 +164,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "products_page_products",
-      "community": 73,
+      "community": 72,
       "norm_label": "products"
     },
     {
@@ -162,7 +174,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "app_layout_rootlayout",
-      "community": 11,
+      "community": 13,
       "norm_label": "rootlayout"
     },
     {
@@ -172,7 +184,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "components_banner_banner",
-      "community": 16,
+      "community": 18,
       "norm_label": "banner"
     },
     {
@@ -182,7 +194,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "components_brandlogo_brandlogo",
-      "community": 17,
+      "community": 19,
       "norm_label": "brandlogo"
     },
     {
@@ -192,7 +204,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_dashboardnavbar_dashboardnavbar",
-      "community": 18,
+      "community": 20,
       "norm_label": "dashboardnavbar"
     },
     {
@@ -202,7 +214,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_haspermission_haspermission",
-      "community": 19,
+      "community": 21,
       "norm_label": "haspermission"
     },
     {
@@ -212,7 +224,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_marketingnavbar_marketingnavbar",
-      "community": 20,
+      "community": 22,
       "norm_label": "marketingnavbar"
     },
     {
@@ -222,7 +234,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "components_nopermissioncard_nopermissioncard",
-      "community": 21,
+      "community": 23,
       "norm_label": "nopermissioncard"
     },
     {
@@ -232,7 +244,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "components_pagewithbackbutton_pagewithbackbutton",
-      "community": 23,
+      "community": 25,
       "norm_label": "pagewithbackbutton"
     },
     {
@@ -242,7 +254,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_requiredlabelicon_requiredlabelicon",
-      "community": 24,
+      "community": 26,
       "norm_label": "requiredlabelicon"
     },
     {
@@ -252,7 +264,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "icons_clerk_clerkicon",
-      "community": 53,
+      "community": 55,
       "norm_label": "clerkicon"
     },
     {
@@ -262,7 +274,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "icons_neon_neonicon",
-      "community": 54,
+      "community": 56,
       "norm_label": "neonicon"
     },
     {
@@ -272,7 +284,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "ui_button_buttonprops",
-      "community": 77,
+      "community": 76,
       "norm_label": "buttonprops"
     },
     {
@@ -282,7 +294,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "ui_chart_chartconfig",
-      "community": 78,
+      "community": 77,
       "norm_label": "chartconfig"
     },
     {
@@ -292,7 +304,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "ui_input_inputprops",
-      "community": 79,
+      "community": 78,
       "norm_label": "inputprops"
     },
     {
@@ -302,7 +314,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "ui_textarea_textareaprops",
-      "community": 80,
+      "community": 79,
       "norm_label": "textareaprops"
     },
     {
@@ -312,7 +324,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "data_subscriptiontiers_tiernames",
-      "community": 30,
+      "community": 32,
       "norm_label": "tiernames"
     },
     {
@@ -322,7 +334,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "data_subscriptiontiers_paidtiernames",
-      "community": 29,
+      "community": 31,
       "norm_label": "paidtiernames"
     },
     {
@@ -332,7 +344,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "data_subscriptiontiers_gettierbypriceid",
-      "community": 28,
+      "community": 30,
       "norm_label": "gettierbypriceid"
     },
     {
@@ -342,7 +354,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "components_timezonedropdownmenuitem_timezonedropdownmenuitem",
-      "community": 25,
+      "community": 27,
       "norm_label": "timezonedropdownmenuitem"
     },
     {
@@ -352,7 +364,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "charts_viewsbycountrychart_viewsbycountrychart",
-      "community": 14,
+      "community": 16,
       "norm_label": "viewsbycountrychart"
     },
     {
@@ -362,7 +374,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "db_productviews_getproductviewcount",
-      "community": 43,
+      "community": 45,
       "norm_label": "getproductviewcount"
     },
     {
@@ -372,7 +384,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "db_productviews_getviewsbycountrychartdata",
-      "community": 44,
+      "community": 46,
       "norm_label": "getviewsbycountrychartdata"
     },
     {
@@ -382,7 +394,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "db_productviews_getviewsbypppchartdata",
-      "community": 46,
+      "community": 48,
       "norm_label": "getviewsbypppchartdata"
     },
     {
@@ -392,7 +404,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "db_productviews_getviewsbydaychartdata",
-      "community": 45,
+      "community": 47,
       "norm_label": "getviewsbydaychartdata"
     },
     {
@@ -402,7 +414,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "db_productviews_createproductview",
-      "community": 42,
+      "community": 44,
       "norm_label": "createproductview"
     },
     {
@@ -412,7 +424,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "components_noproducts_noproducts",
-      "community": 22,
+      "community": 24,
       "norm_label": "noproducts"
     },
     {
@@ -422,7 +434,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "actions_products_createproduct",
-      "community": 3,
+      "community": 5,
       "norm_label": "createproduct"
     },
     {
@@ -432,7 +444,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "actions_products_updateproduct",
-      "community": 6,
+      "community": 8,
       "norm_label": "updateproduct"
     },
     {
@@ -442,7 +454,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "actions_products_deleteproduct",
-      "community": 4,
+      "community": 6,
       "norm_label": "deleteproduct"
     },
     {
@@ -452,7 +464,7 @@
       "source_location": "L72",
       "_origin": "ast",
       "id": "actions_products_updatecountrydiscounts",
-      "community": 5,
+      "community": 7,
       "norm_label": "updatecountrydiscounts"
     },
     {
@@ -462,7 +474,7 @@
       "source_location": "L117",
       "_origin": "ast",
       "id": "actions_products_updateproductcustomization",
-      "community": 7,
+      "community": 9,
       "norm_label": "updateproductcustomization"
     },
     {
@@ -472,7 +484,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "db_products_getproductcountrygroups",
-      "community": 35,
+      "community": 37,
       "norm_label": "getproductcountrygroups"
     },
     {
@@ -482,7 +494,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "db_products_getproductcustomization",
-      "community": 36,
+      "community": 38,
       "norm_label": "getproductcustomization"
     },
     {
@@ -492,7 +504,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "id": "db_products_getproducts",
-      "community": 38,
+      "community": 40,
       "norm_label": "getproducts"
     },
     {
@@ -502,7 +514,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "db_products_getproduct",
-      "community": 33,
+      "community": 35,
       "norm_label": "getproduct"
     },
     {
@@ -512,7 +524,7 @@
       "source_location": "L70",
       "_origin": "ast",
       "id": "db_products_getproductcount",
-      "community": 34,
+      "community": 36,
       "norm_label": "getproductcount"
     },
     {
@@ -522,7 +534,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "db_products_getproductforbanner",
-      "community": 37,
+      "community": 39,
       "norm_label": "getproductforbanner"
     },
     {
@@ -532,7 +544,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "db_products_createproduct",
-      "community": 31,
+      "community": 33,
       "norm_label": "createproduct"
     },
     {
@@ -542,7 +554,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "db_products_updateproduct",
-      "community": 40,
+      "community": 42,
       "norm_label": "updateproduct"
     },
     {
@@ -552,7 +564,7 @@
       "source_location": "L150",
       "_origin": "ast",
       "id": "db_products_deleteproduct",
-      "community": 32,
+      "community": 34,
       "norm_label": "deleteproduct"
     },
     {
@@ -562,7 +574,7 @@
       "source_location": "L172",
       "_origin": "ast",
       "id": "db_products_updatecountrydiscounts",
-      "community": 39,
+      "community": 41,
       "norm_label": "updatecountrydiscounts"
     },
     {
@@ -572,7 +584,7 @@
       "source_location": "L228",
       "_origin": "ast",
       "id": "db_products_updateproductcustomization",
-      "community": 41,
+      "community": 43,
       "norm_label": "updateproductcustomization"
     },
     {
@@ -582,7 +594,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "actions_stripe_createcancelsession",
-      "community": 8,
+      "community": 10,
       "norm_label": "createcancelsession"
     },
     {
@@ -592,7 +604,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "actions_stripe_createcustomerportalsession",
-      "community": 10,
+      "community": 12,
       "norm_label": "createcustomerportalsession"
     },
     {
@@ -602,7 +614,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "actions_stripe_createcheckoutsession",
-      "community": 9,
+      "community": 11,
       "norm_label": "createcheckoutsession"
     },
     {
@@ -612,7 +624,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "db_subscription_createusersubscription",
-      "community": 47,
+      "community": 49,
       "norm_label": "createusersubscription"
     },
     {
@@ -622,7 +634,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "db_subscription_getusersubscription",
-      "community": 48,
+      "community": 50,
       "norm_label": "getusersubscription"
     },
     {
@@ -632,7 +644,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "db_subscription_updateusersubscription",
-      "community": 50,
+      "community": 52,
       "norm_label": "updateusersubscription"
     },
     {
@@ -642,7 +654,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "db_subscription_getusersubscriptiontier",
-      "community": 49,
+      "community": 51,
       "norm_label": "getusersubscriptiontier"
     },
     {
@@ -652,7 +664,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "db_users_deleteuser",
-      "community": 51,
+      "community": 53,
       "norm_label": "deleteuser"
     },
     {
@@ -662,7 +674,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "lib_cache_validtags",
-      "community": 61,
+      "community": 63,
       "norm_label": "validtags"
     },
     {
@@ -672,7 +684,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "lib_cache_getglobaltag",
-      "community": 57,
+      "community": 59,
       "norm_label": "getglobaltag"
     },
     {
@@ -682,7 +694,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "lib_cache_getusertag",
-      "community": 59,
+      "community": 61,
       "norm_label": "getusertag"
     },
     {
@@ -692,7 +704,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "lib_cache_getidtag",
-      "community": 58,
+      "community": 60,
       "norm_label": "getidtag"
     },
     {
@@ -702,7 +714,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "lib_cache_clearfullcache",
-      "community": 55,
+      "community": 57,
       "norm_label": "clearfullcache"
     },
     {
@@ -712,7 +724,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "lib_cache_dbcache",
-      "community": 56,
+      "community": 58,
       "norm_label": "dbcache"
     },
     {
@@ -722,7 +734,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "lib_cache_revalidatedbcache",
-      "community": 60,
+      "community": 62,
       "norm_label": "revalidatedbcache"
     },
     {
@@ -732,7 +744,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "lib_formatters_formatcompactnumber",
-      "community": 62,
+      "community": 64,
       "norm_label": "formatcompactnumber"
     },
     {
@@ -742,7 +754,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "lib_permissions_canremovebranding",
-      "community": 66,
+      "community": 68,
       "norm_label": "canremovebranding"
     },
     {
@@ -752,7 +764,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "lib_permissions_cancustomizebanner",
-      "community": 65,
+      "community": 67,
       "norm_label": "cancustomizebanner"
     },
     {
@@ -762,7 +774,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "lib_permissions_canaccessanalytics",
-      "community": 63,
+      "community": 65,
       "norm_label": "canaccessanalytics"
     },
     {
@@ -772,7 +784,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "lib_permissions_cancreateproduct",
-      "community": 64,
+      "community": 66,
       "norm_label": "cancreateproduct"
     },
     {
@@ -782,38 +794,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "lib_permissions_canshowdiscountbanner",
-      "community": 67,
-      "norm_label": "canshowdiscountbanner"
-    },
-    {
-      "label": "cn",
-      "file_type": "code",
-      "source_file": "src/lib/utils.ts",
-      "source_location": "L4",
-      "_origin": "ast",
-      "id": "lib_utils_cn",
-      "community": 68,
-      "norm_label": "cn"
-    },
-    {
-      "label": "removeTrailingSlash",
-      "file_type": "code",
-      "source_file": "src/lib/utils.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "lib_utils_removetrailingslash",
-      "community": 70,
-      "norm_label": "removetrailingslash"
-    },
-    {
-      "label": "createURL",
-      "file_type": "code",
-      "source_file": "src/lib/utils.ts",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "lib_utils_createurl",
       "community": 69,
-      "norm_label": "createurl"
+      "norm_label": "canshowdiscountbanner"
     },
     {
       "label": "Graphify Knowledge Graph Integration",
@@ -825,7 +807,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify knowledge graph integration"
     },
     {
@@ -838,7 +820,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_query",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify query"
     },
     {
@@ -851,7 +833,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_path",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify path"
     },
     {
@@ -864,7 +846,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_explain",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify explain"
     },
     {
@@ -877,7 +859,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_update",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify update"
     },
     {
@@ -890,7 +872,7 @@
       "author": null,
       "contributor": null,
       "id": "agents_graph_report",
-      "community": 0,
+      "community": 1,
       "norm_label": "graph_report.md"
     },
     {
@@ -903,99 +885,8 @@
       "author": null,
       "contributor": null,
       "id": "agents_graphify_wiki",
-      "community": 0,
+      "community": 1,
       "norm_label": "graphify-out/wiki/index.md"
-    },
-    {
-      "label": "Feature Folder System",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_feature_folder_system",
-      "community": 1,
-      "norm_label": "feature folder system"
-    },
-    {
-      "label": "ESLint configurations",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_eslint_configuration",
-      "community": 1,
-      "norm_label": "eslint configurations"
-    },
-    {
-      "label": "eslint-plugin-project-structure",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_eslint_plugin_project_structure",
-      "community": 1,
-      "norm_label": "eslint-plugin-project-structure"
-    },
-    {
-      "label": "eslint-plugin-boundaries",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_eslint_plugin_boundaries",
-      "community": 1,
-      "norm_label": "eslint-plugin-boundaries"
-    },
-    {
-      "label": ".eslintrc.json",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_eslintrc_json",
-      "community": 1,
-      "norm_label": ".eslintrc.json"
-    },
-    {
-      "label": ".eslintrc.alt.json",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_eslintrc_alt_json",
-      "community": 1,
-      "norm_label": ".eslintrc.alt.json"
-    },
-    {
-      "label": "independentModules.jsonc",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_independentmodules_jsonc",
-      "community": 1,
-      "norm_label": "independentmodules.jsonc"
     },
     {
       "label": "pnpm-workspace.yaml",
@@ -1007,7 +898,7 @@
       "author": null,
       "contributor": null,
       "id": "pnpm_workspace_pnpm_workspace",
-      "community": 2,
+      "community": 3,
       "norm_label": "pnpm-workspace.yaml"
     },
     {
@@ -1020,7 +911,7 @@
       "author": null,
       "contributor": null,
       "id": "pnpm_workspace_allowbuilds",
-      "community": 2,
+      "community": 3,
       "norm_label": "allowbuilds"
     },
     {
@@ -1033,7 +924,7 @@
       "author": null,
       "contributor": null,
       "id": "pnpm_workspace_clerk_shared",
-      "community": 2,
+      "community": 3,
       "norm_label": "@clerk/shared"
     },
     {
@@ -1046,7 +937,7 @@
       "author": null,
       "contributor": null,
       "id": "pnpm_workspace_esbuild",
-      "community": 2,
+      "community": 3,
       "norm_label": "esbuild"
     },
     {
@@ -1059,8 +950,233 @@
       "author": null,
       "contributor": null,
       "id": "pnpm_workspace_unrs_resolver",
-      "community": 2,
+      "community": 3,
       "norm_label": "unrs-resolver"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_readme",
+      "community": 0,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Feature Folder System",
+      "file_type": "rationale",
+      "rationale": "Organize codebase by feature folders to keep related code highly cohesive and modular.",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_feature_folder_system",
+      "community": 0,
+      "norm_label": "feature folder system"
+    },
+    {
+      "label": "ESLint Import Validation",
+      "file_type": "rationale",
+      "rationale": "Enforce strict module boundaries and project structure with two optional plugin configurations.",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_eslint_import_validation",
+      "community": 0,
+      "norm_label": "eslint import validation"
+    },
+    {
+      "label": "eslint-plugin-boundaries",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_eslint_plugin_boundaries",
+      "community": 0,
+      "norm_label": "eslint-plugin-boundaries"
+    },
+    {
+      "label": "eslint-plugin-project-structure",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_eslint_plugin_project_structure",
+      "community": 0,
+      "norm_label": "eslint-plugin-project-structure"
+    },
+    {
+      "label": "Contributing Guide",
+      "file_type": "document",
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_contributing_guide",
+      "community": 0,
+      "norm_label": "contributing guide"
+    },
+    {
+      "label": "Local Development Setup",
+      "file_type": "concept",
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_contributing_local_setup",
+      "community": 4,
+      "norm_label": "local development setup"
+    },
+    {
+      "label": "Environment Variables Configuration",
+      "file_type": "concept",
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_contributing_env_variables",
+      "community": 2,
+      "norm_label": "environment variables configuration"
+    },
+    {
+      "label": "Available Commands",
+      "file_type": "concept",
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_contributing_available_commands",
+      "community": 0,
+      "norm_label": "available commands"
+    },
+    {
+      "label": "PR Submission Checklist",
+      "file_type": "rationale",
+      "rationale": "Pre-flight checks including linting, production compilation, environment template sync, and migration generation to ensure code sanity and schema safety.",
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_contributing_pr_checklist",
+      "community": 0,
+      "norm_label": "pr submission checklist"
+    },
+    {
+      "label": "Runbook",
+      "file_type": "document",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_runbook",
+      "community": 2,
+      "norm_label": "runbook"
+    },
+    {
+      "label": "Vercel Deployment",
+      "file_type": "concept",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_vercel_deployment",
+      "community": 2,
+      "norm_label": "vercel deployment"
+    },
+    {
+      "label": "Database Migration Procedure",
+      "file_type": "rationale",
+      "rationale": "Drizzle migrations are stored locally under src/drizzle/migrations and must be applied to the Neon database instance as a pre-deploy or post-deploy hook to prevent out-of-sync schemas.",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_db_migration",
+      "community": 4,
+      "norm_label": "database migration procedure"
+    },
+    {
+      "label": "Clerk Webhook Integration",
+      "file_type": "concept",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_clerk_webhooks",
+      "community": 2,
+      "norm_label": "clerk webhook integration"
+    },
+    {
+      "label": "Stripe Webhook Integration",
+      "file_type": "concept",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_stripe_webhooks",
+      "community": 2,
+      "norm_label": "stripe webhook integration"
+    },
+    {
+      "label": "Health Checks & Monitoring",
+      "file_type": "concept",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_monitoring",
+      "community": 2,
+      "norm_label": "health checks & monitoring"
+    },
+    {
+      "label": "Troubleshooting & Rollback Procedures",
+      "file_type": "concept",
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_runbook_rollback_procedures",
+      "community": 2,
+      "norm_label": "troubleshooting & rollback procedures"
     }
   ],
   "links": [
@@ -1125,86 +1241,6 @@
       "target": "agents_graphify_wiki"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_configuration",
-      "target": "readme_feature_folder_system"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_configuration",
-      "target": "readme_eslint_plugin_boundaries"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_configuration",
-      "target": "readme_eslint_plugin_project_structure"
-    },
-    {
-      "relation": "semantically_similar_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_plugin_project_structure",
-      "target": "readme_eslint_plugin_boundaries"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_plugin_project_structure",
-      "target": "readme_eslintrc_alt_json"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_plugin_project_structure",
-      "target": "readme_independentmodules_jsonc"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslint_plugin_boundaries",
-      "target": "readme_eslintrc_json"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_eslintrc_json",
-      "target": "readme_eslintrc_alt_json"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -1243,24 +1279,219 @@
       "weight": 1.0,
       "source": "pnpm_workspace_allowbuilds",
       "target": "pnpm_workspace_unrs_resolver"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "docs_contributing_guide"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "docs_runbook_runbook"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "readme_eslint_import_validation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "readme_feature_folder_system"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_guide",
+      "target": "readme_eslint_import_validation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_eslint_import_validation",
+      "target": "readme_eslint_plugin_boundaries"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_eslint_import_validation",
+      "target": "readme_eslint_plugin_project_structure"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_guide",
+      "target": "docs_contributing_available_commands"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_guide",
+      "target": "docs_contributing_env_variables"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_guide",
+      "target": "docs_contributing_local_setup"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_guide",
+      "target": "docs_contributing_pr_checklist"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_local_setup",
+      "target": "docs_runbook_db_migration"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_env_variables",
+      "target": "docs_runbook_clerk_webhooks"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "docs/CONTRIBUTING.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_contributing_env_variables",
+      "target": "docs_runbook_stripe_webhooks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_clerk_webhooks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_db_migration"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_monitoring"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_rollback_procedures"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_stripe_webhooks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_runbook",
+      "target": "docs_runbook_vercel_deployment"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/RUNBOOK.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_runbook_clerk_webhooks",
+      "target": "docs_runbook_stripe_webhooks"
     }
   ],
   "hyperedges": [
-    {
-      "id": "readme_eslint_system",
-      "label": "ESLint import validation plugins and configs",
-      "nodes": [
-        "readme_eslint_configuration",
-        "readme_eslint_plugin_project_structure",
-        "readme_eslint_plugin_boundaries",
-        "readme_eslintrc_json",
-        "readme_independentmodules_jsonc"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "C:\\projects\\parity-deals-clone\\README.md"
-    },
     {
       "id": "agents_graphify_cli_commands",
       "label": "Graphify CLI Commands",
@@ -1274,7 +1505,34 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"
+    },
+    {
+      "id": "webhook_integrations",
+      "label": "Webhook Integration and Event Handlers",
+      "nodes": [
+        "docs_runbook_clerk_webhooks",
+        "docs_runbook_stripe_webhooks",
+        "docs_contributing_env_variables"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md"
+    },
+    {
+      "id": "import_linting_system",
+      "label": "Import Rules and Code Quality Linting",
+      "nodes": [
+        "readme_eslint_import_validation",
+        "readme_eslint_plugin_boundaries",
+        "readme_eslint_plugin_project_structure",
+        "docs_contributing_pr_checklist"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md"
     }
   ],
-  "built_at_commit": "48c95960cda340248fd6004b72a2441bda22b517"
+  "built_at_commit": "8f3f4f90352448afeb59100a569eb8412b5f0ed0"
 }

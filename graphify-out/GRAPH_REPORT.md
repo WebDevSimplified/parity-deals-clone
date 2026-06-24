@@ -1,17 +1,19 @@
 # Graph Report - .  (2026-06-24)
 
 ## Corpus Check
-- Corpus is ~18,499 words - fits in a single context window. You may not need a graph.
+- Corpus is ~19,562 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 97 nodes · 18 edges · 81 communities (3 shown, 78 thin omitted)
-- Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
+- 104 nodes · 31 edges · 80 communities (4 shown, 76 thin omitted)
+- Extraction: 87% EXTRACTED · 13% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
+- [[_COMMUNITY_Code Standards & Project Structure|Code Standards & Project Structure]]
 - [[_COMMUNITY_Graphify Integration|Graphify Integration]]
-- [[_COMMUNITY_ESLint & Project Structure Rules|ESLint & Project Structure Rules]]
+- [[_COMMUNITY_Operations, Deployment & Webhooks|Operations, Deployment & Webhooks]]
 - [[_COMMUNITY_PNPM Workspace Configuration|PNPM Workspace Configuration]]
+- [[_COMMUNITY_Local Setup & Database Migrations|Local Setup & Database Migrations]]
 - [[_COMMUNITY_Product Domain (createproduct)|Product Domain (createproduct)]]
 - [[_COMMUNITY_Product Domain (deleteproduct)|Product Domain (deleteproduct)]]
 - [[_COMMUNITY_Product Domain (updatecountrydiscounts)|Product Domain (updatecountrydiscounts)]]
@@ -77,9 +79,6 @@
 - [[_COMMUNITY_Permissions Checks (cancustomizebanner)|Permissions Checks (cancustomizebanner)]]
 - [[_COMMUNITY_Permissions Checks (canremovebranding)|Permissions Checks (canremovebranding)]]
 - [[_COMMUNITY_Permissions Checks (canshowdiscountbanner)|Permissions Checks (canshowdiscountbanner)]]
-- [[_COMMUNITY_Utils Cn|Utils Cn]]
-- [[_COMMUNITY_Utils Createurl|Utils Createurl]]
-- [[_COMMUNITY_Utils Removetrailingslash|Utils Removetrailingslash]]
 - [[_COMMUNITY_Layout Marketinglayout|Layout Marketinglayout]]
 - [[_COMMUNITY_Page Newproductpage|Page Newproductpage]]
 - [[_COMMUNITY_Product Domain (products)|Product Domain (products)]]
@@ -92,48 +91,64 @@
 - [[_COMMUNITY_UI Component (textareaprops)|UI Component (textareaprops)]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Graphify Knowledge Graph Integration` - 6 edges
-2. `eslint-plugin-project-structure` - 4 edges
-3. `allowBuilds` - 4 edges
-4. `ESLint configurations` - 3 edges
-5. `eslint-plugin-boundaries` - 3 edges
-6. `.eslintrc.json` - 2 edges
-7. `.eslintrc.alt.json` - 2 edges
-8. `graphify query` - 1 edges
-9. `graphify path` - 1 edges
-10. `graphify explain` - 1 edges
+1. `Runbook` - 7 edges
+2. `Graphify Knowledge Graph Integration` - 6 edges
+3. `Contributing Guide` - 6 edges
+4. `allowBuilds` - 4 edges
+5. `ESLint Import Validation` - 4 edges
+6. `Environment Variables Configuration` - 3 edges
+7. `Clerk Webhook Integration` - 3 edges
+8. `Stripe Webhook Integration` - 3 edges
+9. `Local Development Setup` - 2 edges
+10. `Database Migration Procedure` - 2 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `Contributing Guide` --references--> `ESLint Import Validation`  [EXTRACTED]
+  docs/CONTRIBUTING.md → README.md
+- `Local Development Setup` --conceptually_related_to--> `Database Migration Procedure`  [INFERRED]
+  docs/CONTRIBUTING.md → docs/RUNBOOK.md
+- `Environment Variables Configuration` --conceptually_related_to--> `Clerk Webhook Integration`  [INFERRED]
+  docs/CONTRIBUTING.md → docs/RUNBOOK.md
+- `Environment Variables Configuration` --conceptually_related_to--> `Stripe Webhook Integration`  [INFERRED]
+  docs/CONTRIBUTING.md → docs/RUNBOOK.md
 
 ## Import Cycles
 - None detected.
 
 ## Hyperedges (group relationships)
-- **ESLint import validation plugins and configs** — readme_eslint_configuration, readme_eslint_plugin_project_structure, readme_eslint_plugin_boundaries, readme_eslintrc_json, readme_independentmodules_jsonc [EXTRACTED 1.00]
 - **Graphify CLI Commands** — agents_graphify_query, agents_graphify_path, agents_graphify_explain, agents_graphify_update [EXTRACTED 1.00]
+- **Webhook Integration and Event Handlers** — docs_runbook_clerk_webhooks, docs_runbook_stripe_webhooks, docs_contributing_env_variables [INFERRED 0.85]
+- **Import Rules and Code Quality Linting** — readme_eslint_import_validation, readme_eslint_plugin_boundaries, readme_eslint_plugin_project_structure, docs_contributing_pr_checklist [INFERRED 0.85]
 
-## Communities (81 total, 78 thin omitted)
+## Communities (80 total, 76 thin omitted)
 
-### Community 0 - "Graphify Integration"
+### Community 0 - "Code Standards & Project Structure"
+Cohesion: 0.29
+Nodes (7): Available Commands, Contributing Guide, PR Submission Checklist, ESLint Import Validation, eslint-plugin-boundaries, eslint-plugin-project-structure, Feature Folder System
+
+### Community 1 - "Graphify Integration"
 Cohesion: 0.29
 Nodes (7): GRAPH_REPORT.md, Graphify Knowledge Graph Integration, graphify explain, graphify path, graphify query, graphify update, graphify-out/wiki/index.md
 
-### Community 1 - "ESLint & Project Structure Rules"
+### Community 2 - "Operations, Deployment & Webhooks"
 Cohesion: 0.38
-Nodes (7): ESLint configurations, eslint-plugin-boundaries, eslint-plugin-project-structure, .eslintrc.alt.json, .eslintrc.json, Feature Folder System, independentModules.jsonc
+Nodes (7): Environment Variables Configuration, Clerk Webhook Integration, Health Checks & Monitoring, Troubleshooting & Rollback Procedures, Runbook, Stripe Webhook Integration, Vercel Deployment
 
-### Community 2 - "PNPM Workspace Configuration"
+### Community 3 - "PNPM Workspace Configuration"
 Cohesion: 0.40
 Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
 ## Knowledge Gaps
-- **88 isolated node(s):** `AuthLayout`, `SignInPage`, `SignUpPage`, `MarketingLayout`, `GET` (+83 more)
+- **90 isolated node(s):** `AuthLayout`, `SignInPage`, `SignUpPage`, `MarketingLayout`, `GET` (+85 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **78 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **76 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `Runbook` connect `Operations, Deployment & Webhooks` to `Code Standards & Project Structure`, `Local Setup & Database Migrations`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `Contributing Guide` connect `Code Standards & Project Structure` to `Operations, Deployment & Webhooks`, `Local Setup & Database Migrations`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **What connects `AuthLayout`, `SignInPage`, `SignUpPage` to the rest of the system?**
-  _89 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _92 weakly-connected nodes found - possible documentation gaps or missing edges._

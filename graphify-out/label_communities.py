@@ -18,11 +18,15 @@ tokens = {'input': extraction.get('input_tokens', 0), 'output': extraction.get('
 labels = {}
 for cid, nodes in communities.items():
     if cid == 0:
-        labels[cid] = "Graphify Integration"
+        labels[cid] = "Code Standards & Project Structure"
     elif cid == 1:
-        labels[cid] = "ESLint & Project Structure Rules"
+        labels[cid] = "Graphify Integration"
     elif cid == 2:
+        labels[cid] = "Operations, Deployment & Webhooks"
+    elif cid == 3:
         labels[cid] = "PNPM Workspace Configuration"
+    elif cid == 4:
+        labels[cid] = "Local Setup & Database Migrations"
     else:
         node_name = nodes[0]
         if "products" in node_name:

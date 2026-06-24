@@ -1,0 +1,10 @@
+# Always exclude build artifacts and deps wherever they appear
+node_modules/
+dist/
+.next/
+*.generated.py
+public/
+
+# Global UI Utilities
+# Removes the 'cn()' hairball node so the graph accurately reflects business logic flow
+src/lib/utils.ts

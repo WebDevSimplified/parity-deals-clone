@@ -415,13 +415,23 @@
     "semantic_hash": "752aa83aa64361ac32860f882dcff932"
   },
   "C:\\projects\\parity-deals-clone\\README.md": {
-    "mtime": 1782280348.4858487,
-    "ast_hash": "abd255a465dad0eb984a392b047a8ce8",
-    "semantic_hash": "abd255a465dad0eb984a392b047a8ce8"
+    "mtime": 1782281553.274079,
+    "ast_hash": "05595701e8e110f3d03be089da0086d1",
+    "semantic_hash": "05595701e8e110f3d03be089da0086d1"
   },
   "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml": {
     "mtime": 1782280462.9220886,
     "ast_hash": "04540a1e16c68c5edbfc79f2ef280838",
     "semantic_hash": "04540a1e16c68c5edbfc79f2ef280838"
+  },
+  "C:\\projects\\parity-deals-clone\\docs\\CONTRIBUTING.md": {
+    "mtime": 1782281546.2876408,
+    "ast_hash": "b88e36274e22d244899f2e9beb9f8800",
+    "semantic_hash": "b88e36274e22d244899f2e9beb9f8800"
+  },
+  "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md": {
+    "mtime": 1782281551.0037272,
+    "ast_hash": "195a67ff9ba93de2501bf63b33f732d4",
+    "semantic_hash": "195a67ff9ba93de2501bf63b33f732d4"
   }
 }
