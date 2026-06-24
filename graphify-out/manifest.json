@@ -438,5 +438,440 @@
     "mtime": 1782289826.2881393,
     "ast_hash": "437d828195921fe0a1fce726755b47ed",
     "semantic_hash": ""
+  },
+  "C:\\projects\\parity-deals-clone\\.eslintrc.alt.json": {
+    "mtime": 1782280348.484849,
+    "ast_hash": "6c229f475c9066b9827221e352adbdfe",
+    "semantic_hash": "6c229f475c9066b9827221e352adbdfe"
+  },
+  "C:\\projects\\parity-deals-clone\\.eslintrc.json": {
+    "mtime": 1782280348.484849,
+    "ast_hash": "707ec4871c63f339dba505f46c824e06",
+    "semantic_hash": "707ec4871c63f339dba505f46c824e06"
+  },
+  "C:\\projects\\parity-deals-clone\\components.json": {
+    "mtime": 1782280347.228265,
+    "ast_hash": "3a082d76504561daa103518e42c08d42",
+    "semantic_hash": "3a082d76504561daa103518e42c08d42"
+  },
+  "C:\\projects\\parity-deals-clone\\drizzle.config.ts": {
+    "mtime": 1782280347.2292635,
+    "ast_hash": "b8975f5ae72043d1753c1ade1d12715a",
+    "semantic_hash": "b8975f5ae72043d1753c1ade1d12715a"
+  },
+  "C:\\projects\\parity-deals-clone\\next.config.mjs": {
+    "mtime": 1782280347.2292635,
+    "ast_hash": "bb54a65f05e1303d8521d4374cb085f3",
+    "semantic_hash": "bb54a65f05e1303d8521d4374cb085f3"
+  },
+  "C:\\projects\\parity-deals-clone\\package.json": {
+    "mtime": 1782280348.488991,
+    "ast_hash": "d1c7de09b001897877d8ebfbc4efbb90",
+    "semantic_hash": "d1c7de09b001897877d8ebfbc4efbb90"
+  },
+  "C:\\projects\\parity-deals-clone\\postcss.config.mjs": {
+    "mtime": 1782280347.2312634,
+    "ast_hash": "3507368dae6e94b0070b0a10efa15a05",
+    "semantic_hash": "3507368dae6e94b0070b0a10efa15a05"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\(auth)\\layout.tsx": {
+    "mtime": 1782280347.2322636,
+    "ast_hash": "950d803fbad48c2b8cb91ae3c3ef39a3",
+    "semantic_hash": "950d803fbad48c2b8cb91ae3c3ef39a3"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\(auth)\\sign-in\\[[...sign-in]]\\page.tsx": {
+    "mtime": 1782280347.2322636,
+    "ast_hash": "a8bb5645107c898f927d609cb74c7592",
+    "semantic_hash": "a8bb5645107c898f927d609cb74c7592"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\(auth)\\sign-up\\[[...sign-up]]\\page.tsx": {
+    "mtime": 1782280347.2322636,
+    "ast_hash": "68463098b7e727e14e534f2db4e6c5c1",
+    "semantic_hash": "68463098b7e727e14e534f2db4e6c5c1"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\(marketing)\\layout.tsx": {
+    "mtime": 1782280348.4899902,
+    "ast_hash": "d8fa6c5eade3add9d051c8e91e26ad23",
+    "semantic_hash": "d8fa6c5eade3add9d051c8e91e26ad23"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\(marketing)\\page.tsx": {
+    "mtime": 1782280348.4899902,
+    "ast_hash": "f31733ac9c210876fde144859bed1d9f",
+    "semantic_hash": "f31733ac9c210876fde144859bed1d9f"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\api\\products\\[productId]\\banner\\route.ts": {
+    "mtime": 1782280348.4909897,
+    "ast_hash": "17bc6e725bf3c32ed7e32c260598420b",
+    "semantic_hash": "17bc6e725bf3c32ed7e32c260598420b"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\api\\webhooks\\clerk\\route.ts": {
+    "mtime": 1782280348.4909897,
+    "ast_hash": "78ec869e59b0716641411c245cb07996",
+    "semantic_hash": "78ec869e59b0716641411c245cb07996"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\api\\webhooks\\stripe\\route.ts": {
+    "mtime": 1782280348.4919899,
+    "ast_hash": "7d75e410637019f68fe65d9313a8bcf5",
+    "semantic_hash": "7d75e410637019f68fe65d9313a8bcf5"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\analytics\\page.tsx": {
+    "mtime": 1782280348.4919899,
+    "ast_hash": "59a471e74abf1297f5130bf40d4d2361",
+    "semantic_hash": "59a471e74abf1297f5130bf40d4d2361"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\layout.tsx": {
+    "mtime": 1782280348.4919899,
+    "ast_hash": "c521efd0d8c9008ddcaa0522cfc0dace",
+    "semantic_hash": "c521efd0d8c9008ddcaa0522cfc0dace"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\page.tsx": {
+    "mtime": 1782280348.4929905,
+    "ast_hash": "ce89746470f55d3d3f2954e5b1024b98",
+    "semantic_hash": "ce89746470f55d3d3f2954e5b1024b98"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\products\\[productId]\\edit\\page.tsx": {
+    "mtime": 1782280348.4929905,
+    "ast_hash": "7ba03b7c5f8fd5bb11dadf1fcea22a18",
+    "semantic_hash": "7ba03b7c5f8fd5bb11dadf1fcea22a18"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\products\\new\\page.tsx": {
+    "mtime": 1782280348.4939904,
+    "ast_hash": "6b051c8fe6b0dd7f8f6879e09b1ca5ec",
+    "semantic_hash": "6b051c8fe6b0dd7f8f6879e09b1ca5ec"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\products\\page.tsx": {
+    "mtime": 1782280348.4939904,
+    "ast_hash": "4158646f9932aaed88d1e7dd75dac90c",
+    "semantic_hash": "4158646f9932aaed88d1e7dd75dac90c"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\dashboard\\subscription\\page.tsx": {
+    "mtime": 1782280348.4939904,
+    "ast_hash": "c44775eabd50bba2db8bb5eb8b982cdd",
+    "semantic_hash": "c44775eabd50bba2db8bb5eb8b982cdd"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\app\\layout.tsx": {
+    "mtime": 1782280348.4949903,
+    "ast_hash": "a4cfef8065a850d3fe66512f157f2950",
+    "semantic_hash": "a4cfef8065a850d3fe66512f157f2950"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\Banner.tsx": {
+    "mtime": 1782280347.2442644,
+    "ast_hash": "db783d8d2130db783ef62e07fc946d69",
+    "semantic_hash": "db783d8d2130db783ef62e07fc946d69"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\BrandLogo.tsx": {
+    "mtime": 1782280347.2452633,
+    "ast_hash": "336c78cacad2d8ecdc528c00b53ff1bb",
+    "semantic_hash": "336c78cacad2d8ecdc528c00b53ff1bb"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\DashboardNavBar.tsx": {
+    "mtime": 1782280348.4949903,
+    "ast_hash": "902806e7d41ce8cce2559e5678c12d92",
+    "semantic_hash": "902806e7d41ce8cce2559e5678c12d92"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\HasPermission.tsx": {
+    "mtime": 1782280347.2452633,
+    "ast_hash": "c0a6b49364821e17dd29dfafb914ee85",
+    "semantic_hash": "c0a6b49364821e17dd29dfafb914ee85"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\MarketingNavBar.tsx": {
+    "mtime": 1782280348.4949903,
+    "ast_hash": "3dfe6a4d8b9cd3f06054a60086f56cb9",
+    "semantic_hash": "3dfe6a4d8b9cd3f06054a60086f56cb9"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\NoPermissionCard.tsx": {
+    "mtime": 1782280347.2452633,
+    "ast_hash": "f34e6331f2e847509fb25daf14c3ed01",
+    "semantic_hash": "f34e6331f2e847509fb25daf14c3ed01"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\PageWithBackButton.tsx": {
+    "mtime": 1782280348.4959898,
+    "ast_hash": "c5553e973fbfb76011b8ebfc3773a7a5",
+    "semantic_hash": "c5553e973fbfb76011b8ebfc3773a7a5"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\RequiredLabelIcon.tsx": {
+    "mtime": 1782280347.2452633,
+    "ast_hash": "5a7181ac21cc963a42b5edfac3e4c8a1",
+    "semantic_hash": "5a7181ac21cc963a42b5edfac3e4c8a1"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\icons\\Clerk.tsx": {
+    "mtime": 1782280348.4959898,
+    "ast_hash": "6dfa894341aa08d47ed9e4ceb052bbf9",
+    "semantic_hash": "6dfa894341aa08d47ed9e4ceb052bbf9"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\icons\\Neon.tsx": {
+    "mtime": 1782280348.4959898,
+    "ast_hash": "9707b88408d26024b414f4808f11b852",
+    "semantic_hash": "9707b88408d26024b414f4808f11b852"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\alert-dialog.tsx": {
+    "mtime": 1782280347.246264,
+    "ast_hash": "7dcdec2e0130d5fa6240d66c23776e2d",
+    "semantic_hash": "7dcdec2e0130d5fa6240d66c23776e2d"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\button.tsx": {
+    "mtime": 1782280347.246264,
+    "ast_hash": "0ff42e15ca242a9beb31544ee710dadb",
+    "semantic_hash": "0ff42e15ca242a9beb31544ee710dadb"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\card.tsx": {
+    "mtime": 1782280347.246264,
+    "ast_hash": "dd0bca408fec1dede8f74787b059568e",
+    "semantic_hash": "dd0bca408fec1dede8f74787b059568e"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\chart.tsx": {
+    "mtime": 1782280348.4969893,
+    "ast_hash": "f0ccef8619fad4e8f9bc5fd753b65443",
+    "semantic_hash": "f0ccef8619fad4e8f9bc5fd753b65443"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\dialog.tsx": {
+    "mtime": 1782280347.247263,
+    "ast_hash": "752baef227a33a2435c29b2a488da12a",
+    "semantic_hash": "752baef227a33a2435c29b2a488da12a"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1782280347.247263,
+    "ast_hash": "502a5f59f9bc3fd13c9ef5c5d2c3e2c8",
+    "semantic_hash": "502a5f59f9bc3fd13c9ef5c5d2c3e2c8"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\form.tsx": {
+    "mtime": 1782280347.2482634,
+    "ast_hash": "adab03d496e9b985a48fa62ddcbcb981",
+    "semantic_hash": "adab03d496e9b985a48fa62ddcbcb981"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\input.tsx": {
+    "mtime": 1782280347.2482634,
+    "ast_hash": "0f8c88d86231ba5d2ddde2c8973a2ab8",
+    "semantic_hash": "0f8c88d86231ba5d2ddde2c8973a2ab8"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\label.tsx": {
+    "mtime": 1782280347.2482634,
+    "ast_hash": "a82ec35cf363a42512246117aeb61897",
+    "semantic_hash": "a82ec35cf363a42512246117aeb61897"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\progress.tsx": {
+    "mtime": 1782280347.2482634,
+    "ast_hash": "2ebbb80c6f189862448699240694702a",
+    "semantic_hash": "2ebbb80c6f189862448699240694702a"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\switch.tsx": {
+    "mtime": 1782280347.2492633,
+    "ast_hash": "fea1a0aea3f582e86df145bdcd45b34f",
+    "semantic_hash": "fea1a0aea3f582e86df145bdcd45b34f"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\tabs.tsx": {
+    "mtime": 1782280347.2492633,
+    "ast_hash": "dc20f28b198f9d0a909f601c748db51a",
+    "semantic_hash": "dc20f28b198f9d0a909f601c748db51a"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\textarea.tsx": {
+    "mtime": 1782280347.2492633,
+    "ast_hash": "cbe73f1e3d08d7514b0fc12b6f3a77a8",
+    "semantic_hash": "cbe73f1e3d08d7514b0fc12b6f3a77a8"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\toast.tsx": {
+    "mtime": 1782280347.2492633,
+    "ast_hash": "2f0f209e6e165c96e0a086df7e7e57fc",
+    "semantic_hash": "2f0f209e6e165c96e0a086df7e7e57fc"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\components\\ui\\toaster.tsx": {
+    "mtime": 1782280347.2502632,
+    "ast_hash": "5a2732f0e35bf8887a394ad57c86ef0f",
+    "semantic_hash": "5a2732f0e35bf8887a394ad57c86ef0f"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\data\\countriesByDiscount.json": {
+    "mtime": 1782280347.2502632,
+    "ast_hash": "84a06fbb27f724f8e9bcd55686dacecd",
+    "semantic_hash": "84a06fbb27f724f8e9bcd55686dacecd"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\data\\subscriptionTiers.ts": {
+    "mtime": 1782280347.2512634,
+    "ast_hash": "0609c30f4fd1cce0ed47ba51de35061d",
+    "semantic_hash": "0609c30f4fd1cce0ed47ba51de35061d"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\drizzle\\db.ts": {
+    "mtime": 1782280347.2512634,
+    "ast_hash": "cc17f0c1d98a2025cb74ce4d45368884",
+    "semantic_hash": "cc17f0c1d98a2025cb74ce4d45368884"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\drizzle\\migrations\\0000_left_agent_zero.sql": {
+    "mtime": 1782280347.2522633,
+    "ast_hash": "5dd155c24b3f78b9040c47cd35305e21",
+    "semantic_hash": "5dd155c24b3f78b9040c47cd35305e21"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\drizzle\\migrations\\meta\\0000_snapshot.json": {
+    "mtime": 1782280347.2522633,
+    "ast_hash": "f243801a049245f04b16545dd9366c8e",
+    "semantic_hash": "f243801a049245f04b16545dd9366c8e"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\drizzle\\migrations\\meta\\_journal.json": {
+    "mtime": 1782280347.2522633,
+    "ast_hash": "42ea418b140c7def22257f49c8db9855",
+    "semantic_hash": "42ea418b140c7def22257f49c8db9855"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\drizzle\\schema.ts": {
+    "mtime": 1782280347.2532635,
+    "ast_hash": "96e7b32a35c379bf60b33cd20bd7ce2f",
+    "semantic_hash": "96e7b32a35c379bf60b33cd20bd7ce2f"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\analytics\\components\\TimezoneDropdownMenuItem.tsx": {
+    "mtime": 1782280348.4979894,
+    "ast_hash": "33edc70d35fa7515e8e8cdda43b798d7",
+    "semantic_hash": "33edc70d35fa7515e8e8cdda43b798d7"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\analytics\\components\\charts\\ViewsByCountryChart.tsx": {
+    "mtime": 1782280348.4979894,
+    "ast_hash": "dbc9d417275735d2773ec8740cfaa0d4",
+    "semantic_hash": "dbc9d417275735d2773ec8740cfaa0d4"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\analytics\\components\\charts\\ViewsByDayChart.tsx": {
+    "mtime": 1782280348.4979894,
+    "ast_hash": "188c22bc426910707dc4da2b954b2e17",
+    "semantic_hash": "188c22bc426910707dc4da2b954b2e17"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\analytics\\components\\charts\\ViewsByPPPChart.tsx": {
+    "mtime": 1782280348.5385435,
+    "ast_hash": "6ba829f61edf09c823add55e8fb856b4",
+    "semantic_hash": "6ba829f61edf09c823add55e8fb856b4"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\analytics\\server\\db\\productViews.ts": {
+    "mtime": 1782280348.5385435,
+    "ast_hash": "04281b0ff9af667fee7f6cf62fc0d71b",
+    "semantic_hash": "04281b0ff9af667fee7f6cf62fc0d71b"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\AddToSiteProductModalContent.tsx": {
+    "mtime": 1782280348.5395432,
+    "ast_hash": "8275158e4ad3a4a7e074ee3597c058ed",
+    "semantic_hash": "8275158e4ad3a4a7e074ee3597c058ed"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\DeleteProductAlertDialogContent.tsx": {
+    "mtime": 1782280348.5395432,
+    "ast_hash": "31ce9f7601730f72c366b968eae98863",
+    "semantic_hash": "31ce9f7601730f72c366b968eae98863"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\NoProducts.tsx": {
+    "mtime": 1782280348.5405433,
+    "ast_hash": "61b8c4c701cc18ceb898844f9a5262ac",
+    "semantic_hash": "61b8c4c701cc18ceb898844f9a5262ac"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\ProductGrid.tsx": {
+    "mtime": 1782280348.5405433,
+    "ast_hash": "9cb1eb475b6ab3e87706cf4b6797361b",
+    "semantic_hash": "9cb1eb475b6ab3e87706cf4b6797361b"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\forms\\CountryDiscountsForm.tsx": {
+    "mtime": 1782280348.5405433,
+    "ast_hash": "d189c61e8542df8e921efb00e0be4c91",
+    "semantic_hash": "d189c61e8542df8e921efb00e0be4c91"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\forms\\ProductCustomizationForm.tsx": {
+    "mtime": 1782280348.5415423,
+    "ast_hash": "c865fccffbf330f651818351a5f34943",
+    "semantic_hash": "c865fccffbf330f651818351a5f34943"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\components\\forms\\ProductDeailsForm.tsx": {
+    "mtime": 1782280348.5415423,
+    "ast_hash": "4e7f6c49726ad55d1d8795632c3464ba",
+    "semantic_hash": "4e7f6c49726ad55d1d8795632c3464ba"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\schemas\\products.ts": {
+    "mtime": 1782280348.5415423,
+    "ast_hash": "21dac2b439b035b4941f3a8f03daa493",
+    "semantic_hash": "21dac2b439b035b4941f3a8f03daa493"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\server\\actions\\products.ts": {
+    "mtime": 1782280348.5425415,
+    "ast_hash": "b4759284340ac7d372d0ff32436b7bb4",
+    "semantic_hash": "b4759284340ac7d372d0ff32436b7bb4"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\products\\server\\db\\products.ts": {
+    "mtime": 1782280348.5425415,
+    "ast_hash": "3412956861b8eaeb96658fb8b997ad7c",
+    "semantic_hash": "3412956861b8eaeb96658fb8b997ad7c"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\subscriptions\\server\\actions\\stripe.ts": {
+    "mtime": 1782284492.6962771,
+    "ast_hash": "f2cd623c58d3c3b912522b76b0d92653",
+    "semantic_hash": "f2cd623c58d3c3b912522b76b0d92653"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\subscriptions\\server\\db\\subscription.ts": {
+    "mtime": 1782280348.543542,
+    "ast_hash": "7515e47d4ba3100b05b2586e1fa210c9",
+    "semantic_hash": "7515e47d4ba3100b05b2586e1fa210c9"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\features\\users\\server\\db\\users.ts": {
+    "mtime": 1782280348.5445418,
+    "ast_hash": "caec6405cd7194f084e2f8a7cdfa6618",
+    "semantic_hash": "caec6405cd7194f084e2f8a7cdfa6618"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\hooks\\use-toast.ts": {
+    "mtime": 1782280347.2532635,
+    "ast_hash": "4fd00028cb181c44efb5b049c470426c",
+    "semantic_hash": "4fd00028cb181c44efb5b049c470426c"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\lib\\cache.ts": {
+    "mtime": 1782280348.5445418,
+    "ast_hash": "e83f827691456571a47ba80331d14865",
+    "semantic_hash": "e83f827691456571a47ba80331d14865"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\lib\\formatters.ts": {
+    "mtime": 1782280347.2542634,
+    "ast_hash": "07e29867a5cdc361a520803b0a8fc4af",
+    "semantic_hash": "07e29867a5cdc361a520803b0a8fc4af"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\lib\\permissions.ts": {
+    "mtime": 1782280348.5445418,
+    "ast_hash": "e465b9eb73557d7f34694b0720c39b95",
+    "semantic_hash": "e465b9eb73557d7f34694b0720c39b95"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\middleware.ts": {
+    "mtime": 1782280347.2542634,
+    "ast_hash": "a91e69b5107e38e1d4c1c2879e7a0a03",
+    "semantic_hash": "a91e69b5107e38e1d4c1c2879e7a0a03"
+  },
+  "C:\\projects\\parity-deals-clone\\src\\tasks\\updateCountryGroups.ts": {
+    "mtime": 1782280347.2572634,
+    "ast_hash": "cfb54467e9fd2689e512756c58b439b7",
+    "semantic_hash": "cfb54467e9fd2689e512756c58b439b7"
+  },
+  "C:\\projects\\parity-deals-clone\\tailwind.config.ts": {
+    "mtime": 1782280348.5455418,
+    "ast_hash": "7ba563506a360a339a0423ac76eff1ec",
+    "semantic_hash": "7ba563506a360a339a0423ac76eff1ec"
+  },
+  "C:\\projects\\parity-deals-clone\\tsconfig.json": {
+    "mtime": 1782280347.2572634,
+    "ast_hash": "1f3ae59936a5b36cfe96b6f22cc41251",
+    "semantic_hash": "1f3ae59936a5b36cfe96b6f22cc41251"
+  },
+  "C:\\projects\\parity-deals-clone\\AGENTS.md": {
+    "mtime": 1782282715.0640516,
+    "ast_hash": "fc3f1172a7d0fd3393926843d6a41a20",
+    "semantic_hash": "fc3f1172a7d0fd3393926843d6a41a20"
+  },
+  "C:\\projects\\parity-deals-clone\\README.md": {
+    "mtime": 1782281553.274079,
+    "ast_hash": "05595701e8e110f3d03be089da0086d1",
+    "semantic_hash": "05595701e8e110f3d03be089da0086d1"
+  },
+  "C:\\projects\\parity-deals-clone\\docs\\CONTRIBUTING.md": {
+    "mtime": 1782281546.2876408,
+    "ast_hash": "b88e36274e22d244899f2e9beb9f8800",
+    "semantic_hash": "b88e36274e22d244899f2e9beb9f8800"
+  },
+  "C:\\projects\\parity-deals-clone\\docs\\FEATURE-SLICED-DESIGN.md": {
+    "mtime": 1782291549.6924503,
+    "ast_hash": "997eb2645f7732c92d633e5b8542803a",
+    "semantic_hash": "997eb2645f7732c92d633e5b8542803a"
+  },
+  "C:\\projects\\parity-deals-clone\\docs\\RUNBOOK.md": {
+    "mtime": 1782281551.0037272,
+    "ast_hash": "195a67ff9ba93de2501bf63b33f732d4",
+    "semantic_hash": "195a67ff9ba93de2501bf63b33f732d4"
+  },
+  "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml": {
+    "mtime": 1782280462.9220886,
+    "ast_hash": "04540a1e16c68c5edbfc79f2ef280838",
+    "semantic_hash": "04540a1e16c68c5edbfc79f2ef280838"
   }
 }
