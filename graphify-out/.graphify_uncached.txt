@@ -1,0 +1,3 @@
+C:\projects\parity-deals-clone\AGENTS.md
+C:\projects\parity-deals-clone\README.md
+C:\projects\parity-deals-clone\pnpm-workspace.yaml

@@ -1,0 +1,428 @@
+{
+  "nodes": [
+    {
+      "id": "agents_graphify",
+      "label": "Graphify Knowledge Graph Integration",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graphify_query",
+      "label": "graphify query",
+      "file_type": "code",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graphify_path",
+      "label": "graphify path",
+      "file_type": "code",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graphify_explain",
+      "label": "graphify explain",
+      "file_type": "code",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graphify_update",
+      "label": "graphify update",
+      "file_type": "code",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graph_report",
+      "label": "GRAPH_REPORT.md",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "agents_graphify_wiki",
+      "label": "graphify-out/wiki/index.md",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_feature_folder_system",
+      "label": "Feature Folder System",
+      "file_type": "rationale",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_eslint_configuration",
+      "label": "ESLint configurations",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_eslint_plugin_project_structure",
+      "label": "eslint-plugin-project-structure",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_eslint_plugin_boundaries",
+      "label": "eslint-plugin-boundaries",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_eslintrc_json",
+      "label": ".eslintrc.json",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_eslintrc_alt_json",
+      "label": ".eslintrc.alt.json",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_independentmodules_jsonc",
+      "label": "independentModules.jsonc",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace_pnpm_workspace",
+      "label": "pnpm-workspace.yaml",
+      "file_type": "document",
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace_allowbuilds",
+      "label": "allowBuilds",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace_clerk_shared",
+      "label": "@clerk/shared",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace_esbuild",
+      "label": "esbuild",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "pnpm_workspace_unrs_resolver",
+      "label": "unrs-resolver",
+      "file_type": "concept",
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "agents_graphify",
+      "target": "agents_graphify_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify",
+      "target": "agents_graphify_path",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify",
+      "target": "agents_graphify_explain",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify",
+      "target": "agents_graphify_update",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify",
+      "target": "agents_graph_report",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "agents_graphify",
+      "target": "agents_graphify_wiki",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_configuration",
+      "target": "readme_eslint_plugin_project_structure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_configuration",
+      "target": "readme_eslint_plugin_boundaries",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_plugin_boundaries",
+      "target": "readme_eslintrc_json",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_plugin_project_structure",
+      "target": "readme_independentmodules_jsonc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslintrc_json",
+      "target": "readme_eslintrc_alt_json",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_plugin_project_structure",
+      "target": "readme_eslintrc_alt_json",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_configuration",
+      "target": "readme_feature_folder_system",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "readme_eslint_plugin_project_structure",
+      "target": "readme_eslint_plugin_boundaries",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "pnpm_workspace_pnpm_workspace",
+      "target": "pnpm_workspace_allowbuilds",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "pnpm_workspace_allowbuilds",
+      "target": "pnpm_workspace_clerk_shared",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "pnpm_workspace_allowbuilds",
+      "target": "pnpm_workspace_esbuild",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "pnpm_workspace_allowbuilds",
+      "target": "pnpm_workspace_unrs_resolver",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\pnpm-workspace.yaml",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "readme_eslint_system",
+      "label": "ESLint import validation plugins and configs",
+      "nodes": [
+        "readme_eslint_configuration",
+        "readme_eslint_plugin_project_structure",
+        "readme_eslint_plugin_boundaries",
+        "readme_eslintrc_json",
+        "readme_independentmodules_jsonc"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\README.md"
+    },
+    {
+      "id": "agents_graphify_cli_commands",
+      "label": "Graphify CLI Commands",
+      "nodes": [
+        "agents_graphify_query",
+        "agents_graphify_path",
+        "agents_graphify_explain",
+        "agents_graphify_update"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "C:\\projects\\parity-deals-clone\\AGENTS.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

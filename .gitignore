@@ -35,3 +35,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Graphify
+graphify-out/cost.json
+graphify-out/cache/
+
+# Other
+.agent
+.agents
+.claude
+.opencode
