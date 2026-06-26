@@ -13,8 +13,14 @@
           "src/drizzle/**/*",
           "src/hooks/**/*",
           "src/lib/**/*",
+          "!src/lib/permissions.ts",
           "src/server/**/*"
         ]
+      },
+      {
+        "mode": "full",
+        "type": "permissions",
+        "pattern": ["src/lib/permissions.ts"]
       },
       {
         "mode": "full",
@@ -45,18 +51,23 @@
         "rules": [
           {
             "from": ["shared"],
-            "allow": ["shared"]
+            "allow": ["shared", "permissions"]
+          },
+          {
+            "from": ["permissions"],
+            "allow": ["shared", "feature"]
           },
           {
             "from": ["feature"],
             "allow": [
               "shared",
+              "permissions",
               ["feature", { "featureName": "${from.featureName}" }]
             ]
           },
           {
             "from": ["app", "neverImport"],
-            "allow": ["shared", "feature"]
+            "allow": ["shared", "permissions", "feature"]
           },
           {
             "from": ["app"],

@@ -1,16 +1,16 @@
-# Graph Report - parity-deals-clone  (2026-06-26)
+# Graph Report - parity-deals-clone  (2026-06-24)
 
 ## Corpus Check
-- 86 files · ~23,920 words
+- 86 files · ~21,105 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 543 nodes · 983 edges · 32 communities (25 shown, 7 thin omitted)
+- 512 nodes · 954 edges · 32 communities (25 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5cb04ffe`
+- Built from commit: `1682529a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,27 +45,27 @@
 - [[_COMMUNITY_FSD Form Action Type Safety|FSD Form Action Type Safety]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Feature Sliced Design (FSD) Architecture Guidelines` - 18 edges
-2. `revalidateDbCache()` - 17 edges
-3. `dbCache()` - 16 edges
-4. `compilerOptions` - 16 edges
-5. `Button` - 14 edges
-6. `getUserTag()` - 12 edges
-7. `useToast()` - 11 edges
-8. `getIdTag()` - 11 edges
-9. `Runbook` - 11 edges
-10. `scripts` - 10 edges
+1. `revalidateDbCache()` - 18 edges
+2. `dbCache()` - 17 edges
+3. `compilerOptions` - 16 edges
+4. `Button` - 14 edges
+5. `getUserTag()` - 12 edges
+6. `useToast()` - 11 edges
+7. `getIdTag()` - 11 edges
+8. `Runbook` - 11 edges
+9. `scripts` - 10 edges
+10. `Card` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `dbCache Caching Pattern` --references--> `dbCache()`  [EXTRACTED]
   AGENTS.md → src/lib/cache.ts
+- `⚡ DB Caching Pattern` --rationale_for--> `dbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
 - `dbCache Caching Pattern` --references--> `revalidateDbCache()`  [EXTRACTED]
   AGENTS.md → src/lib/cache.ts
+- `⚡ DB Caching Pattern` --rationale_for--> `revalidateDbCache()`  [EXTRACTED]
+  docs/FEATURE-SLICED-DESIGN.md → src/lib/cache.ts
 - `ViewsByDayCard()` --calls--> `getViewsByDayChartData()`  [EXTRACTED]
-  src/app/dashboard/analytics/page.tsx → src/features/analytics/server/db/productViews.ts
-- `ViewsByPPPCard()` --calls--> `getViewsByPPPChartData()`  [EXTRACTED]
-  src/app/dashboard/analytics/page.tsx → src/features/analytics/server/db/productViews.ts
-- `ViewsByCountryCard()` --calls--> `getViewsByCountryChartData()`  [EXTRACTED]
   src/app/dashboard/analytics/page.tsx → src/features/analytics/server/db/productViews.ts
 
 ## Import Cycles
@@ -74,8 +74,8 @@
 ## Communities (32 total, 7 thin omitted)
 
 ### Community 0 - "Analytics & Charts"
-Cohesion: 0.09
-Nodes (32): ProductDropdown(), ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), HasPermission(), NoPermissionCard(), NoProducts(), ProductGrid() (+24 more)
+Cohesion: 0.10
+Nodes (25): HasPermission(), NoPermissionCard(), NoProducts(), PageWithBackButton(), ProductGrid(), AnalyticsChart(), subscriptionTiersInOrder, CountryTab() (+17 more)
 
 ### Community 1 - "Database & Authentication Webhooks"
 Cohesion: 0.07
@@ -83,7 +83,7 @@ Nodes (47): dbCache Caching Pattern, createProduct(), deleteProduct(), getProduc
 
 ### Community 2 - "Product Customization & Discounts"
 Cohesion: 0.11
-Nodes (29): updateCountryDiscounts(), updateProduct(), updateProductCustomization(), DeleteProductAlertDialogContent(), RequiredLabelIcon(), CountryDiscountsForm(), ProductCustomizationForm(), ProductDetailsForm() (+21 more)
+Nodes (28): createProduct(), updateCountryDiscounts(), updateProduct(), DeleteProductAlertDialogContent(), RequiredLabelIcon(), CountryDiscountsForm(), ProductCustomizationForm(), useToast() (+20 more)
 
 ### Community 3 - "Contributing Documentation & Setup"
 Cohesion: 0.06
@@ -102,12 +102,12 @@ Cohesion: 0.07
 Nodes (28): devDependencies, drizzle-kit, eslint, eslint-config-next, eslint-plugin-boundaries, eslint-plugin-import, eslint-plugin-project-structure, postcss (+20 more)
 
 ### Community 7 - "Banner Component & Back Button"
-Cohesion: 0.14
-Nodes (19): createProduct(), GET(), getCountryCode(), getJavaScript(), Banner(), PageWithBackButton(), createProductView(), getUserSubscriptionTier() (+11 more)
+Cohesion: 0.24
+Nodes (13): updateProductCustomization(), GET(), getCountryCode(), getJavaScript(), Banner(), createProductView(), getUserSubscriptionTier(), CustomizationsTab() (+5 more)
 
 ### Community 8 - "Stripe Subscriptions & Upgrades"
-Cohesion: 0.13
-Nodes (24): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, POST(), stripe (+16 more)
+Cohesion: 0.15
+Nodes (22): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, POST(), stripe (+14 more)
 
 ### Community 9 - "TypeScript Configuration"
 Cohesion: 0.10
@@ -150,32 +150,32 @@ Cohesion: 0.40
 Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
 ### Community 19 - "FSD Architecture & Promotion Rules"
-Cohesion: 0.04
-Nodes (44): 1. Caching Strategy & Public/Internal Split, 2. Cache Tagging Levels, 3. Mutations & Revalidation Pattern, 🌐 API Route Patterns, Build-Time Bypass, ⚡ DB Caching & Query Patterns, 📂 Directory Structure Overview, 🏗️ Drizzle Schema Definition Patterns (+36 more)
+Cohesion: 0.14
+Nodes (13): Build-Time Bypass, Caching a Database Query (`src/features/*/server/db/*`), ⚡ DB Caching Pattern, 📂 Directory Structure Overview, 🔒 Environment Variable Validation, 🏗️ Feature-First Mini-Applications, Feature Sliced Design (FSD) Architecture Guidelines, Good Practice: Returning `void` (+5 more)
 
 ### Community 30 - "FSD Form Action Type Safety"
-Cohesion: 0.14
-Nodes (14): ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), compactNumberFormatter, formatCompactNumber(), PricingCard(), PricingCard(), ChartConfig (+6 more)
+Cohesion: 0.07
+Nodes (30): ProductDropdown(), ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), TimezoneDropdownMenuItem() (+22 more)
 
 ## Knowledge Gaps
-- **221 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+216 more)
+- **199 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+194 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Button` connect `Analytics & Charts` to `Stripe Subscriptions & Upgrades`, `Product Customization & Discounts`, `Product Integration Modal Dialog`, `Banner Component & Back Button`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **Why does `useToast()` connect `Product Customization & Discounts` to `Product Deletion Alert Dialog`, `Root Layout & Toast Notifications`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `Package Dependencies & Libraries` to `Development Dependencies & ESLint Tools`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **Why does `⚡ DB Caching Pattern` connect `FSD Architecture & Promotion Rules` to `Database & Authentication Webhooks`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `Button` connect `Analytics & Charts` to `Product Customization & Discounts`, `Product Integration Modal Dialog`, `FSD Form Action Type Safety`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **What connects `extends`, `plugins`, `project-structure/independent-modules-config-path` to the rest of the system?**
-  _224 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _202 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Analytics & Charts` be split into smaller, more focused modules?**
-  _Cohesion score 0.08735150244584207 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10040816326530612 - nodes in this community are weakly interconnected._
 - **Should `Database & Authentication Webhooks` be split into smaller, more focused modules?**
   _Cohesion score 0.07168458781362007 - nodes in this community are weakly interconnected._
 - **Should `Product Customization & Discounts` be split into smaller, more focused modules?**
-  _Cohesion score 0.10853658536585366 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11153846153846154 - nodes in this community are weakly interconnected._
+- **Should `Contributing Documentation & Setup` be split into smaller, more focused modules?**
+  _Cohesion score 0.05897435897435897 - nodes in this community are weakly interconnected._

@@ -5,9 +5,9 @@
     "semantic_hash": "6c229f475c9066b9827221e352adbdfe"
   },
   ".eslintrc.json": {
-    "mtime": 1782448438.927168,
-    "ast_hash": "0ecd632c8e2133ca32f373115989d76b",
-    "semantic_hash": ""
+    "mtime": 1782280348.484849,
+    "ast_hash": "707ec4871c63f339dba505f46c824e06",
+    "semantic_hash": "707ec4871c63f339dba505f46c824e06"
   },
   "components.json": {
     "mtime": 1782280347.228265,
@@ -435,8 +435,8 @@
     "semantic_hash": "195a67ff9ba93de2501bf63b33f732d4"
   },
   "docs/FEATURE-SLICED-DESIGN.md": {
-    "mtime": 1782448402.9999716,
-    "ast_hash": "8872892f1c28dba3aedccb0a02914017",
-    "semantic_hash": ""
+    "mtime": 1782291549.6924503,
+    "ast_hash": "997eb2645f7732c92d633e5b8542803a",
+    "semantic_hash": "997eb2645f7732c92d633e5b8542803a"
   }
 }
