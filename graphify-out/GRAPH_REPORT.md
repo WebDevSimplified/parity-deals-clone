@@ -1,7 +1,7 @@
 # Graph Report - parity-deals-clone  (2026-07-02)
 
 ## Corpus Check
-- 86 files · ~24,115 words
+- 86 files · ~24,226 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0a470081`
+- Built from commit: `94115e3c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -158,7 +158,7 @@ Cohesion: 0.08
 Nodes (26): ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), TimezoneDropdownMenuItem(), compactNumberFormatter (+18 more)
 
 ## Knowledge Gaps
-- **223 isolated node(s):** `📖 Table of Contents`, `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications`, `📈 The Rule of Promotion`, `🛑 Import Boundary Rules` (+218 more)
+- **223 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+218 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -171,7 +171,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Package Dependencies & Libraries` to `Development Dependencies & ESLint Tools`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **What connects `📖 Table of Contents`, `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications` to the rest of the system?**
+- **What connects `extends`, `plugins`, `project-structure/independent-modules-config-path` to the rest of the system?**
   _226 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Analytics & Charts` be split into smaller, more focused modules?**
   _Cohesion score 0.12311265969802555 - nodes in this community are weakly interconnected._

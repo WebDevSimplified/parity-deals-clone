@@ -1,16 +1,16 @@
-# Graph Report - parity-deals-clone  (2026-06-26)
+# Graph Report - parity-deals-clone  (2026-07-02)
 
 ## Corpus Check
-- 86 files · ~23,920 words
+- 86 files · ~24,115 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 543 nodes · 983 edges · 32 communities (25 shown, 7 thin omitted)
+- 546 nodes · 986 edges · 32 communities (25 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5cb04ffe`
+- Built from commit: `0a470081`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -74,16 +74,16 @@
 ## Communities (32 total, 7 thin omitted)
 
 ### Community 0 - "Analytics & Charts"
-Cohesion: 0.09
-Nodes (32): ProductDropdown(), ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), HasPermission(), NoPermissionCard(), NoProducts(), ProductGrid() (+24 more)
+Cohesion: 0.12
+Nodes (21): ProductDropdown(), HasPermission(), NoPermissionCard(), NoProducts(), PageWithBackButton(), ProductGrid(), DashboardPage(), subscriptionTiersInOrder (+13 more)
 
 ### Community 1 - "Database & Authentication Webhooks"
-Cohesion: 0.07
-Nodes (47): dbCache Caching Pattern, createProduct(), deleteProduct(), getProduct(), getProductCount(), getProductCountryGroups(), getProductCountryGroupsInternal(), getProductCustomization() (+39 more)
+Cohesion: 0.06
+Nodes (53): dbCache Caching Pattern, POST(), stripe, AnalyticsChart(), createProduct(), deleteProduct(), getProduct(), getProductCountryGroups() (+45 more)
 
 ### Community 2 - "Product Customization & Discounts"
-Cohesion: 0.11
-Nodes (29): updateCountryDiscounts(), updateProduct(), updateProductCustomization(), DeleteProductAlertDialogContent(), RequiredLabelIcon(), CountryDiscountsForm(), ProductCustomizationForm(), ProductDetailsForm() (+21 more)
+Cohesion: 0.09
+Nodes (35): createProduct(), updateCountryDiscounts(), updateProduct(), updateProductCustomization(), DeleteProductAlertDialogContent(), RequiredLabelIcon(), CountryTab(), CountryDiscountsForm() (+27 more)
 
 ### Community 3 - "Contributing Documentation & Setup"
 Cohesion: 0.06
@@ -102,12 +102,12 @@ Cohesion: 0.07
 Nodes (28): devDependencies, drizzle-kit, eslint, eslint-config-next, eslint-plugin-boundaries, eslint-plugin-import, eslint-plugin-project-structure, postcss (+20 more)
 
 ### Community 7 - "Banner Component & Back Button"
-Cohesion: 0.14
-Nodes (19): createProduct(), GET(), getCountryCode(), getJavaScript(), Banner(), PageWithBackButton(), createProductView(), getUserSubscriptionTier() (+11 more)
+Cohesion: 0.24
+Nodes (14): GET(), getCountryCode(), getJavaScript(), Banner(), getProductCount(), createProductView(), getProductViewCount(), getUserSubscriptionTier() (+6 more)
 
 ### Community 8 - "Stripe Subscriptions & Upgrades"
-Cohesion: 0.13
-Nodes (24): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, POST(), stripe (+16 more)
+Cohesion: 0.19
+Nodes (16): createCancelSession(), createCheckoutSession(), createCustomerPortalSession(), getCheckoutSession(), getSubscriptionUpgradeSession(), stripe, getTierByPriceId(), PaidTierNames (+8 more)
 
 ### Community 9 - "TypeScript Configuration"
 Cohesion: 0.10
@@ -151,31 +151,31 @@ Nodes (4): allowBuilds, @clerk/shared, esbuild, unrs-resolver
 
 ### Community 19 - "FSD Architecture & Promotion Rules"
 Cohesion: 0.04
-Nodes (44): 1. Caching Strategy & Public/Internal Split, 2. Cache Tagging Levels, 3. Mutations & Revalidation Pattern, 🌐 API Route Patterns, Build-Time Bypass, ⚡ DB Caching & Query Patterns, 📂 Directory Structure Overview, 🏗️ Drizzle Schema Definition Patterns (+36 more)
+Nodes (47): 1. Caching Strategy & Public/Internal Split, 2. Cache Tagging Levels, 3. Mutations & Revalidation Pattern, 4. Code Reuse vs. Coupling: The Promotion Pattern, 🌐 API Route Patterns, Build-Time Bypass, ⚡ DB Caching & Query Patterns, 📂 Directory Structure Overview (+39 more)
 
 ### Community 30 - "FSD Form Action Type Safety"
-Cohesion: 0.14
-Nodes (14): ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), compactNumberFormatter, formatCompactNumber(), PricingCard(), PricingCard(), ChartConfig (+6 more)
+Cohesion: 0.08
+Nodes (26): ViewsByCountryCard(), ViewsByDayCard(), ViewsByPPPCard(), ViewsByCountryChart(), ViewsByDayChart(), ViewsByPPPChart(), TimezoneDropdownMenuItem(), compactNumberFormatter (+18 more)
 
 ## Knowledge Gaps
-- **221 isolated node(s):** `extends`, `plugins`, `project-structure/independent-modules-config-path`, `project-structure/independent-modules`, `extends` (+216 more)
+- **223 isolated node(s):** `📖 Table of Contents`, `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications`, `📈 The Rule of Promotion`, `🛑 Import Boundary Rules` (+218 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Button` connect `Analytics & Charts` to `Stripe Subscriptions & Upgrades`, `Product Customization & Discounts`, `Product Integration Modal Dialog`, `Banner Component & Back Button`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `Button` connect `Analytics & Charts` to `Product Customization & Discounts`, `Product Integration Modal Dialog`, `FSD Form Action Type Safety`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Why does `useToast()` connect `Product Customization & Discounts` to `Product Deletion Alert Dialog`, `Root Layout & Toast Notifications`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Package Dependencies & Libraries` to `Development Dependencies & ESLint Tools`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **What connects `extends`, `plugins`, `project-structure/independent-modules-config-path` to the rest of the system?**
-  _224 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `📖 Table of Contents`, `📂 Directory Structure Overview`, `🏗️ Feature-First Mini-Applications` to the rest of the system?**
+  _226 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Analytics & Charts` be split into smaller, more focused modules?**
-  _Cohesion score 0.08735150244584207 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12311265969802555 - nodes in this community are weakly interconnected._
 - **Should `Database & Authentication Webhooks` be split into smaller, more focused modules?**
-  _Cohesion score 0.07168458781362007 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06377151799687011 - nodes in this community are weakly interconnected._
 - **Should `Product Customization & Discounts` be split into smaller, more focused modules?**
-  _Cohesion score 0.10853658536585366 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08897959183673469 - nodes in this community are weakly interconnected._

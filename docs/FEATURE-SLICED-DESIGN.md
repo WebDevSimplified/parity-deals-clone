@@ -81,7 +81,7 @@ src/
 │   └── etc...                          # Other shared tasks
 ├── types/                              # ✅ GLOBAL SHARED Ambient TypeScript Type Matrices & Definitions
 ├── utils/                              # ✅ GLOBAL SHARED utility functions
-└── middleware.ts                       # Next.js Middleware / Proxy.ts
+└── middleware.ts / proxy.ts            # Next.js Middleware (Next.js 14-15) / Proxy (Next.js 16+)
 ```
 
 ---
@@ -737,6 +737,17 @@ export async function HasPermission({
 ## 🛡️ Middleware Pattern
 
 Request authentication routing rules are parsed globally inside [middleware.ts](file:///c:/projects/parity-deals-clone/src/middleware.ts).
+
+> [!NOTE]
+> **Next.js Version Compatibility & Naming Evolution**
+> Starting in **Next.js 16+**, the `middleware.ts` file convention is deprecated in favor of **`proxy.ts`** (or `proxy.js`).
+> - **Next.js 14-15**: The file must remain named `middleware.ts` at the root of `src/` to be correctly parsed by the framework compiler.
+> - **Next.js 16+**: The file should be renamed to `proxy.ts`, and the exported routing function should align with the new proxy interception guidelines.
+> - **Upgrade Path**: When upgrading this project to Next.js 16+, you can automate this file and export rename by running the official codemod:
+>   ```bash
+>   npx @next/codemod@canary middleware-to-proxy
+>   ```
+
 
 ### Key Rules
 1. **Public/Protected Split**: Protect routes using Clerk's `clerkMiddleware` and `createRouteMatcher`. Match routes matching landing, authentication, and webhook urls.
