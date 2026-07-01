@@ -257,6 +257,35 @@ export async function updateProduct(
 }
 ```
 
+### 4. Code Reuse vs. Coupling: The Promotion Pattern
+
+Like all other layers in the codebase (UI components, hooks, validation schemas, and types), database queries and mutations follow the general [Rule of Promotion](#-the-rule-of-promotion). To maintain strict horizontal boundaries, features are strictly forbidden from importing *any* code directly from other features.
+
+When an operation, component, or utility is generic and required by multiple features, it must be **promoted to the global shared layer**.
+
+#### Promotion Analogy across Layers:
+| Artifact Type | Local First (Feature Scope) | Promoted Location (Shared Scope) |
+|---|---|---|
+| **Database Helpers** | `src/features/[feature]/server/db/` | `src/server/db/` (Global query layer) |
+| **React Components** | `src/features/[feature]/components/` | `src/components/` (Global shared components) |
+| **Custom Hooks** | `src/features/[feature]/hooks/` | `src/hooks/` (Global shared hooks) |
+| **Zod Schemas** | `src/features/[feature]/schemas/` | `src/schemas/` or `src/lib/` (Global shared schemas) |
+| **TypeScript Types** | Local interfaces/types in feature file | `src/types/` (Global ambient types) |
+
+#### Example: Promoted Shared User Query
+```typescript
+// SOURCE: src/server/db/users.ts
+import { db } from "@/drizzle/db";
+import { users } from "@/drizzle/schema";
+import { eq } from "drizzle-orm";
+
+export async function getSharedUserById(id: string) {
+  return db.query.users.findFirst({
+    where: eq(users.id, id),
+  });
+}
+```
+
 ---
 
 ## 🌐 API Route Patterns
