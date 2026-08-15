@@ -19,10 +19,10 @@ import {
   createCancelSession,
   createCheckoutSession,
   createCustomerPortalSession,
-} from "@/server/actions/stripe"
-import { getProductCount } from "@/server/db/products"
-import { getProductViewCount } from "@/server/db/productViews"
-import { getUserSubscriptionTier } from "@/server/db/subscription"
+} from "@/features/subscriptions/server/actions/stripe"
+import { getProductCount } from "@/features/products/server/db/products"
+import { getProductViewCount } from "@/features/analytics/server/db/productViews"
+import { getUserSubscriptionTier } from "@/features/subscriptions/server/db/subscription"
 import { auth } from "@clerk/nextjs/server"
 import { startOfMonth } from "date-fns"
 import { CheckIcon } from "lucide-react"

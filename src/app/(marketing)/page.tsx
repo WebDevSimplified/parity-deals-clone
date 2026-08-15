@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 import { SignUpButton } from "@clerk/nextjs"
 import { ArrowRightIcon, CheckIcon } from "lucide-react"
 import Link from "next/link"
-import { NeonIcon } from "./_icons/Neon"
-import { ClerkIcon } from "./_icons/Clerk"
+import { NeonIcon } from "@/components/icons/Neon"
+import { ClerkIcon } from "@/components/icons/Clerk"
 import { subscriptionTiersInOrder } from "@/data/subscriptionTiers"
 import {
   Card,

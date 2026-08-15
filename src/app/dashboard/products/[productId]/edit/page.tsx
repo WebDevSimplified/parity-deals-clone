@@ -1,7 +1,4 @@
-import { CountryDiscountsForm } from "@/app/dashboard/_components/forms/CountryDiscountsForm"
-import { ProductCustomizationForm } from "@/app/dashboard/_components/forms/ProductCustomizationForm"
-import { ProductDetailsForm } from "@/app/dashboard/_components/forms/ProductDeailsForm"
-import { PageWithBackButton } from "@/app/dashboard/_components/PageWithBackButton"
+import { PageWithBackButton } from "@/components/PageWithBackButton"
 import {
   Card,
   CardContent,
@@ -10,13 +7,15 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { clearFullCache } from "@/lib/cache"
+import { CountryDiscountsForm } from "@/features/products/components/forms/CountryDiscountsForm"
+import { ProductCustomizationForm } from "@/features/products/components/forms/ProductCustomizationForm"
+import { ProductDetailsForm } from "@/features/products/components/forms/ProductDeailsForm"
 import {
   getProduct,
   getProductCountryGroups,
   getProductCustomization,
-} from "@/server/db/products"
-import { canCustomizeBanner, canRemoveBranding } from "@/server/permissions"
+} from "@/features/products/server/db/products"
+import { canCustomizeBanner, canRemoveBranding } from "@/lib/permissions"
 import { auth } from "@clerk/nextjs/server"
 import { notFound } from "next/navigation"
 

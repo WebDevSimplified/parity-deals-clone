@@ -4,7 +4,7 @@ import {
   productCountryDiscountsSchema,
   productCustomizationSchema,
   productDetailsSchema,
-} from "@/schemas/products"
+} from "@/features/products/schemas/products"
 import { auth } from "@clerk/nextjs/server"
 import { z } from "zod"
 import {
@@ -13,9 +13,9 @@ import {
   updateProduct as updateProductDb,
   updateCountryDiscounts as updateCountryDiscountsDb,
   updateProductCustomization as updateProductCustomizationDb,
-} from "@/server/db/products"
+} from "@/features/products/server/db/products"
 import { redirect } from "next/navigation"
-import { canCreateProduct, canCustomizeBanner } from "../permissions"
+import { canCreateProduct, canCustomizeBanner } from "@/lib/permissions"
 
 export async function createProduct(
   unsafeData: z.infer<typeof productDetailsSchema>

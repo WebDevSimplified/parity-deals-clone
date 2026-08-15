@@ -2,7 +2,7 @@
 
 import { PaidTierNames, subscriptionTiers } from "@/data/subscriptionTiers"
 import { auth, currentUser, User } from "@clerk/nextjs/server"
-import { getUserSubscription } from "../db/subscription"
+import { getUserSubscription } from "@/features/subscriptions/server/db/subscription"
 import { Stripe } from "stripe"
 import { env as serverEnv } from "@/data/env/server"
 import { env as clientEnv } from "@/data/env/client"
